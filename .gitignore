@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / env
+.env
+.env.*
+*.local
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code local settings (keep skills/memory, ignore local overrides)
+.claude/settings.local.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Artifacts
+*.csv.bak
+requirements.txt.bak
+
+# Stray shell redirect artifacts
+=0.2.0
+
+# Evaluation outputs (keep qa.csv, ignore generated results)
+eval/qa_result.csv
+
+# Generated runtime data (uploads, parsing output, chunks)
+**/temp_data/
+**/chunks.json

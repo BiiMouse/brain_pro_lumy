@@ -1,0 +1,61 @@
+#
+  1. 检查HuggingFace缓存目录
+  ls "C:\Users\oprah\.cache\huggingface\hub"
+  输出:
+  CACHEDIR.TAG
+  models--google-bert--bert-base-chinese
+
+  2. 查找.env文件
+  Glob **/.env (在 D:\AIpractise\shopkeer_brain)
+  输出:
+  D:\AIpractise\shopkeer_brain\knowledge\.env
+
+  3. 查看conda环境
+  dir "C:\Users\oprah\miniconda3\envs"
+  输出:
+  AIStudyProject  know  python  pytorch-2.6.0-gpu
+
+  4. 检查know环境中的FlagEmbedding
+  "/c/Users/oprah/miniconda3/envs/know/python.exe" -m pip show FlagEmbedding
+  输出:
+  WARNING: Package(s) not found: FlagEmbedding
+
+  5. 安装FlagEmbedding
+  "/c/Users/oprah/miniconda3/envs/know/python.exe" -m pip install FlagEmbedding
+  输出:
+  ...
+  Successfully installed FlagEmbedding-1.4.0, datasets-4.8.5, ir-datasets-0.5.11, ...
+
+  6. 检查modelscope（已安装）
+  "/c/Users/oprah/miniconda3/envs/know/python.exe" -m pip install modelscope
+  输出:
+  Requirement already satisfied: modelscope in c:\users\oprah\miniconda3\envs\know\lib\site-packages (1.37.1)
+
+  7. 运行模型下载脚本
+  "/c/Users/oprah/miniconda3/envs/know/python.exe" "D:\AIpractise\shopkeer_brain\download_bge_models.py"
+  开始下载 BGE-M3 模型...
+  模型下载完成！
+  BGE Reranker 路径: D:\ai_models\bge_models\BAAI\bge-reranker-large
+
+  请在 .env 文件中填入以下路径:
+  BGE_M3_PATH=D:\ai_models\bge_models\BAAI\bge-m3
+  BGE_RERANKER_LARGE=D:\ai_models\bge_models\BAAI\bge-reranker-large
+
+  8. 读取.env文件（更新前）
+  Read D:\AIpractise\shopkeer_brain\knowledge\.env
+  输出（相关部分）:
+  # BGE-M3 模型本地路径
+  BGE_M3_PATH=
+  # BGE 重排序模型路径
+  BGE_RERANKER_LARGE=
+
+  9. 更新.env文件
+  执行了两次Edit操作：
+  - 更新 BGE_M3_PATH=D:\ai_models\bge_models\BAAI\bge-m3
+  - 更新 BGE_RERANKER_LARGE=D:\ai_models\bge_models\BAAI\bge-reranker-large
+
+  10. 验证配置
+  BashOutput filter: "BGE 模型已下载到|模型下载完成|BGE_M3_PATH|BGE_RERANKER_LARGE"
+  输出:
+  BGE_M3_PATH=D:\ai_models\bge_models\BAAI\bge-m3
+  BGE_RERANKER_LARGE=D:\ai_models\bge_models\BAAI\bge-reranker-large

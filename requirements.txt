@@ -1,0 +1,29 @@
+﻿# 深度学习框架（升级到2.6.0以兼容mineru[pipeline]）
+torch>=2.6.0,<2.7.0
+torchvision>=0.21.0,<0.22.0
+
+# 对象存储
+minio>=7.2.15
+
+# LLM开发链路（lang生态统一版本区间避免冲突）
+langchain-openai>=0.2.0,<0.4.0
+langgraph>=0.2.0,<0.4.0
+grandalf>=0.7
+openai-agents==0.17.5
+
+# 数据库驱动
+pymongo>=4.8.0
+neo4j>=5.20.0
+
+# 向量嵌入（抛弃远古1.x版本，用稳定2.x）
+sentence-transformers>=2.7.0,<3.0.0
+
+# Milvus向量库：只写带model扩展的这一行，删掉单独pymilvus
+pymilvus[model]==2.5.15
+
+# MinerU文档解析
+mineru[all]>=0.2.0
+
+# RAGAS评估框架（使用最新版本以支持新API）
+ragas>=0.2.0
+datasets>=2.18.0
