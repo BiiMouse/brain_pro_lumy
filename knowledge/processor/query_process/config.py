@@ -41,7 +41,7 @@ class QueryConfig:
     # reranker 相关性最高分低于该阈值 → 判定资料不足，直接拒答（不调用 LLM）
     # bge-reranker-large：强相关通常 >0.5，弱相关 <0.3；0.3 为保守默认，按评测结果调整
     rag_refuse_threshold: float = field(
-        default_factory=lambda: float(os.getenv("RAG_REFUSE_THRESHOLD", "0.3"))
+        default_factory=lambda: float(os.getenv("RAG_REFUSE_THRESHOLD", "0.4"))
     )
 
     # ==================== RRF 配置 ====================

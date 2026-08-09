@@ -40,3 +40,6 @@ eval/qa_result.csv
 # Generated runtime data (uploads, parsing output, chunks)
 **/temp_data/
 **/chunks.json
+
+# Local screenshots / reference images
+截图/
