@@ -49,6 +49,12 @@ class QueryConfig:
     rag_refuse_threshold: float = field(
         default_factory=lambda: float(os.getenv("RAG_REFUSE_THRESHOLD", "0.4"))
     )
+    # 单条检索文档喂给 LLM 的最大字符数。超长 chunk（整节手册/大表格）会被截断，
+    # 防止单条吃掉整个上下文预算、把含答案的后续条目挤出 LLM 可见窗口。
+    # 与 max_context_chars（总预算）配合：总预算控制窗口大小，单条上限控制公平分配。
+    rag_doc_max_chars: int = field(
+        default_factory=lambda: int(os.getenv("RAG_DOC_MAX_CHARS", "2000"))
+    )
     # 是否启用 Web 搜索兜底。默认关闭——本项目是领域知识库助手，越界问题（天气/竞品参数等）
     # 被 web 兜底会导致漏拒（拒答准确率下降）。关闭后建立纯 KB 基线（Config A）。
     # 后续若要做「KB 不足时再用 web」的条件兜底，在此分支上扩展。

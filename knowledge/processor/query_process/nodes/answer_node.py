@@ -104,6 +104,15 @@ class AnswerOutputNode(BaseNode):
     # reranker融合答案列表整理 返回str
     def format_reranker_docs(self,
                              reranked_docs: List[Dict]) -> str:
+        # 上下文预算：总预算取自 config.max_context_chars（默认 12000），
+        # 单条上限取自 config.rag_doc_max_chars（默认 2000）。
+        # 历史问题：此处原硬编码 2500 总预算且无单条上限 → 一整节手册（如「电源线」~1100 字）
+        # 排在 rerank top-1 时独占预算，把排在第 4 位、含答案的「设备」节挤出 LLM 可见窗口，
+        # 导致 Q2(卡纸)/Q3(清洁) 答案虽被检索到却仍被误拒。
+        config = get_config()
+        total_budget = config.max_context_chars      # 总预算（原硬编码 2500）
+        per_doc_cap = config.rag_doc_max_chars       # 单条上限，防大块独占
+
         # 定义列表，封装最终数据
         result = []
         used = 0
@@ -116,6 +125,10 @@ class AnswerOutputNode(BaseNode):
             if not content:
                 continue
 
+            # 单条截断：超长 chunk 只取前 per_doc_cap 字符，避免一整节手册独占预算
+            if len(content) > per_doc_cap:
+                content = content[:per_doc_cap] + "\n…(该片段过长，已截断)"
+
             # 直接拼接字典格式
             meta = {
                 "score": doc.get("score", 0),
@@ -125,7 +138,7 @@ class AnswerOutputNode(BaseNode):
 
             data = f"[{index}]:{meta}\n{content}"
 
-            if used + len(data) > 2500:
+            if used + len(data) > total_budget:
                 break
 
             result.append(data)
