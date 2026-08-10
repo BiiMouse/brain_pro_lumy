@@ -18,6 +18,13 @@ class WebSearchNode(BaseNode):
     async def _async_process(self,
                              state: QueryGraphState) -> QueryGraphState:
         print(f"\n========== WebSearchNode 开始 ==========")
+
+        # 资料充足性闸门：默认关闭 web 搜索。避免越界问题被 web 兜底会绕过拒答阈值，导致漏拒。
+        if not self.config.enable_web_search:
+            print(f"Web 搜索已关闭（enable_web_search=False），跳过 MCP 调用")
+            self.logger.info("Web 搜索已关闭，跳过")
+            return {"web_search_docs": []}
+
         try:
             # 1 参数校验
             print(f"开始参数校验...")

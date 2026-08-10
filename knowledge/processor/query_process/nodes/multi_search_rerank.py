@@ -93,10 +93,17 @@ class RerankSearchNode(BaseNode):
         query_doc = [(user_query,doc.get('content'))
                      for doc in merged_multi_doc
                      ]
-        # 根据问题，计算答案分数， [0.333 , 0.666]
+        # 根据问题计算答案分数[0.333 , 0.666]，normalize=True：sigmoid 归一化为 0~1 概率，
+        # 与 RAG_REFUSE_THRESHOLD 量纲一致；开关见 config.rerank_normalize。
+        normalize = self.config.rerank_normalize
         reranker_score = (
             reranker_model.compute_score(
-                sentence_pairs=query_doc))
+                sentence_pairs=query_doc,
+                normalize=normalize))
+
+        # 单条输入时 compute_score 返回标量，统一成列表便于 zip
+        if not isinstance(reranker_score, list):
+            reranker_score = [reranker_score]
 
         # 根据计算分数找到对应文档，根据分数对文档排序，
         # ['qq','33','3355']  , [0.1233, 0.0123, 0.03455]

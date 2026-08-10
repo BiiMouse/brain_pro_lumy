@@ -36,12 +36,24 @@ class QueryConfig:
     rerank_gap_abs: float = field(
         default_factory=lambda: float(os.getenv("RERANK_GAP_ABS", "0.5"))
     )
+    # reranker 分数是否做 sigmoid 归一化（True→0~1 概率）。
+    # 必须为 True 才能与 RAG_REFUSE_THRESHOLD 量纲一致（默认 compute_score 返回原始 logit，范围约 -6~+8）。
+    rerank_normalize: bool = field(
+        default_factory=lambda: os.getenv("RERANK_NORMALIZE", "true").lower() == "true"
+    )
 
     # ==================== 答案生成 / 拒答配置 ====================
     # reranker 相关性最高分低于该阈值 → 判定资料不足，直接拒答（不调用 LLM）
-    # bge-reranker-large：强相关通常 >0.5，弱相关 <0.3；0.3 为保守默认，按评测结果调整
+    # 注意：该阈值按「归一化后」的 0~1 分数校准（rerank_normalize=True）。
+    # bge-reranker-large（归一化后）：强相关通常 >0.5，弱相关 <0.3；0.4 为保守默认，按评测结果调整
     rag_refuse_threshold: float = field(
         default_factory=lambda: float(os.getenv("RAG_REFUSE_THRESHOLD", "0.4"))
+    )
+    # 是否启用 Web 搜索兜底。默认关闭——本项目是领域知识库助手，越界问题（天气/竞品参数等）
+    # 被 web 兜底会导致漏拒（拒答准确率下降）。关闭后建立纯 KB 基线（Config A）。
+    # 后续若要做「KB 不足时再用 web」的条件兜底，在此分支上扩展。
+    enable_web_search: bool = field(
+        default_factory=lambda: os.getenv("ENABLE_WEB_SEARCH", "false").lower() == "true"
     )
 
     # ==================== RRF 配置 ====================
