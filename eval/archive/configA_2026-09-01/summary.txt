@@ -1,0 +1,21 @@
+======================================================================
+评估摘要（Config A 基线定稿，2026-09-01）
+======================================================================
+
+【可回答集】
+  faithfulness           0.9351
+  answer_relevancy       0.8684
+  context_precision      0.0775
+  context_recall         0.8000
+  answer_correctness     0.5427
+  citation_rate(#4)      1.0000
+  citation_valid_rate    1.0000
+  reranker max-score     min=0.780 mean=0.941 max=0.997
+
+【拒答集】
+  refusal_accuracy(#5)   1.0000
+  reranker max-score     min=0.001 mean=0.003 max=0.010
+
+【阈值校准】
+  可分 answerable_min=0.780 > refuse_max=0.010
+  → 建议 RAG_REFUSE_THRESHOLD=0.40（当前 0.4(默认)）
