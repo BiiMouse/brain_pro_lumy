@@ -22,22 +22,18 @@ TypeVar用于创建泛型。定义一个类型变量，名称叫"T"
     dict_state = {"file": "data.csv"}
     node1 = MyNode()
     result1 = node1(dict_state)  # T 在这里是 dict
-场景3：状态是列表
+场景2：状态是列表
     list_state = [1, 2, 3]
-    result3 = node1(list_state)  # T 在这里是 list
+    result2 = node1(list_state)  # T 在这里是 list
 
 为啥要写 T = TypeVar("T") 
 1.类型安全，不用 TypeVar 类型检查器会认为 state 和返回值无关
   def process(self, state: dict) -> dict: 
   用 TypeVar - 类型检查器知道输入输出是同一类型，传入 dict，返回也是 dict
-  def process(self, state: T) -> T: 
 2.灵活性，不用为每种状态类型写不同的类，一个BaseNode可以处理任何类型状态
 
 在这个项目中
-  LangGraph 的 state 可能是：
-  - dict（最常见）
-  - 自定义的 TypedDict
-  - 使用 Pydantic 的 BaseModel
+  LangGraph 的 state 可能是：dict（最常见）、自定义的 TypedDict、BaseModel
   用 T = TypeVar("T") 让 BaseNode 能适配所有这些情况。
   理解了吗？简单说就是：T 是一个占位符，代表"任意类型"，但输入输出类型必须一致。
 """
@@ -45,31 +41,16 @@ T = TypeVar("T")  # 泛型状态类型
 
 """
  ABC 是 Abstract base class的缩写，来自python的abc模块。
- 主要用于：防止直接实例化 -> base = BaseNode(); 强制字类实现抽象方法：这个类必须实现process方法，否则无法实例化
+ 主要用于：防止直接实例化 -> base = BaseNode(); 强制子类实现抽象方法：这个类必须实现process方法，否则无法实例化
  原因：在这个baseNode的场景中
     1.定义了所有节点必须遵循的接口规范
     2.确保每个节点都实现process()，第77行@abstractmethod
     3.统一了日志、错误处理
     4.防止误用基类
- ABC就像一个模板，规定了字类必须有什么方法，但是自己不能直接使用。考虑一个建筑图纸，你不能住在图纸里，但可以根据图纸建设很多
+ ABC就像一个模板，规定了子类必须有什么方法，但是自己不能直接使用。考虑一个建筑图纸，你不能住在图纸里，但可以根据图纸建设很多
  真正的房子。
 """
 class BaseNode(ABC):
-    """
-    导入流程节点基类
-    所有节点类都应继承此基类，实现 process 方法。基类提供统一的日志、任务追踪和错误处理。
-
-    使用示例:
-        class MyNode(BaseNode):
-            name = "my_node"
-            def process(self, state):
-                # 实现具体逻辑
-                return state
-        # 作为 LangGraph 节点使用
-        node = MyNode()
-        workflow.add_node("my_node", node)
-    """
-
     name: str = "base_node"  # 节点名称，子类应覆盖
 
     """
@@ -84,11 +65,6 @@ class BaseNode(ABC):
       3.也可以显式传入 None：node = MyNode(None)
     """
     def __init__(self, config: Optional[ImportConfig] = None):
-        """
-        初始化节点
-        Args:
-            config: 配置对象，默认使用全局配置
-        """
         self.config = config or get_config()
         self.logger = logging.getLogger(f"import.{self.name}")
 
@@ -96,7 +72,7 @@ class BaseNode(ABC):
     """
     __xxx__ 这种命名叫做 ”魔术方法“，也叫python内置的特殊方法，会在特定时机调用他们
     1.__init__ 在创建对象时自动调用，初始化对象的属性一次
-    2.__call__ 让对象想函数一样被调用，每次执行一次对象（）时都会调用，可多次调用，更简洁
+    2.__call__ 让对象像函数一样被调用，每次执行一次对象（）时都会调用，可多次调用，更简洁
         class Adder:
               def __init__(self, n):
                   self.n = n
@@ -122,19 +98,7 @@ class BaseNode(ABC):
     3.__eq__     想自定义比较逻辑时
     """
     def __call__(self, state: T) -> T:
-        """
-        节点执行入口
-        LangGraph 调用节点时会调用此方法。提供统一的日志输出、任务追踪和异常处理。
-
-        Args:
-            state: 图状态字典
-
-        Returns:
-            更新后的状态字典
-
-        Raises:
-            ImportProcessError: 节点执行失败时抛出
-        """
+        """节点执行入口"""
         self.logger.info(f"--- {self.name} 开始 ---")
 
         try:
@@ -190,24 +154,11 @@ class BaseNode(ABC):
     """
     @abstractmethod
     def process(self, state: T) -> T:
-        """
-        节点核心处理逻辑
-        子类必须实现此方法。
-        Args:
-            state: 图状态字典
-        Returns:
-            更新后的状态字典
-        """
+        """节点核心处理逻辑，子类必须实现此方法。"""
         pass
 
     def log_step(self, step_name: str, message: str = ""):
-        """
-        记录步骤日志
-
-        Args:
-            step_name: 步骤名称
-            message: 附加信息
-        """
+        """记录步骤日志"""
         log_msg = f"[{step_name}]"
         if message:
             log_msg += f" {message}"
