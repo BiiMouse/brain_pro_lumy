@@ -1,0 +1,649 @@
+{
+ "file_name": "max20029-max20029d.pdf",
+ "families": [
+  {
+   "family_name": "MAX20029",
+   "family_type": "normal",
+   "notes": "四路低压降压DC-DC PMIC基础版（最多四路1.5A，VOUT 1V~4V），多个出厂编程配置PPN共用同一关键规格。",
+   "evidence_page": 16
+  },
+  {
+   "family_name": "MAX20029B",
+   "family_type": "normal",
+   "notes": "MAX20029的通道合并版本（单路3A + 两路1.5A），VOUT 1V~4V，含7个出厂编程配置PPN。",
+   "evidence_page": 16
+  },
+  {
+   "family_name": "MAX20029C",
+   "family_type": "normal",
+   "notes": "四路1.5A版本，输出范围0.7V~3.8V，含4个出厂编程配置PPN。",
+   "evidence_page": 16
+  },
+  {
+   "family_name": "MAX20029D",
+   "family_type": "normal",
+   "notes": "通道合并版本（单路3A + 两路1.5A），输出范围0.7V~3.8V，含2个出厂编程配置PPN。",
+   "evidence_page": 16
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "MAX20029ATIA",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1(A)": "1.5",
+    "IOUT_CH2(A)": "1.5",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "ADJ",
+    "VOUT_CH2(V)": "ADJ",
+    "VOUT_CH3(V)": "ADJ",
+    "VOUT_CH4(V)": "ADJ",
+    "扩频": "Off",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | ADJ | ADJ | ADJ | ADJ | Off | 256"
+  },
+  {
+   "ppn": "MAX20029ATIB",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1(A)": "1.0",
+    "IOUT_CH2(A)": "1.0",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.5",
+    "VOUT_CH2(V)": "1.8",
+    "VOUT_CH3(V)": "1.15",
+    "VOUT_CH4(V)": "1.4",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIB/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.5 | 1.8 | 1.15 | 1.4 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATIC",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1(A)": "1.0",
+    "IOUT_CH2(A)": "1.0",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.8",
+    "VOUT_CH2(V)": "1.35",
+    "VOUT_CH3(V)": "3.3",
+    "VOUT_CH4(V)": "1.2",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIC/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.8 | 1.35 | 3.3 | 1.2 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATID",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1(A)": "1.0",
+    "IOUT_CH2(A)": "1.0",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "0.5",
+    "VOUT_CH1(V)": "1.0",
+    "VOUT_CH2(V)": "1.8",
+    "VOUT_CH3(V)": "ADJ",
+    "VOUT_CH4(V)": "3.3",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATID/V+ | 1.0 | 1.0 | 1.5 | 0.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATIF",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1(A)": "1.5",
+    "IOUT_CH2(A)": "1.5",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.0",
+    "VOUT_CH2(V)": "1.8",
+    "VOUT_CH3(V)": "ADJ",
+    "VOUT_CH4(V)": "3.3",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIF/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIA",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "―",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "ADJ",
+    "VOUT_CH2(V)": "―",
+    "VOUT_CH3(V)": "ADJ",
+    "VOUT_CH4(V)": "ADJ",
+    "扩频": "Off",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIA/V+ | 3.0 | ― | 1.5 | 1.5 | ADJ | ― | ADJ | ADJ | Off | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIB",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "―",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1",
+    "VOUT_CH2(V)": "―",
+    "VOUT_CH3(V)": "1.8",
+    "VOUT_CH4(V)": "1.5",
+    "扩频": "+3%",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIB/V+ | 3.0 | ― | 1.5 | 1.5 | 1 | ― | 1.8 | 1.5 | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIC",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "―",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.1",
+    "VOUT_CH2(V)": "―",
+    "VOUT_CH3(V)": "1.8",
+    "VOUT_CH4(V)": "1.0",
+    "扩频": "Off",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIC/V+ | 3.0 | ― | 1.5 | 1.5 | 1.1 | ― | 1.8 | 1.0 | Off | 256"
+  },
+  {
+   "ppn": "MAX20029BATID",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "―",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "0.5",
+    "VOUT_CH1(V)": "1.0",
+    "VOUT_CH2(V)": "―",
+    "VOUT_CH3(V)": "1.8",
+    "VOUT_CH4(V)": "1.2",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATID/V+ | 3.0 | ― | 1.5 | 0.5 | 1.0 | ― | 1.8 | 1.2 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIE",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "—",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.5",
+    "VOUT_CH2(V)": "—",
+    "VOUT_CH3(V)": "1.8",
+    "VOUT_CH4(V)": "3.3",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIE/V+** | 3.0 | — | 1.5 | 1.5 | 1.5 | — | 1.8 | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIF",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "—",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "ADJ",
+    "VOUT_CH2(V)": "—",
+    "VOUT_CH3(V)": "ADJ",
+    "VOUT_CH4(V)": "ADJ",
+    "扩频": "+3%",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIF/V+ | 3.0 | — | 1.5 | 1.5 | ADJ | — | ADJ | ADJ | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIH",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "—",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.15",
+    "VOUT_CH2(V)": "—",
+    "VOUT_CH3(V)": "3.3",
+    "VOUT_CH4(V)": "1.8",
+    "扩频": "+3%",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIH/V+ | 3.0 | — | 1.5 | 1.5 | 1.15 | — | 3.3 | 1.8 | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029CATIA",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1(A)": "1.5",
+    "IOUT_CH2(A)": "1.5",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "3.3",
+    "VOUT_CH2(V)": "1.8",
+    "VOUT_CH3(V)": "1.0",
+    "VOUT_CH4(V)": "0.7",
+    "扩频": "Off",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 3.3 | 1.8 | 1.0 | 0.7 | Off | 256"
+  },
+  {
+   "ppn": "MAX20029CATIB",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1(A)": "1.0",
+    "IOUT_CH2(A)": "1.0",
+    "IOUT_CH3(A)": "0.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.5",
+    "VOUT_CH2(V)": "0.9",
+    "VOUT_CH3(V)": "1.1",
+    "VOUT_CH4(V)": "0.7",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIB/V+ | 1.0 | 1.0 | 0.5 | 1.5 | 1.5 | 0.9 | 1.1 | 0.7 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029CATIC",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1(A)": "1.5",
+    "IOUT_CH2(A)": "1.5",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.8",
+    "VOUT_CH2(V)": "3.3",
+    "VOUT_CH3(V)": "0.85",
+    "VOUT_CH4(V)": "1.8",
+    "扩频": "+3%",
+    "PG超时(周期)": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIC/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.8 | 3.3 | 0.85 | 1.8 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029CATIF",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1(A)": "0.5",
+    "IOUT_CH2(A)": "0.5",
+    "IOUT_CH3(A)": "0.5",
+    "IOUT_CH4(A)": "0.5",
+    "VOUT_CH1(V)": "0.9",
+    "VOUT_CH2(V)": "1.1",
+    "VOUT_CH3(V)": "1.8",
+    "VOUT_CH4(V)": "3.3",
+    "扩频": "+6%",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIF/V+ | 0.5 | 0.5 | 0.5 | 0.5 | 0.9 | 1.1 | 1.8 | 3.3 | +6% | 20,480"
+  },
+  {
+   "ppn": "MAX20029DATIA",
+   "family": "MAX20029D",
+   "attributes": {
+    "IOUT_CH1(A)": "3.0",
+    "IOUT_CH2(A)": "—",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.1",
+    "VOUT_CH2(V)": "—",
+    "VOUT_CH3(V)": "0.7",
+    "VOUT_CH4(V)": "1.8",
+    "扩频": "Off",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029DATIA/V+ | 3.0 | — | 1.5 | 1.5 | 1.1 | — | 0.7 | 1.8 | Off | 20,480"
+  },
+  {
+   "ppn": "MAX20029DATIE",
+   "family": "MAX20029D",
+   "attributes": {
+    "IOUT_CH1(A)": "3",
+    "IOUT_CH2(A)": "—",
+    "IOUT_CH3(A)": "1.5",
+    "IOUT_CH4(A)": "1.5",
+    "VOUT_CH1(V)": "1.05",
+    "VOUT_CH2(V)": "—",
+    "VOUT_CH3(V)": "1.35",
+    "VOUT_CH4(V)": "1.95",
+    "扩频": "+3%",
+    "PG超时(周期)": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029DATIE/V+ | 3 | — | 1.5 | 1.5 | 1.05 | — | 1.35 | 1.95 | +3% | 20,480"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "MAX20029ATIA/V+",
+   "ppn": "MAX20029ATIA",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIB/V+",
+   "ppn": "MAX20029ATIB",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIC/V+",
+   "ppn": "MAX20029ATIC",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATID/V+",
+   "ppn": "MAX20029ATID",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIF/V+",
+   "ppn": "MAX20029ATIF",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIA/V+",
+   "ppn": "MAX20029BATIA",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIB/V+",
+   "ppn": "MAX20029BATIB",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIC/V+",
+   "ppn": "MAX20029BATIC",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATID/V+",
+   "ppn": "MAX20029BATID",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIE/V+",
+   "ppn": "MAX20029BATIE",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIF/V+",
+   "ppn": "MAX20029BATIF",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIH/V+",
+   "ppn": "MAX20029BATIH",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIA/V+",
+   "ppn": "MAX20029CATIA",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIB/V+",
+   "ppn": "MAX20029CATIB",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIC/V+",
+   "ppn": "MAX20029CATIC",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIF/V+",
+   "ppn": "MAX20029CATIF",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029DATIA/V+",
+   "ppn": "MAX20029DATIA",
+   "family": "MAX20029D",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029DATIE/V+",
+   "ppn": "MAX20029DATIE",
+   "family": "MAX20029D",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  }
+ ],
+ "naming_rules": [
+  {
+   "family": "MAX20029",
+   "pattern": "MAX20029ATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029",
+     "meaning": "产品家族基名：四路低压降压DC-DC PMIC（最多四路1.5A，VOUT 1V~4V）",
+     "kind": "functional"
+    },
+    {
+     "segment": "ATI",
+     "meaning": "封装与温度等级代码（28 TQFN-EP，-40°C to +125°C）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "出厂编程配置码（通道电流与各通道输出电压组合，A/B/C/D/F等）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（环保/无铅标识）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029B",
+   "pattern": "MAX20029BATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029B",
+     "meaning": "产品家族基名：单路3A + 两路1.5A 通道合并版本，VOUT 1V~4V",
+     "kind": "functional"
+    },
+    {
+     "segment": "ATI",
+     "meaning": "封装与温度等级代码（28 TQFN-EP，-40°C to +125°C）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "出厂编程配置码（通道电流与各通道输出电压组合，A/B/C/D/E/F/H等）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（环保/无铅标识）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029C",
+   "pattern": "MAX20029CATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029C",
+     "meaning": "产品家族基名：四路1.5A，VOUT 0.7V~3.8V",
+     "kind": "functional"
+    },
+    {
+     "segment": "ATI",
+     "meaning": "封装与温度等级代码（28 TQFN-EP，-40°C to +125°C）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "出厂编程配置码（通道电流与各通道输出电压组合，A/B/C/F等）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（环保/无铅标识）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029D",
+   "pattern": "MAX20029DATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029D",
+     "meaning": "产品家族基名：单路3A + 两路1.5A 通道合并版本，VOUT 0.7V~3.8V",
+     "kind": "functional"
+    },
+    {
+     "segment": "ATI",
+     "meaning": "封装与温度等级代码（28 TQFN-EP，-40°C to +125°C）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "出厂编程配置码（通道电流与各通道输出电压组合，A/E等）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（环保/无铅标识）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  }
+ ],
+ "cover_check": {
+  "cover_tokens": [
+   "MAX20029",
+   "MAX20029/MAX20029B",
+   "MAX20029/MAX20029C",
+   "MAX20029B/MAX20029D",
+   "MAX20029C",
+   "MAX20029C/MAX20029D"
+  ],
+  "uncovered": []
+ },
+ "issues": []
+}

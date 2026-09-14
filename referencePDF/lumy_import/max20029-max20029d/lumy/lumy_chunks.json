@@ -1,0 +1,425 @@
+[
+ {
+  "content": "[表格:SS OSC](第2页)\n列: 4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | 4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | 4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN\n4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN |  | \n4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | \n4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | \n4 CHANNELS STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | STEP-DOWN PWM OUT_ 1.0V TO 4.0V UP TO 1.5A EN | ",
+  "title": "SS OSC",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 2,
+  "page_end": 2
+ },
+ {
+  "content": "[表格:28 TQFN-EP](第3页)\n列: Package Code | T2855+5/T2855+5C\nOutline Number | 21-0140\nLand Pattern Number | 90-0027\nTHERMAL RESISTANCE, FOUR-LAYER BOARD | THERMAL RESISTANCE, FOUR-LAYER BOARD\nJunction to Ambient (θJA) | 35°C/W\nJunction to Case (θJC) | 3°C/W",
+  "title": "28 TQFN-EP",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:normal conditions, unless otherwise noted.) (Note 1)](第3页)\n列: PARAMETER | SYMBOL | CONDITIONS | CONDITIONS | MIN TYP MAX | UNITS\nGENERAL | GENERAL | GENERAL | GENERAL | GENERAL | GENERAL\nSupply Voltage Range | VPV_ | Fully operational | Fully operational | 3.0 5.5 | V\nSupply Current | IPV0 | No load, no switching, VEN1 = VEN2 = VEN3 = VEN4 = VPV_ | No load, no switching, VEN1 = VEN2 = VEN3 = VEN4 = VPV_ | 2.5 3.8 5 | mA\nShut-Off Current | IVPSD | VEN1 = VEN2 = VEN3 = VEN4 = VGND | TA = +25°C | 0.1 2 | µA\nShut-Off Current | IVPSD | VEN1 = VEN2 = VEN3 = VEN4 = VGND | TA = +125°C | 2 | µA\nOvervoltage Threshold |  | Rising | Rising | 5.6 5.8 6 | V\nOvervoltage Threshold |  | Hysteresis | Hysteresis | 0.1 | V\nUVLO Threshold |  | VPV_ falling | VPV_ falling | 2.68 | V\nUVLO Threshold |  | VPV_ falling (MAX20029D) | VPV_ falling (MAX20029D) | 2.6 | V\nUVLO Threshold |  | VPV_ rising | VPV_ rising | 3.0 | V\nPWM Switching Frequency | fSW |  |  | 2.0 2.2 2.4 | MHz",
+  "title": "normal conditions, unless otherwise noted.) (Note 1)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:normal conditions, unless otherwise noted.) (Note 1)](第4页)\n列: PARAMETER | SYMBOL | CONDITIONS | CONDITIONS | MIN TYP MAX | UNITS\nSpread Spectrum | Df/f | Spread-spectrum option = enabled (see the Selector Guide) | Spread-spectrum option = enabled (see the Selector Guide) | +3 | %\nSYNC Input Frequency Range | fSYNC |  |  | 1.7 2.5 | MHz\nSYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4) | SYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4) | SYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4) | SYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4) | SYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4) | SYNCHRONOUS STEP-DOWN DC-DC CONVERTERS (OUT1–OUT4)\nFixed DC Output Accuracy |  | ILOAD = 0mA | ILOAD = 0mA | +1.5 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to IMAX | ILOAD = 0mA to IMAX | -3 +3 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to 1.0A (MAX20029C/ MAX20029D) | ILOAD = 0mA to 1.0A (MAX20029C/ MAX20029D) | -3 +3 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to 1.0A at +125°C (MAX20029C/MAX20029D) | ILOAD = 0mA to 1.0A at +125°C (MAX20029C/MAX20029D) | -3 +3.2 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to 1.5A (MAX20029C/ MAX20029D) | ILOAD = 0mA to 1.5A (MAX20029C/ MAX20029D) | -3.75 +3 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to 1.5A at +125°C (MAX20029C/MAX20029D) | ILOAD = 0mA to 1.5A at +125°C (MAX20029C/MAX20029D) | -3.75 +3.2 | %\nFixed DC Output Accuracy |  | ILOAD = 0mA to 750mA (MAX20029BATIH) | ILOAD = 0mA to 750mA (MAX20029BATIH) | -2 3 | %\nFB DC Set-Point Accuracy | VSFB_ | ILOAD = 0mA (MAX20029/MAX20029B) | ILOAD = 0mA (MAX20029/MAX20029B) | 1015 | mV\nFB DC Set-Point Accuracy | VSFB_ | ILOAD = 0mA to IMAX (MAX20029/ MAX20029B) | ILOAD = 0mA to IMAX (MAX20029/ MAX20029B) | 970 1030 | mV\nLoad Regulation |  | MAX20029 MAX20029B/ MAX20029D (OUT3, OUT4) MAX20029C | Per 1A of load | -1.5 | %\nLoad Regulation |  | MAX20029B/ MAX20029D (OUT1) | Per 2A of load | -1.5 | %\nLine Regulation |  | ILOAD = IMAX/2, VPV_ = 4.5V to 5.5V | ILOAD = IMAX/2, VPV_ = 4.5V to 5.5V | +0.3 | %\npMOS On-Resistance |  | VPV_ = 5.0V, ILX_ = 0.2A | VPV_ = 5.0V, ILX_ = 0.2A | 125 250 | mΩ\nnMOS On-Resistance |  | VPV_ = 5.0V, ILX_ = 0.2A | VPV_ = 5.0V, ILX_ = 0.2A | 100 200 | mΩ",
+  "title": "normal conditions, unless otherwise noted.) (Note 1)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 4,
+  "page_end": 4
+ },
+ {
+  "content": "[表格:normal conditions, unless otherwise noted.) (Note 1)](第5页)\n列: PARAMETER | SYMBOL | CONDITIONS | CONDITIONS | MIN TYP MAX | UNITS\npMOS Current-Limit Threshold |  | MAX20029 MAX20029C | OUT1/OUT2, Opt 1 (0.5A channel) | 0.8 1.1 1.5 | A\npMOS Current-Limit Threshold |  | OUT1/OUT2, Opt 2 (1A channel) | OUT1/OUT2, Opt 2 (1A channel) | 1.4 1.65 2 | A\npMOS Current-Limit Threshold |  | OUT1/OUT2, Opt 3 (1.5A channel) | OUT1/OUT2, Opt 3 (1.5A channel) | 1.85 2.2 2.75 | A\npMOS Current-Limit Threshold |  | MAX20029B/ MAX20029D (OUT1, 2A channel, per LX_ pin) | (see Selector Guide) | 1.4 1.65 2 | A\npMOS Current-Limit Threshold |  | MAX20029B/ MAX20029D (OUT1, 3A channel, per LX_) pin | (see Selector Guide) | 1.85 2.2 2.75 | A\npMOS Current-Limit Threshold |  | OUT3/OUT4 (0.5A channel) | (see Selector Guide) | 0.8 1.1 1.5 | A\npMOS Current-Limit Threshold |  | OUT3/OUT4 (1.5A channel) | (see Selector Guide) | 1.85 2.2 2.75 | A\nSoft-Start Ramp Time |  |  |  | 3272 | Cycles\nOUTS Leakage Current | IB_OUTS_ | Externally adjustable output | Externally adjustable output | 20 | nA\nOUTS Bias Current |  | Factory-preset output voltage (MAX20029BATIH) | Factory-preset output voltage (MAX20029BATIH) | 19.8 22 24.2 | μA\nLX Leakage Current |  | VPV_ = 5.0V, LX_ = VPGND_ or VPV_ | VPV_ = 5.0V, LX_ = VPGND_ or VPV_ | 0.1 | µA\nMinimum On-Time |  |  |  | 45 66 | ns\nLX Rise/Fall Time |  |  |  | 4 | ns\nDuty-Cycle Range |  |  |  | 100 | %\nOUTS_ Discharge Resistance |  | VEN_ = VGND | VEN_ = VGND | 35 | Ω\nOUT1, OUT2 Phasing |  | (Note 2) | (Note 2) | 0 | Degrees\nOUT3, OUT4 Phasing |  | (Note 2) | (Note 2) | 180 | Degrees\nTHERMAL OVERLOAD | THERMAL OVERLOAD | THERMAL OVERLOAD | THERMAL OVERLOAD | THERMAL OVERLOAD | THERMAL OVERLOAD\nThermal-Shutdown Temperature |  | TJ rising (Note 3) | TJ rising (Note 3) | +185 | °C\nHysteresis |  | (Note 3) | (Note 3) | 15 | °C\nOUTPUT POWER-GOOD INDICATORS (PG1–PG4) | OUTPUT POWER-GOOD INDICATORS (PG1–PG4) | OUTPUT POWER-GOOD INDICATORS (PG1–PG4) | OUTPUT POWER-GOOD INDICATORS (PG1–PG4) | OUTPUT POWER-GOOD INDICATORS (PG1–PG4) | OUTPUT POWER-GOOD INDICATORS (PG1–PG4)\nOutput Overvoltage Threshold |  | VOUT rising (percentage of nominal output) | VOUT rising (percentage of nominal output) | 106 110 114 | %",
+  "title": "normal conditions, unless otherwise noted.) (Note 1)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 5,
+  "page_end": 5
+ },
+ {
+  "content": "[表格:normal conditions, unless otherwise noted.) (Note 1)](第6页)\n列: PARAMETER | SYMBOL | CONDITIONS | MIN TYP MAX | UNITS\nOutput Undervoltage Threshold |  | VOUT falling (percentage of nominal output) | 92.5 94 96 | %\nOutput Undervoltage Threshold |  | VOUT rising (percentage of nominal output) | 93.5 95 97 | %\nOutput Undervoltage Threshold |  | VOUT falling (percentage of nominal output), MAX20029C/MAX20029D | 90 94 96 | %\nOutput Undervoltage Threshold |  | VOUT rising (percentage of nominal output), MAX20029C/MAX20029D | 90.5 95 96.5 | %\nUV/OV Propagation Delay |  |  | 15 | μs\nPG_ Output High Leakage Current |  |  | 0.1 | μA\nPG_ Output Low Level |  | VPV_= 3.0V, sinking 3mA | 0.22 | V\nActive Timeout Period |  | Option 1 | 256 | Cycles\nActive Timeout Period |  | Option 2 | 20,480 | Cycles\nENABLE INPUTS (EN1–EN4) | ENABLE INPUTS (EN1–EN4) | ENABLE INPUTS (EN1–EN4) | ENABLE INPUTS (EN1–EN4) | ENABLE INPUTS (EN1–EN4)\nInput High Level |  | VPV_ = 5.0V, VEN_ rising | 0.7 1.0 1.3 | V\nHysteresis |  | VPV_ = 5.0V, VEN_ falling | 50 | mV\nPull-Down Resistance |  |  | 100 | kΩ\nDIGITAL INTERFACE (SYNC) | DIGITAL INTERFACE (SYNC) | DIGITAL INTERFACE (SYNC) | DIGITAL INTERFACE (SYNC) | DIGITAL INTERFACE (SYNC)\nInput Voltage High | VINH |  | 1.5 | V\nInput Voltage Low | VINL |  | 0.5 | V\nInput Voltage Hysteresis |  |  | 70 | mV\nPull-Down Resistance |  |  | 100 | kΩ",
+  "title": "normal conditions, unless otherwise noted.) (Note 1)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 6,
+  "page_end": 6
+ },
+ {
+  "content": "[表格:toc03](第7页)\n列:  | VVOOUUTT== | 33..33VV\n | VVOOUUTT== 11..88 | VV\nVV | OOUUTT== 11..22VV | ",
+  "title": "toc03",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "[表格:toc03](第7页)\n列: VPV | _ = VA = V | EN_\n | NO LOAD | ",
+  "title": "toc03",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "[表格:toc06](第7页)\n列:  | .8V\nVOUT1 = 1 | .8V",
+  "title": "toc06",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "[表格:toc06](第7页)\n列: T |  | 5°C |  | \nT | A = +12 | 5°C |  | \n |  |  | TA = | +25°C\nTA = | -40°C |  |  | ",
+  "title": "toc06",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "[表格:21 20 19 17 16 15](第8页)\n列: 22\n23\n24\n25\n26\n27\n28",
+  "title": "21 20 19 17 16 15",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 8,
+  "page_end": 8
+ },
+ {
+  "content": "[表格:21 20 19 17 16 15](第8页)\n列: 14\n13\n12\n11\n10\n9\n8",
+  "title": "21 20 19 17 16 15",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 8,
+  "page_end": 8
+ },
+ {
+  "content": "[表格:Pin Description](第8页)\n列: PIN | NAME | FUNCTION\n1 | EN1 | Active-High Digital Enable Input for Buck 1. Driving EN1 high enables Buck 1.\n2 | PV1 | Buck 1 Voltage Input. Connect a 2.2μF or larger ceramic capacitor from PV1 to PGND1 as close as possible to the device.\n3 | LX1 | Buck 1 Switching Node. LX1 is high impedance when the device is off.\n4 | PGND1 | Power Ground for Buck 1\n5 | PGND2 | Power Ground for Buck 2\n6 | LX2 | Buck 2 Switching Node. LX2 is high impedance when the device is off. Connect to LX1 for the MAX20029B/MAX20029D.\n7 | PV2 | Buck 2 Voltage Input. Connect a 2.2μF or larger ceramic capacitor from PV2 to PGND2 as close as possible to the device.\n8 | OUTS2 | Buck 2 Voltage-Sense Input. Connect to output capacitor. Connect to ground for the MAX20029B/ MAX20029D.\n9 | EN2 | Active-High Digital Enable Input for Buck 2. Driving EN2 high enables Buck 2. Connect to ground for the MAX20029B/MAX20029D.\n10 | PG2 | Open-Drain, Active-High, Power-Good Output for Buck 2. To obtain a logic signal, pull up PG2 with an external resistor connected to a positive voltage equal to or lower than VA. Connect to ground for the MAX20029B/MAX20029D.\n11 | GND | Ground\n12 | PG3 | Open-Drain, Active-High, Power-Good Output for Buck 3. To obtain a logic signal, pull up PG3 with an external resistor connected to a positive voltage equal to or lower than VA.\n13 | EN3 | Active-High Digital Enable Input for Buck 3. Driving EN3 high enables Buck 3.\n14 | OUTS3 | Buck 3 Voltage Sense Input\n15 | PV3 | Buck 3 Voltage Input. Connect a 2.2μF or larger ceramic capacitor from PV3 to PGND3 as close as possible to the device.",
+  "title": "Pin Description",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 8,
+  "page_end": 8
+ },
+ {
+  "content": "[表格:Pin Description (continued)](第9页)\n列: PIN | NAME | FUNCTION\n16 | LX3 | Buck 3 Switching Node. LX3 is high impedance when the device is off.\n17 | PGND3 | Power Ground for Buck 3\n18 | PGND4 | Power Ground for Buck 4\n19 | LX4 | Buck 4 Switching Node. LX4 is high impedance when the device is off.\n20 | PV4 | Buck 4 Voltage Input. Connect a 2.2μF or larger ceramic capacitor from PV4 to PGND4 as close as possible to the device.\n21 | EN4 | Active-High Digital Enable Input for Buck 4. Driving EN4 high enables Buck 4.\n22 | OUTS4 | Buck 4 Voltage Sense Input\n23 | PG4 | Open-Drain, Active-High, Power-Good Output for Buck 4. To obtain a logic signal, pull up PG4 with an external resistor connected to a positive voltage equal to or lower than VA.\n24 | GND | Analog Ground\n25 | SYNC | SYNC Input. Supply an external clock to control the switching frequency. Connect SYNC to PGND_ to use the default switching frequency.\n26 | VA | Analog Voltage Supply. Connect a 1μF or larger ceramic capacitor from VA to GND as close as possible to the device. Connect to the same supply as PV_ inputs.\n27 | PG1 | Open-Drain, Active-High, Power-Good Output for Buck 1. To obtain a logic signal, pull up PG1 with an external resistor connected to a positive voltage equal to or lower than VA.\n28 | OUTS1 | Buck 1 Voltage Sense Input\n— | EP | Exposed Pad. Connect the exposed pad to ground. Connecting the exposed pad to ground does not remove the requirement for proper ground connections to PGND1–PGND4 and GND. The exposed pad is attached with epoxy to the substrate of the die, making it an excellent path to remove heat from the IC.",
+  "title": "Pin Description (continued)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 9,
+  "page_end": 9
+ },
+ {
+  "content": "[表格:Internal Block Diagram](第10页)\n列: CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT\nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT\nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT\nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT\nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT |  | \nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT |  | \nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT |  | \nCURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT | CURRENT-SENSE AMP VREF PEAK CURRENT RAMP COMP PV1 GENERATOR ∑ PGND1 CONTROL LOGIC PWM PV1 COMP VREF PGND1 VALLEY SOFT-START GENERATOR CLK180 CLK CURRENT LIM COMP P1-OK FEEDBACK SELECT |  | ",
+  "title": "Internal Block Diagram",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 10,
+  "page_end": 10
+ },
+ {
+  "content": "[表格:Selector Guide](第16页)\n列: PART | IOUT (A) | IOUT (A) | IOUT (A) | IOUT (A) | VOUT (V) | VOUT (V) | VOUT (V) | VOUT (V) | SPREAD SPECTRUM | PG_ TIMEOUT (CYCLES)\nPART | CH1 | CH2 | CH3 | CH4 | CH1 | CH2 | CH3 | CH4 | SPREAD SPECTRUM | PG_ TIMEOUT (CYCLES)\nMAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029 | MAX20029\nMAX20029ATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | ADJ | ADJ | ADJ | ADJ | Off | 256\nMAX20029ATIB/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.5 | 1.8 | 1.15 | 1.4 | +3% | 256\nMAX20029ATIC/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.8 | 1.35 | 3.3 | 1.2 | +3% | 256\nMAX20029ATID/V+ | 1.0 | 1.0 | 1.5 | 0.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256\nMAX20029ATIF/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256\nMAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B | MAX20029B\nMAX20029BATIA/V+ | 3.0 | ― | 1.5 | 1.5 | ADJ | ― | ADJ | ADJ | Off | 20,480\nMAX20029BATIB/V+ | 3.0 | ― | 1.5 | 1.5 | 1 | ― | 1.8 | 1.5 | +3% | 20,480\nMAX20029BATIC/V+ | 3.0 | ― | 1.5 | 1.5 | 1.1 | ― | 1.8 | 1.0 | Off | 256\nMAX20029BATID/V+ | 3.0 | ― | 1.5 | 0.5 | 1.0 | ― | 1.8 | 1.2 | +3% | 256\nMAX20029BATIE/V+** | 3.0 | — | 1.5 | 1.5 | 1.5 | — | 1.8 | 3.3 | +3% | 256\nMAX20029BATIF/V+ | 3.0 | — | 1.5 | 1.5 | ADJ | — | ADJ | ADJ | +3% | 20,480\nMAX20029BATIH/V+ | 3.0 | — | 1.5 | 1.5 | 1.15 | — | 3.3 | 1.8 | +3% | 20,480\nMAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C | MAX20029C\nMAX20029CATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 3.3 | 1.8 | 1.0 | 0.7 | Off | 256\nMAX20029CATIB/V+ | 1.0 | 1.0 | 0.5 | 1.5 | 1.5 | 0.9 | 1.1 | 0.7 | +3% | 256\nMAX20029CATIC/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.8 | 3.3 | 0.85 | 1.8 | +3% | 256\nMAX20029CATIF/V+ | 0.5 | 0.5 | 0.5 | 0.5 | 0.9 | 1.1 | 1.8 | 3.3 | +6% | 20,480\nMAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D | MAX20029D\nMAX20029DATIA/V+ | 3.0 | — | 1.5 | 1.5 | 1.1 | — | 0.7 | 1.8 | Off | 20,480\nMAX20029DATIE/V+ | 3 | — | 1.5 | 1.5 | 1.05 | — | 1.35 | 1.95 | +3% | 20,480",
+  "title": "Selector Guide",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 16,
+  "page_end": 16
+ },
+ {
+  "content": "[表格:Ordering Information](第17页)\n列: PART | TEMP RANGE | PIN-PACKAGE\nMAX20029ATI_/V+ | -40°C to +125°C | 28 TQFN-EP*\nMAX20029BATI_/V+ | -40°C to +125°C | 28 TQFN-EP*\nMAX20029CATI_/V+ | -40°C to +125°C | 28 TQFN-EP*\nMAX20029DATI_/V+ | -40°C to +125°C | 28 TQFN-EP*",
+  "title": "Ordering Information",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 17,
+  "page_end": 17
+ },
+ {
+  "content": "[表格:Revision History](第18页)\n列: REVISION NUMBER | REVISION DATE | DESCRIPTION | PAGES CHANGED\n0 | 6/17 | Initial release | —\n1 | 9/17 | Replaced TOCs 1, 2, 3, 4 deleted TOCs 6–9, and renumbered TOC10 to TOC05 and TOC12 to TOC06; added MAX20029ATIC/V+ (as a future product) and MAX20029BATIB/ V+ to the Selector Guide | 6, 7, 16\n2 | 10/17 | Removed future product status from MAX20029ATIC/V+ and added future product status on MAX20029BATIB/V+ in the Selector Guide | 15\n3 | 7/18 | Updated title, General Description, Benefits and Features, and Detailed Description; updated Electrical Characteristic table, Figure 1, Typical Operating Circuits; added MAX20029BATIC/V+ and MAX20029CATIA/V+ to the Selector Guide and Ordering Information tables as future parts | 1–16\n4 | 9/18 | Updated General Description, Electrical Characteristics table, Soft-Start, and Output Capacitor. Added MAX20029ATID/V+**, MAX20029BATID/V+**, MAX20029CATIB/ V+** with the accompanying ordering information to the Selector Guide | 1, 4, 5, 10, 12, 15\n5 | 9/18 | Updated Electrical Characteristics table | 4\n5.1 |  | Replaced missing rows from bottom of Electrical Characteristics table and future product and Ordering Information footnotes under the Selector Guide, which were omitted in error | 5, 16\n6 | 10/18 | Added MAX20029BATIE/V+** with the accompanying ordering information and removed future product status from MAX20029CATIA/V+ in the Selector Guide | 16\n7 | 1/19 | Removed future product status from MAX20029BATID/V+ and MAX20029CATIB/V+, updated CH1 for MAX20029CATIB/V+, and corrected DC-DC Voltages note in the Selector Guide | 16\n8 | 2/19 | Removed future product status from MAX20029ATID/V+, MAX20029BATIB/V+ and MAX20029BATIC/V+ in the Selector Guide | 16\n9 | 3/19 | Added MAX20029ATIF/V+ in the Selector Guide | 16\n10 | 12/19 | Added MAX20029D in the General Description and Benefits and Features, updated Electrical Characteristics table, added MAX20029D in the Pin Description table, Detailed Description and Soft-Start section, updated Inductor Selection, added MAX20029D in the Typical Operating Circuits diagram, Updated Selector Guide and Ordering Information tables by adding new row for MAX20029D | 1, 3–6, 8, 11, 13, 15-16\n11 | 2/20 | Added MAX20029CATIC/V+** and updated MAX20029DATIA/V+ in Selector Guide | 16\n12 | 4/22 | Added MAX20029BATIF/V+ and removed ** from MAX20029CATIC/V+ in the Selector Guide | 16\n13 | 5/24 | Added MAX20029BATIH/V+ in the Selector Guide, updated Electrical Characteristics table, updated land pattern | 3, 4, 5, 17\n14 | 8/24 | Added MAX20029CATIF/V+ in the Selector Guide | 17\n15 | 9/25 | Added MAX20029DATIE/V+** in the Selector Guide and added note | 17\n16 | 11/25 | Updated Package Information and Selector Guide | 3, 17\n17 | 1/26 | Updated Selector Guide | 16",
+  "title": "Revision History",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 18,
+  "page_end": 18
+ },
+ {
+  "content": "General Description Benefits and Features\nThe MAX20029/MAX20029B/MAX20029C/MAX20029D ● Quad Step-Down DC-DC Converters with Integrated\npower-management ICs (PMICs) integrate four low-volt- FETs\nage, high-efficiency, step-down DC-DC converters. Each ● Operate from 3.0V to 5.5V Supply Voltage\nof the four outputs is factory or resistor programmable ● 0.7V to 4.0V Fixed or Adjustable Output Voltage\nbetween 1V to 4.0V (MAX20029/MAX20029B) or 0.7V ● 2.2MHz Switching Frequency\nto 3.8V (MAX20029C/MAX20029D). The MAX20029/ ● MAX20029/MAX20029C: Up to Four 1.5A Channels\nMAX20029C has two 0.5A/1A/1.5A channels and two ● MAX20029B/MAX20029D: Up to One 3A + Two 1.5A\n0.5A/1.5A channels, while the MAX20029B/MAX20029D Channels",
+  "title": "General Description Benefits and Features",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "has two 0.5A/1.5A channels and by combining channels 1 ● Designed to Improve Automotive EMI Performance\nand 2, a single 2A/3A channel. The PMICs operate from • Forced-PWM Operation\n3.0V to 5.5V, making them ideal for automotive point-of- • Two Channels 180° Out-of-Phase\nload and post-regulation applications. • SYNC Input\n• Spread-Spectrum Option\nThe PMICs feature fixed-frequency PWM-mode operation\nwith a switching frequency of 2.2MHz. High-frequency op- ● Soft-Start and Supply Sequencing Reduces Inrush\neration allows for an all-ceramic capacitor design and Current\nsmall-size external components. The low-resistance on- ● Individual Enable Inputs and Power-Good Outputs\nchip switches ensure high efficiency at heavy loads while Simplify Sequencing",
+  "title": "has two 0.5A/1.5A channels and by combining channels 1 ● Designed to Improve Aut",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "minimizing critical inductances, making the layout a much ● OV Input-Voltage Monitoring\nsimpler task with respect to discrete solutions. Internal ● Overtemperature and Short-Circuit Protection\ncurrent sensing and loop compensation reduce board ● 28-Pin (5mm x 5mm x 0.8mm) TQFN-EP Package\nspace and system cost. ● -40°C to +125°C Operating Temperature Range\nThe PMICs offer a spread-spectrum option to reduce radi-\nated emissions. Two of the four buck converters operate\n180° out-of-phase with the internal clock. This feature re-\nduces the necessary input capacitance and improves EMI\nas well. All four buck converters operate in constant PWM\nmode outside the AM band. The PMICs offer a SYNC in-\nput to synchronize to an external clock.",
+  "title": "minimizing critical inductances, making the layout a much ● OV Input-Voltage Mon",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "The PMICs provide individual enable inputs and power-\ngood/ reset outputs, as well as factory-programmable PG\ntimes.\nThe PMICs offer several important protection features in-\ncluding: input overvoltage protection, input undervoltage\nlockout, cycle-by-cycle current limiting, and overtempera-\nture shutdown.\nThe MAX20029/MAX20029B/MAX20029C/MAX20029D\nPMICs are available in a 28-pin TQFN package with an\nexposed pad and are specified for operation over the\n-40°C to +125°C automotive temperature range.\nApplications\n● Automotive\n● Industrial\nOrdering Information appears at end of data sheet. 19-100083; Rev 17; 1/26\n© 2026 Analog Devices, Inc. All rights reserved. Trademarks and registered trademarks are the property of their respective owners.",
+  "title": "The PMICs provide individual enable inputs and power-",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "One Analog Way, Wilmington, MA 01887 U.S.A. | Tel: 781.329.4700 | © 2026 Analog Devices, Inc. All rights reserved.\nSimplified Block Diagram\nVOUT1\nMAX20029\n10kΩ\nEN_\nPG_\nCONTROL\n5V\nVA\nSYNC\nSS OSC\n1µF\nGND\n5V\nPV_\n2.2µF\n1.5µH\nLX_\nVOUT_\n22µF\nPGND_\nOUTS_\nEP\nwww.analog.com Analog Devices | 2\nAbsolute Maximum Ratings\nPV_ to PGND_ ......................................................-0.3V to +6.0V Continuous Power Dissipation (TA = +70°C)\nVA to GND .............................................................-0.3V to +6.0V 28-pin TQFN (derate 28.6mW/°C above +70°C) .........2285mW\nOUTS_, EN_, PG_, SYNC to GND .................-0.3V to VA + 0.3V Operating Temperature Range ...........................-40°C to +125°C\nPV_ to PV_ ............................................................-0.3V to +0.3V Junction Temperature .......................................................+150°C",
+  "title": "One Analog Way, Wilmington, MA 01887 U.S.A. | Tel: 781.329.4700 | © 2026 Analog ",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 1,
+  "page_end": 3
+ },
+ {
+  "content": "PGND_ to GND .....................................................-0.3V to +0.3V Storage Temperature Range ..............................-65°C to +150°C\nLX_ to PGND ................................................-1.0V to PV_ + 0.3V Lead Temperature (soldering, 10s) ...................................+300°C\nLX_ Continuous RMS Current ...............................................2.0A Soldering Temperature (reflow) ........................................+260°C\nOutput Short-Circuit Duration .....................................Continuous\nStresses beyond those listed under “Absolute Maximum Ratings” may cause permanent damage to the device. These are stress ratings only, and functional operation of the",
+  "title": "PGND_ to GND .....................................................-0.3V to +0.3V",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "device at these or any other conditions beyond those indicated in the operational sections of the specifications is not implied. Exposure to absolute maximum rating conditions for\nextended periods may affect device reliability.\nPackage Information\n28 TQFN-EP\nFor the latest package outline information and land patterns (footprints), go to analog.com/en/resources/packaging-\nquality-symbols-footprints/package-index.html. Note that a “+”, “#”, or “-” in the package code indicates RoHS status\nonly. Package drawings may show a different suffix character, but the drawing pertains to the package regardless of\nRoHS status.\nPackage thermal resistances were obtained using the method described in JEDEC specification JESD51-7, using a",
+  "title": "device at these or any other conditions beyond those indicated in the operationa",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "four-layer board. For detailed information on package thermal considerations, refer to analog.com/en/resources/\ntechnical-articles/thermal-characterization-of-ic-packages.html.\nElectrical Characteristics\n(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = TJ = -40°C to +125°C, unless otherwise noted. Typical values are at TA = +25°C under\nnormal conditions, unless otherwise noted.) (Note 1)\nwww.analog.com Analog Devices | 3\nElectrical Characteristics (continued)\n(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = TJ = -40°C to +125°C, unless otherwise noted. Typical values are at TA = +25°C under\nnormal conditions, unless otherwise noted.) (Note 1)\nwww.analog.com Analog Devices | 4\nElectrical Characteristics (continued)",
+  "title": "four-layer board. For detailed information on package thermal considerations, re",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 3,
+  "page_end": 5
+ },
+ {
+  "content": "(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = TJ = -40°C to +125°C, unless otherwise noted. Typical values are at TA = +25°C under\nnormal conditions, unless otherwise noted.) (Note 1)\nwww.analog.com Analog Devices | 5\nElectrical Characteristics (continued)\n(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = TJ = -40°C to +125°C, unless otherwise noted. Typical values are at TA = +25°C under\nnormal conditions, unless otherwise noted.) (Note 1)\nNote 1: All units are 100% production tested at +25ºC. All temperature limits are guaranteed by design.\nNote 2: Phase measurement is in relation to the rising edge of VLX_.\nNote 3: Guaranteed by design. Not production tested.\nwww.analog.com Analog Devices | 6\nTypical Operating Characteristics",
+  "title": "(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = TJ = -40°C to +125°C, unless otherw",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 5,
+  "page_end": 7
+ },
+ {
+  "content": "(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = +25°C, unless otherwise noted.)\n100\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\n0.001 0.01 0.1 1\n)%(\nYCNEICIFFE\nEEFFFFIICCIIEENNCCYY CCUURRVVEE\ntoc01 35\n30\n25\n20\n15\n10\n5\n0\n2.7 3.2 3.7 4.2 4.7 5.2 5.7\nLOAD CURRENT (A)\n)Am(\nTNERRUC\nYLPPUS\nSSUUPPPPLLYY CCUURRRREENNTT\ntoc02 3.36\n3.34\n3.32\n3.30\n3.28\n3.26\n3.24\n3.22\n3.20\n3.18\n0 0.2 0.4 0.6 0.8 1 1.2 1.4\nSUPPLY VOLTAGE (V)\n)V(\n3TUOV\nLLOOAADD RREEGGUULLAATTIIOONN\ntoc03\nVVOOUUTT == 33..33VV\nLOAD CURRENT (A)\n100.8\n100.6\n100.4\n100.2\n100.0\n99.8\n99.6\n2.7 3.2 3.7 4.2 4.7 5.2 5.7\n)LANIMON\n%(\n1TUOV\nSSWWIITTCCHHIINNGG FFRREEQQUUEENNCCYY\nLLIINNEE RREEGGUULLAATTIIOONN vvss.. TTEEMMPPEERRAATTUURREE\ntoc05\nSUPPLY VOLTAGE (V)\n)LANIMON\n%(\nWSf\nPP--CCHHAANNNNEELL SSWWIITTCCHH RREESSIISSTTAANNCCEE\nvvss.. SSUUPPPPLLYY VVOOLLTTAAGGEE",
+  "title": "(VA = VPV1 = VPV2 = VPV3 = VPV4 = 5.0V; TA = +25°C, unless otherwise noted.)",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "toc06\n103\n102\n101\n100\n99\n98\n97\n-60 -40 -20 0 20 40 60 80 100120140\nTEMPERATURE (°C) VPV_ (V)\n)Ω(\nECNATSISER\nHCTIWS\nLENNAHC-P\n0.35\n0.30\n0.25\n0.20\n0.15\n0.10\n0.05\n0\n2.7 3.2 3.7 4.2 4.7 5.2 5.7\nwww.analog.com Analog Devices | 7\nPin Configuration\n4NE\n1NE\n4VP\n1VP\n4DNGP\n1DNGP\n3DNGP\n2DNGP\n3XL\n2XL\n3VP\n2VP\n21 20 19 17 16 15\nPG3\nMAX20029\nSYNC MAX20029B GND\nVA PG2\nPG1 EP = GND EN2\n1 2 4 5 6 7\n4XL\n1XL\nTOP VIEW\n18\nOUTS4 OUTS3\nPG4 EN3\nGND\n+\nOUTS1 OUTS2\n3\nTTQQFFNN\n55mmmm xx 55mmmm\nPin Description\nwww.analog.com Analog Devices | 8\nPin Description (continued)\nwww.analog.com Analog Devices | 9\nInternal Block Diagram\nPV1—PV4\nLX1—LX4\nPGND1\n—PGND4\nOUTS1—\nOUTS4\nVREF\nSYNC CLK OTP TRIMBITS\nOSC\nCLK180\nP-OK[1:4] RE\nV\nF\nO\nE\nL\nR\nTA\nE\nG\nN\nE\nCE\nVREF UVLO VA\nVA\nMAX20029 PG1\nMAX20029B\nMAX20029C\nEN1\nPG2\nEN2\nPG3\nMAIN",
+  "title": "toc06",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 7,
+  "page_end": 10
+ },
+ {
+  "content": "EN3\nCONTROL\nLOGIC\nEN4 PG4\nGND\nwww.analog.com Analog Devices | 10\nDetailed Description\nThe MAX20029/MAX20029B/MAX20029C/MAX20029D PMICs offer four high-efficiency, synchronous step-down\nconverters that operate with a 3.0V to 5.5V input voltage range and provide a 0.7V to 4.0V output voltage range. The\nPMICs deliver up to 1.5A of load current per output, and achieve ±3% output error over load, line, and temperature\nranges.\nThe PMICs feature fixed-frequency PWM-mode operation with a 2.2MHz switching frequency. An optional spread-\nspectrum frequency modulation minimizes radiated electromagnetic emissions due to the switching frequency, while a\nfactory-programmable synchronization input (SYNC) allows the device to synchronize to an external clock.",
+  "title": "EN3",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 10,
+  "page_end": 11
+ },
+ {
+  "content": "Integrated low RDS(ON) switches help minimize efficiency losses at heavy loads and reduce critical/parasitic inductance,\nmaking the layout a much simpler task with respect to discrete solutions.\nThe PMICs are offered in factory-preset output voltages to allow customers to achieve ±3% output-voltage accuracy,\nwithout using expensive 0.1% resistors. In addition, adjustable output-voltage versions can be set to any desired values\nbetween 1.0V and 4.0V using an external resistive divider. See the Selector Guide for available options.\nAdditionally, each converter features soft-start, PG_ output, overcurrent, and overtemperature protections (see the\nInternal Block Diagram).\nControl Scheme\nThe PMICs use peak current-mode control, and feature internal slope compensation and loop compensation, both of",
+  "title": "Integrated low RDS(ON) switches help minimize efficiency losses at heavy loads a",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 11,
+  "page_end": 11
+ },
+ {
+  "content": "which reduce board space and allow a very compact solution.\nHybrid Load-Line Architecture\nThe PMICs feature hybrid load-line architecture to reduce the output capacitance needed, potentially saving system cost\nand size. This results in a measurable load-transient response (see Figure 1).\n+5.0%\n+1.5%\n0%\n-1.0%\n-3.5%\n4µs 4µs\n1.0A\n0A\n1µs 1µs\nFigure 1. Load-Transient Response\nInput Overvoltage Monitoring (OV)\nThe PMICs feature an input overvoltage-monitoring circuit on the input supply. When the input exceeds 5.8V (typ) all\npower-good indicators (PG_) go low. When the input supply returns to within the operating range of 5.7V (typ) or less\nduring the timeout period, the power-good indicators go high.\nInput Undervoltage Lockout (UVLO)",
+  "title": "which reduce board space and allow a very compact solution.",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 11,
+  "page_end": 11
+ },
+ {
+  "content": "The PMICs feature an undervoltage lockout on the PV_ inputs set at 2.77V (typ) falling. This prevents loss of control of\nthe device by shutting down all outputs. This circuit is only active when at least one buck converter is enabled.\nPower-Good Outputs (PG_)\nThe PMICs feature an open-drain power-good output for each of the four buck regulators. PG_ asserts low when the\noutput voltage drops 6% below the regulated voltage or 10% above the regulated voltage for approximately 15μs. PG_\nremains asserted for a fixed number of switching cycles after the output returns to its regulated voltage. See the Selector\nwww.analog.com Analog Devices | 11\nGuide for available options. PG_ asserts low during soft-start and in shutdown. PG_becomes high impedance when",
+  "title": "The PMICs feature an undervoltage lockout on the PV_ inputs set at 2.77V (typ) f",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 11,
+  "page_end": 12
+ },
+ {
+  "content": "Buck_ is in regulation. Connect PG_ to a logic supply with a 10kΩ resistor.\nSoft-Start\nThe soft-start time limits startup inrush current by forcing the output voltage to ramp up towards its regulation point.\nDuring soft-start, the converters operate in skip mode to prevent the outputs from discharging. Expected soft-start time\nfor MAX20029 and MAX20029B is approximately 1.5ms, and approximately 1ms for MAX20029C/MAX20029D (a scaling\nfactor is applied due to the internal voltage reference difference).\nSpread-Spectrum Option\nThe PMICs feature a linear spread-spectrum (SS) operation, which varies the internal operating frequency between fSW\nand (fSW + 3%). The internal oscillator is frequency modulated at a rate of 1.5kHz with a frequency deviation of 3%",
+  "title": "Buck_ is in regulation. Connect PG_ to a logic supply with a 10kΩ resistor.",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 12,
+  "page_end": 12
+ },
+ {
+  "content": "(see Figure 2). This function does not apply to an oscillation frequency applied externally through the SYNC pin. Spread\nspectrum is a factory-selectable option. See the Selector Guide for available options.\nfSW+ 3%\nINTERNAL\nOSCILLATOR\nFREQUENCY\nfSW\nt t + 667µs t + 1.334ms\nTIME\nFigure 2. Effect of Spread Spectrum on Internal Oscillator\nSynchronization (SYNC)\nThe PMICs feature a SYNC input to allow the internal oscillator to synchronize with an external clock. SYNC accepts\nsignal frequencies in the range of 1.7MHz < fSYNC < 2.5MHz. Connect to PGND_ if the SYNC feature is not used.\nCurrent-Limit/Short-Circuit Protection\nThe PMICs offer a current-limit feature that protects the devices against short-circuit and overload conditions on each",
+  "title": "(see Figure 2). This function does not apply to an oscillation frequency applied",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 12,
+  "page_end": 12
+ },
+ {
+  "content": "output. In the event of a short-circuit or overload condition at an output, the high-side MOSFET remains on until the\ninductor current reaches the high-side MOSFET’s current-limit threshold. The converter then turns on the low-side\nMOSFET and the inductor current ramps down. The converter allows the high-side MOSFET to turn on only when the\ninductor current ramps down to the low-side MOSFET’s current threshold. This cycle repeats until the short or overload\ncondition is removed.\nOvertemperature Protection\nThermal-overload protection limits the total power dissipation in the PMICs. When the junction temperature exceeds\n+185°C (typ), an internal thermal sensor shuts down the step-down converters, allowing the IC to cool. The thermal",
+  "title": "output. In the event of a short-circuit or overload condition at an output, the ",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 12,
+  "page_end": 12
+ },
+ {
+  "content": "sensor turns on the IC again after the junction temperature cools by 15°C. The IC goes through a standard power-up\nsequence as defined in the Soft-Start section.\nwww.analog.com Analog Devices | 12\nApplications Information\nAdjustable Output-Voltage Option\nThe MAX20029/MAX20029B PMICs feature adjustable output voltages (see the Selector Guide for more details), which\nallows the customer to set the outputs to any voltage between 1.0V and VPV_ - 0.5V (up to 4.0V). Connect a resistive\ndivider from output (VOUT_) to OUTS_ to GND to set the output voltage (see Figure 3). Select R2 (OUTS_ to the GND\nresistor) ≤ 100kΩ. Calculate R1 (VOUT_ to the OUTS_ resistor) with the following equation:\nV\nOUT_\nR1=R2[( )−1]\nV\nOUTS_",
+  "title": "sensor turns on the IC again after the junction temperature cools by 15°C. The I",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 12,
+  "page_end": 13
+ },
+ {
+  "content": "where VOUTS_ = 1.0V (see the Electrical Characteristics table). The output voltage is nominal at 50% load current.\nThe external feedback resistive divider must be frequency compensated for proper operation. Place a capacitor across\nR1 in the resistive divider network. Use the following equation to determine the value of the capacitor:\nR2 R2\nIf >1, C1=C( )\nR1 R1\nelse C1 = C, where C = 15pF.\nVOUT_\nR1 C1\nMAX20029\nMAX20029B\nOUTS_\nR2\nFigure 3. Adjustable Output-Voltage Configuration\nConnect OUTS_ to VOUT_ for a fixed 1.0V output voltage.\nInductor Selection\nThe PMICs are optimized for use with a 1.5μH inductor on outputs configured for 0.5A, 1A, or 1.5A, and a 1.0μH inductor\nfor an output configured for 2A or 3A. For output voltages less than 0.9V, 0.47μH is recommended.",
+  "title": "where VOUTS_ = 1.0V (see the Electrical Characteristics table). The output volta",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 13,
+  "page_end": 13
+ },
+ {
+  "content": "Input Capacitor\nThe PMICs are designed to operate with a single 2.2μF ceramic bypass capacitor on each PV_ input. Phase interleaving\nof the four buck converters contributes to a lower required input capacitance by canceling input ripple currents. Place the\nbypass capacitors as close as possible to their corresponding PV_ input to ensure the best EMI and jitter performance.\nOutput Capacitor\nAll outputs of the PMICs are optimized for use with ceramic capacitors.\nV\nOUT\nFor >0.2:\nV\nIN\n20\nC = μF\nOUT_MIN V\nOUT\n33\nC = μF\nOUT_NOM V\nOUT\nwww.analog.com Analog Devices | 13\nV\nOUT\nFor ≤0.2:\nV\nIN\n40\nC = μF\nOUT_MIN V\nOUT\n60\nC = μF\nOUT_NOM V\nOUT\nAdditional output capacitance can be used if better voltage ripple or load-transient response is required (see Figure 1).",
+  "title": "Input Capacitor",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 13,
+  "page_end": 14
+ },
+ {
+  "content": "To guarantee stability, it is recommended that the phase margin be measured under the worst-case deration of the output\ncapacitor(s). Due to the soft-start sequence, the PMICs are unable to drive arbitrarily large output capacitors.\nThermal Considerations\nHow much power the package can dissipate strongly depends on the mounting method of the IC to the PCB and the\ncopper area for cooling. Using the JEDEC test standard, the maximum power dissipation allowed is 2285mW in the\nTQFN package. More power dissipation can be handled by the package if great attention is given during PCB layout.\nFor example, using the top and bottom copper as a heatsink and connecting the thermal vias to one of the middle layers",
+  "title": "To guarantee stability, it is recommended that the phase margin be measured unde",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 14,
+  "page_end": 14
+ },
+ {
+  "content": "(GND) transfers the heat from the package into the board more efficiently, resulting in lower junction temperature at high\npower dissipation in some PMIC applications. Furthermore, the solder mask around the IC area on both top and bottom\nlayers can be removed to radiate the heat directly into the air. The maximum allowable power dissipation in the IC is as\nfollows:\n(T −T )\nJ(MAX) A\nP =\nMAX θ +θ\nJC CA\nwhere TJ(MAX) is the maximum junction temperature (+150°C), TA is the ambient air temperature, θJC (3°C/W for the\n28-pin TQFN) is the thermal resistance from the junction to the case, and θCA is the thermal resistance from the case\nto the surrounding air through the PCB, copper traces, and the package materials. θCA is directly related to system-level",
+  "title": "(GND) transfers the heat from the package into the board more efficiently, resul",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 14,
+  "page_end": 14
+ },
+ {
+  "content": "variables and can be modified to increase the maximum power dissipation.\nThe TQFN package has an exposed thermal pad on its underside. This pad provides a low thermal-resistance path for\nheat transfer into the PCB. This low thermally resistive path carries a majority of the heat away from the IC. The PCB\nis effectively a heatsink for the IC. The exposed pad should be connected to a large ground plane for proper thermal\nand electrical performance. The minimum size of the ground plane is dependent upon many system variables. To create\nan efficient path, the exposed pad should be soldered to a thermal landing, which is connected to the ground plane by\nthermal vias. The thermal landing should be at least as large as the exposed pad and can be made larger depending on",
+  "title": "variables and can be modified to increase the maximum power dissipation.",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 14,
+  "page_end": 14
+ },
+ {
+  "content": "the amount of free space from the exposed pad to the other pin landings. A sample layout is available on the evaluation\nkit to speed designs.\nPCB Layout Guidelines\nCareful PCB layout is critical to achieve low switching losses and clean, stable operation. Use a multilayer board\nwhenever possible for better noise immunity and power dissipation. Follow these guidelines for good PCB layout:\n1. Use a large contiguous copper plane under the PMIC packages. Ensure that all heat-dissipating components have\nadequate cooling.\n2. Keep the high-current paths short, especially at the ground terminals. This practice is essential for stable, jitter-free\noperation. The high current path comprising of input capacitor, inductor, and the output capacitor should be as short",
+  "title": "the amount of free space from the exposed pad to the other pin landings. A sampl",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 14,
+  "page_end": 14
+ },
+ {
+  "content": "as possible.\n3. Keep the power traces and load connections short. This practice is essential for high efficiency. Use thick copper\nPCBs (2oz vs. 1oz) to enhance full-load efficiency.\n4. Use a single ground plane to reduce the chance of ground potential differences. With a single ground plane, enough\nisolation between analog return signals and high-power signals must be maintained.\nwww.analog.com Analog Devices | 14\nTypical Operating Circuits\nMAX20029/MAX20029C\nVIN\n/4 PV1–PV4 OUTS1\n4x2.2µF MAX20029/ 1.5µH\nMAX20029C LX1 VOUT1\nVIN 22µF\n/4 EN1–EN4 PGND1\n20kΩ\nOUTS2\n/4 PG1–PG4 1.5µH\nVIN LX2 VOUT2\nVA\n22µF\nPGND2\nGND\nOUTS4 OUTS3\n1.5µH 1.5µH\nVOUT4 LX4 LX3 VOUT3\n22µF 22µF\nPGND4 PGND3\nEP\nMAX20029B/MAX20029D\nVIN\n/4 PV1–PV4 OUTS1\n4x2.2µF MAX20029B 1µH",
+  "title": "as possible.",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 14,
+  "page_end": 15
+ },
+ {
+  "content": "MAX20029D LX1 VOUT1\nVIN LX2 47µF\n/3 EN1, 3, 4\nPGND1\n20kΩ\nPGND2\n/3 PG1, 3, 4\nPG2\nVIN\nEN2\nVA OUTS2\nGND\nOUTS4 OUTS3\n1.5µH 1.5µH\nVOUT4 LX4 LX3 VOUT3\n22µF 22µF\nPGND4 PGND3\nEP\nwww.analog.com Analog Devices | 15\nTypical Operating Circuits (continued)\nSelector Guide\nNote: Contact factory for custom configuration. Factory-selectable features include:\nCH1/CH2 Current Configuration: 0.5A, 1.0A, or 1.5A (both channels have the same current level)\nCH3, CH4 Current Configuration: 0.5A or 1.5A\nDC-DC Voltages:\n● (MAX20029/MAX20029B) Adjustable, or a fixed voltage between 1.0V and 4.0V in 50mV steps\n● (MAX20029C/MAX20029D) Fixed voltages between 0.7V and 3.8V in 50mV steps\nSpread Spectrum: Off, +3%, or +6%\nPG_ Active Timeout Period: 256 or 20,480 clock cycles",
+  "title": "MAX20029D LX1 VOUT1",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 15,
+  "page_end": 16
+ },
+ {
+  "content": "CH1 Current Configuration: 2.0A or 3.0A\n**Potential future product.\nSee the Ordering Information table for other options.\nwww.analog.com Analog Devices | 16\nOrdering Information\nNote: Insert the desired suffix letter (from the Selector Guide) into the blank area \"_\" to indicate factory-selectable features.\n/V Denotes an automotive-qualified part that conforms to AEC-Q100.\n+Denotes a lead(Pb)-free/RoHS-compliant package.\n*EP = Exposed pad.\nwww.analog.com Analog Devices | 17\nRevision History\nInformation furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is\nassumed by Analog Devices for its use, nor for any infringements of patents or other rights of third parties that may",
+  "title": "CH1 Current Configuration: 2.0A or 3.0A",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 16,
+  "page_end": 18
+ },
+ {
+  "content": "result from its use. Specifications subject to change without notice. No license is granted by implication or otherwise\nunder any patent or patent rights of Analog Devices. Trademarks and registered trademarks are the property of\ntheir respective owners.\nw w w . a n a l o g . c o m Analog Devices | 18",
+  "title": "result from its use. Specifications subject to change without notice. No license",
+  "parent_title": "",
+  "file_title": "max20029-max20029d",
+  "item_name": "MAX20029,MAX20029B,MAX20029C,MAX20029D",
+  "page": 18,
+  "page_end": 18
+ }
+]

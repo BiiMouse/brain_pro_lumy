@@ -1,7 +1,11 @@
 """查询流程主图
 
 使用 LangGraph 构建知识库查询工作流。
+brain 场景：商品名确认 → 多路检索 → RRF → Rerank → 答案
+lumy 场景：意图实体 → 结构化检索(PG) ∥ 向量/HyDE 检索(Milvus) → RRF → Rerank → 证据引用答案
 """
+
+import os
 
 from langgraph.graph import StateGraph, END
 from langgraph.graph.state import CompiledStateGraph
@@ -16,6 +20,14 @@ from knowledge.processor.query_process.nodes.multi_search_rrf import RrfSearchNo
 from knowledge.processor.query_process.nodes.vector_search_node import VectorSearchNode
 from knowledge.processor.query_process.nodes.web_search_node import WebSearchNode
 from knowledge.processor.query_process.state import QueryGraphState
+
+# Lumy 场景节点
+from knowledge.processor.query_process.nodes.intent_entity_node import IntentEntityNode
+from knowledge.processor.query_process.nodes.structured_lookup_node import StructuredLookupNode
+from knowledge.processor.query_process.nodes.lumy_search_nodes import (
+    LumyVectorSearchNode, LumyHydeSearchNode,
+)
+from knowledge.processor.query_process.nodes.answer_node_lumy import AnswerLumyNode
 
 # 加载环境变量
 load_dotenv()
@@ -95,6 +107,49 @@ def create_query_graph() -> CompiledStateGraph:
 
 # 创建全局图实例
 query_app = create_query_graph()
+
+
+# ============================================================================
+# Lumy 场景查询图（半导体规格书：结构化 ∥ 语义 双路 → 证据引用答案）
+# KB_SCENARIO=lumy 启用；默认 brain 走上图，行为不变
+# ============================================================================
+def create_query_graph_lumy() -> CompiledStateGraph:
+    workflow = StateGraph(QueryGraphState)  # type:ignore
+
+    nodes = {
+        "intent_entity": IntentEntityNode(),
+        "structured_lookup": StructuredLookupNode(),
+        "multi_search": lambda x: x,        # 虚拟节点
+        "search_embedding": LumyVectorSearchNode(),
+        "search_embedding_hyde": LumyHydeSearchNode(),
+        "join": lambda x: {},               # 汇合（虚节点）
+        "rrf": RrfSearchNode(),
+        "rerank": RerankSearchNode(),
+        "answer_output": AnswerLumyNode(),
+    }
+    for name, node in nodes.items():
+        workflow.add_node(name, node)  # type:ignore
+
+    workflow.set_entry_point("intent_entity")
+    # 意图识别后：结构化检索先行（其 entity_files 结果供向量检索过滤）
+    workflow.add_edge("intent_entity", "structured_lookup")
+    workflow.add_edge("structured_lookup", "multi_search")
+    workflow.add_edge("multi_search", "search_embedding")
+    workflow.add_edge("multi_search", "search_embedding_hyde")
+    workflow.add_edge("search_embedding", "join")
+    workflow.add_edge("search_embedding_hyde", "join")
+    workflow.add_edge("join", "rrf")
+    workflow.add_edge("rrf", "rerank")
+    workflow.add_edge("rerank", "answer_output")
+    workflow.add_edge("answer_output", END)
+
+    return workflow.compile()
+
+
+# 场景开关
+query_app = (create_query_graph_lumy()
+             if os.getenv("KB_SCENARIO", "brain") == "lumy"
+             else create_query_graph())
 
 
 if __name__ == "__main__":

@@ -1,0 +1,315 @@
+{
+ "file_name": "lm317.pdf",
+ "families": [
+  {
+   "family_name": "LM317",
+   "family_type": "normal",
+   "notes": "LM317 系列可调三端正压稳压器（1.25V–37V），同族按输出电流能力（1.5A/0.5A/0.1A）、输入电压上限与负载调整率精度档分为 LM317/LM317-N/LM317A/LM317HV/LM317M/LM317L/LM317L-N 等 PPN，封装与包装数量为订购属性。",
+   "evidence_page": 4
+  },
+  {
+   "family_name": "LM317-N",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM317A",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM317HV",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM317M",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM317L",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM317L-N",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "LM317",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "1.5A",
+    "输入电压范围": "4.25–40 V",
+    "负载调整率精度": "1.5%",
+    "PSRR(120Hz)": "64 dB (legacy chip) / 80 dB (new chip)",
+    "推荐工作温度": "0 to 125 °C",
+    "芯片版本": "legacy chip (CSO: SHE) 或 new chip (CSO: FFAB)，订货号相同由卷标 CSO 区分",
+    "封装热阻": "TO-220(NDE) 23.5 / TO-220(KCT) 37.9 / TO-263 38 / SOT-223 66.8 °C/W"
+   },
+   "evidence_page": 4,
+   "evidence": "1.5A | PARAMETER | LM317 (Legacy Chip) | LM317 (New Chip) ... 1.5A | PSRR (120Hz) | 64 | 80 | 80 | 80 | 65 | dB"
+  },
+  {
+   "ppn": "LM317-N",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "1.5A",
+    "输入电压范围": "4.25–40 V",
+    "负载调整率精度": "1.5%",
+    "PSRR(120Hz)": "80 dB",
+    "推荐工作温度": "0 to 125 °C"
+   },
+   "evidence_page": 4,
+   "evidence": "1.5A | PSRR (120Hz) | 64 | 80 | 80 | 80 | 65 | dB（LM317-N 列）"
+  },
+  {
+   "ppn": "LM317A",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "1.5A",
+    "输入电压范围": "4.25–40 V",
+    "负载调整率精度": "1%",
+    "PSRR(120Hz)": "80 dB",
+    "推荐工作温度": "–40 to 125 °C"
+   },
+   "evidence_page": 4,
+   "evidence": "1.5A | Load regulation accuracy | 1.5 | 1.5 | 1.5 | 1 | 1.5 | %；1.5A | Recommended operating temperature | 0 to 125 | 0 to 125 | 0 to 125 | –40 to 125 | 0 to 125 | °C"
+  },
+  {
+   "ppn": "LM317HV",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "1.5A",
+    "输入电压范围": "4.25–60 V",
+    "负载调整率精度": "1.5%",
+    "PSRR(120Hz)": "65 dB",
+    "推荐工作温度": "0 to 125 °C"
+   },
+   "evidence_page": 4,
+   "evidence": "1.5A | Input voltage range | 4.25 to 40 | 4.25 to 40 | 4.25 to 40 | 4.25 to 40 | 4.25 - 60 | V"
+  },
+  {
+   "ppn": "LM317M",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "0.5A",
+    "输入电压范围": "3.75–40 V",
+    "负载调整率精度": "1.5%",
+    "PSRR(120Hz)": "80 dB",
+    "推荐工作温度": "−40 to 125 °C",
+    "封装热阻": "SOT-223 60.2 / TO-252 56.9 °C/W"
+   },
+   "evidence_page": 4,
+   "evidence": "0.5A |  | LM317M |  |  |  | ；0.5A | Input voltage range | 3.75 to 40 |  |  |  |  | V"
+  },
+  {
+   "ppn": "LM317L",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "0.1A",
+    "输入电压范围": "3.75–40 V",
+    "负载调整率精度": "1%",
+    "PSRR(120Hz)": "62 dB",
+    "推荐工作温度": "–40 to 125 °C",
+    "封装热阻": "SOT-23 167.8 °C/W"
+   },
+   "evidence_page": 4,
+   "evidence": "0.1A |  | LM317L |  | LM317L-N |  |  ；0.1A | Load regulation accuracy | 1 |  | 1.5 |  |  | %"
+  },
+  {
+   "ppn": "LM317L-N",
+   "family": "LM317",
+   "attributes": {
+    "输出电流": "0.1A",
+    "输入电压范围": "4.25–40 V",
+    "负载调整率精度": "1.5%",
+    "PSRR(120Hz)": "80 dB",
+    "推荐工作温度": "–40 to 125 °C",
+    "封装热阻": "SO-8 165 / DSBGA 290 / TO-92 180 °C/W"
+   },
+   "evidence_page": 4,
+   "evidence": "0.1A | Input voltage range | 3.75 to 40 |  | 4.25 to 40 |  |  | V；0.1A | SO-8 T JA | N/A |  | 165 |  |  | °C/W"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "LM317DCY",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "80 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCY.A",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "80 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCY.B",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "80 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCYG3",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "80 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCYR",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCYR.A",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCYR.B",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317DCYRG3",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "SOT-223 (DCY) | 4",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KCS",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "TO-220 (KCS) | 3",
+   "packing": "50 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KCS.A",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "TO-220 (KCS) | 3",
+   "packing": "50 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KCSE3",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "TO-220 (KCS) | 3",
+   "packing": "50 | TUBE",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KTTR",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "DDPAK/ TO-263 (KTT) | 3",
+   "packing": "500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KTTR.A",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "DDPAK/ TO-263 (KTT) | 3",
+   "packing": "500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KTTR.B",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "DDPAK/ TO-263 (KTT) | 3",
+   "packing": "500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM317KTTRG3",
+   "ppn": "LM317",
+   "family": "LM317",
+   "package": "DDPAK/ TO-263 (KTT) | 3",
+   "packing": "500 | LARGE T&R",
+   "evidence_page": 30,
+   "source": "addendum"
+  }
+ ],
+ "naming_rules": [
+  {
+   "family": "LM317",
+   "pattern": "LM317yyyz",
+   "positions": [
+    {
+     "segment": "LM317",
+     "meaning": "基础产品名（可调三端正压稳压器，1.25V–37V）",
+     "kind": "functional"
+    },
+    {
+     "segment": "yyy",
+     "meaning": "封装代号，如 DCY=SOT-223、KCS/KCT=TO-220、KTT=DDPAK/TO-263、NDE=TO-220、LP/TO-92、DRG=SO-8",
+     "kind": "ordering"
+    },
+    {
+     "segment": "z",
+     "meaning": "包装数量/载体代号，如 R=大卷带（LARGE T&R），缺省=管装（TUBE）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 28,
+   "expandable": false,
+   "expanded": false
+  }
+ ],
+ "cover_check": {
+  "cover_tokens": [
+   "LM317"
+  ],
+  "uncovered": []
+ },
+ "issues": []
+}

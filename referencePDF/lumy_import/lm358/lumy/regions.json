@@ -1,0 +1,176 @@
+{
+ "file_name": "lm358.pdf",
+ "page_count": 68,
+ "regions": [
+  {
+   "type": "comparison",
+   "title": "Family Comparison",
+   "page_start": 1,
+   "page_end": 1,
+   "role": "model_source"
+  },
+  {
+   "type": "toc",
+   "title": "Table of Contents",
+   "page_start": 2,
+   "page_end": 2,
+   "role": "noise"
+  },
+  {
+   "type": "body",
+   "title": "Pin Configuration and Functions",
+   "page_start": 3,
+   "page_end": 3,
+   "role": "body"
+  },
+  {
+   "type": "ec_table",
+   "title": "Specifications - Electrical Characteristics and Typical Characteristics",
+   "page_start": 4,
+   "page_end": 23,
+   "role": "param_source"
+  },
+  {
+   "type": "body",
+   "title": "Parameter Measurement Information / Detailed Description / Application and Implementation",
+   "page_start": 24,
+   "page_end": 32,
+   "role": "body"
+  },
+  {
+   "type": "package_addendum",
+   "title": "PACKAGE OPTION ADDENDUM / PACKAGING INFORMATION",
+   "page_start": 33,
+   "page_end": 68,
+   "role": "opn_source"
+  }
+ ],
+ "anchors": [
+  {
+   "page": 6,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 7,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 8,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 10,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 11,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 12,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 13,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 14,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 33,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "packaging information",
+   "strength": "strong"
+  },
+  {
+   "page": 33,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 34,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 35,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 36,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 37,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 38,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 39,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 40,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 41,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  }
+ ]
+}

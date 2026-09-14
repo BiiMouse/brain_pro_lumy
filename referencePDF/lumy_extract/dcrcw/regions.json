@@ -1,0 +1,50 @@
+{
+ "file_name": "dcrcw.pdf",
+ "page_count": 10,
+ "regions": [
+  {
+   "type": "features",
+   "title": "FEATURES",
+   "page_start": 1,
+   "page_end": 1,
+   "role": "body"
+  },
+  {
+   "type": "ec_table",
+   "title": "[anchor:technical specifications]",
+   "page_start": 1,
+   "page_end": 1,
+   "role": "param_source"
+  },
+  {
+   "type": "body",
+   "title": "APPLICATION INFORMATION",
+   "page_start": 2,
+   "page_end": 2,
+   "role": "body"
+  },
+  {
+   "type": "ordering_info",
+   "title": "PART NUMBER AND PRODUCT DESCRIPTION / PACKAGING",
+   "page_start": 3,
+   "page_end": 3,
+   "role": "opn_source"
+  },
+  {
+   "type": "body",
+   "title": "DESCRIPTION / FUNCTIONAL PERFORMANCE / TESTS AND REQUIREMENTS / DIMENSIONS",
+   "page_start": 4,
+   "page_end": 10,
+   "role": "body"
+  }
+ ],
+ "anchors": [
+  {
+   "page": 1,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "technical specifications",
+   "strength": "strong"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+  "description": "Lumy 型号知识库自测问答集：覆盖六类意图，expected_any=答案须含其一，expected_cite=须出现的引用文件（无则不查）",
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "model_list",
+      "question": "MAX20029B系列包含哪些产品型号？",
+      "expected_any": ["MAX20029BATIA", "MAX20029BATIH"],
+      "expected_all": ["MAX20029BATIA", "MAX20029BATIB", "MAX20029BATIC", "MAX20029BATID", "MAX20029BATIE", "MAX20029BATIF", "MAX20029BATIH"],
+      "expected_cite": ["max20029"]
+    },
+    {
+      "id": "Q2",
+      "type": "model_list",
+      "question": "TL432 家族有哪些精度与温度等级组合的型号？",
+      "expected_any": ["TL432AC", "TL432BQ"],
+      "expected_cite": ["tl431"]
+    },
+    {
+      "id": "Q3",
+      "type": "model_detail",
+      "question": "TL432BIDBZR 属于哪个产品家族和PPN？封装是什么？",
+      "expected_any": ["TL432", "SOT-23"],
+      "expected_cite": ["tl431"]
+    },
+    {
+      "id": "Q4",
+      "type": "model_detail",
+      "question": "LM317DCYG3 对应的 PPN 是什么？DCY 是什么封装？",
+      "expected_any": ["LM317", "SOT-223"],
+      "expected_cite": ["lm317"]
+    },
+    {
+      "id": "Q5",
+      "type": "rule_explain",
+      "question": "MAX20029ATIA/V+ 型号的后缀 /V+ 代表什么含义？",
+      "expected_any": ["AEC-Q100", "无铅", "Pb", "RoHS"],
+      "expected_cite": ["max20029"]
+    },
+    {
+      "id": "Q6",
+      "type": "rule_explain",
+      "question": "LM317 的命名规则 LM317yyyz 中 yyy 和 z 分别代表什么？",
+      "expected_any": ["封装", "数量"],
+      "expected_cite": ["lm317"]
+    },
+    {
+      "id": "Q7",
+      "type": "param_query",
+      "question": "MAX20029 的输入电压工作范围是多少？",
+      "expected_any": ["3.0V", "5.5V", "3.0 V", "5.5 V"],
+      "expected_cite": ["max20029"]
+    },
+    {
+      "id": "Q8",
+      "type": "param_query",
+      "question": "LM358B 的供电电压范围和每通道静态电流是多少？",
+      "expected_any": ["36V", "36 V", "300"],
+      "expected_cite": ["lm358"]
+    },
+    {
+      "id": "Q9",
+      "type": "param_query",
+      "question": "TL431 B 等级在 25°C 时的基准电压容差是多少？",
+      "expected_any": ["0.5%", "0.5 %"],
+      "expected_cite": ["tl431"]
+    },
+    {
+      "id": "Q10",
+      "type": "cross_compare",
+      "question": "MAX20029 和 LM317 的封装有什么差异？",
+      "expected_any": ["TQFN"],
+      "expected_all": ["TO-220", "SOT-223"],
+      "expected_cite": ["max20029", "lm317"]
+    },
+    {
+      "id": "Q11",
+      "type": "cross_compare",
+      "question": "LM358B 和 LM2904 的供电电压范围有什么差异？",
+      "expected_any": ["36", "26"],
+      "expected_cite": ["lm358"]
+    },
+    {
+      "id": "Q12",
+      "type": "no_answer",
+      "question": "TL431 的价格是多少？",
+      "expected_refusal": true
+    },
+    {
+      "id": "Q13",
+      "type": "no_answer",
+      "question": "LM317 现在的库存和交期怎么样？",
+      "expected_refusal": true
+    }
+  ]
+}

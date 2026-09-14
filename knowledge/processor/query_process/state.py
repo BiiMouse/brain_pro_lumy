@@ -32,6 +32,20 @@ class QueryGraphState(TypedDict):
     kg_chunks: list # 知识图谱切片
     kg_triples: list # 知识图谱关系
 
+    # ==================== Lumy 场景（半导体规格书） ====================
+
+    intent: str  # 意图：model_list/model_detail/rule_explain/param_query/cross_compare/no_answer
+
+    model_entities: list  # 型号实体
+
+    param_entities: list  # 参数实体
+
+    file_entities: list  # 用户点名的文件实体
+
+    structured_docs: list  # PG 结构化检索结果（带证据页码）
+
+    entity_files: list  # 实体命中的文件（向量检索 file_title 过滤用）
+
 
 # ==================== 默认状态 ====================
 

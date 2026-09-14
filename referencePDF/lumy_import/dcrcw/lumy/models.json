@@ -1,0 +1,309 @@
+{
+ "file_name": "dcrcw.pdf",
+ "families": [
+  {
+   "family_name": "D10/CRCW0402",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "D11/CRCW0603",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "D12/CRCW0805",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "D25/CRCW1206",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "CRCW1210",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "CRCW1218",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "CRCW2010",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  },
+  {
+   "family_name": "CRCW2512",
+   "family_type": "wildcard",
+   "notes": "被动元件尺寸系列",
+   "evidence_page": null
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "D10/CRCW0402",
+   "family": "D10/CRCW0402",
+   "attributes": {
+    "Imperial size": "0402",
+    "Metric size code": "RR1005M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.063 W",
+    "Operating voltage, U AC/DC max. RMS": "50 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "75 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "D10/CRCW0402"
+  },
+  {
+   "ppn": "D11/CRCW0603",
+   "family": "D11/CRCW0603",
+   "attributes": {
+    "Imperial size": "0603",
+    "Metric size code": "RR1608M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.10 W",
+    "Operating voltage, U AC/DC max. RMS": "75 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "100 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "D11/CRCW0603"
+  },
+  {
+   "ppn": "D12/CRCW0805",
+   "family": "D12/CRCW0805",
+   "attributes": {
+    "Imperial size": "0805",
+    "Metric size code": "RR2012M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.125 W",
+    "Operating voltage, U AC/DC max. RMS": "150 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "200 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "D12/CRCW0805"
+  },
+  {
+   "ppn": "D25/CRCW1206",
+   "family": "D25/CRCW1206",
+   "attributes": {
+    "Imperial size": "1206",
+    "Metric size code": "RR3216M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.25 W",
+    "Operating voltage, U AC/DC max. RMS": "200 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "300 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "D25/CRCW1206"
+  },
+  {
+   "ppn": "CRCW1210",
+   "family": "CRCW1210",
+   "attributes": {
+    "Imperial size": "1210",
+    "Metric size code": "RR3225M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.5 W",
+    "Operating voltage, U AC/DC max. RMS": "200 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "300 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "CRCW1210"
+  },
+  {
+   "ppn": "CRCW1218",
+   "family": "CRCW1218",
+   "attributes": {
+    "Imperial size": "1218",
+    "Metric size code": "RR3246M",
+    "Resistance range": "1 Ω to 2.2 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "1.0 W",
+    "Operating voltage, U AC/DC max. RMS": "200 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "300 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "CRCW1218"
+  },
+  {
+   "ppn": "CRCW2010",
+   "family": "CRCW2010",
+   "attributes": {
+    "Imperial size": "2010",
+    "Metric size code": "RR5025M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "0.75 W",
+    "Operating voltage, U AC/DC max. RMS": "400 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "300 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "CRCW2010"
+  },
+  {
+   "ppn": "CRCW2512",
+   "family": "CRCW2512",
+   "attributes": {
+    "Imperial size": "2512",
+    "Metric size code": "RR6332M",
+    "Resistance range": "1 Ω to 10 MΩ; jumper (0 Ω)",
+    "Resistance tolerance": "± 5 %; ± 1 %",
+    "Temperature coefficient": "± 200 ppm/K; ± 100 ppm/K",
+    "Rated dissipation, P70": "1.0 W",
+    "Operating voltage, U AC/DC max. RMS": "500 V",
+    "Permissible film temperature, ϑF max.": "155 °C",
+    "Operating temperature range": "-55 °C to +155 °C",
+    "Permissible voltage against ambient (insulation)": "300 V",
+    "Failure rate": "≤ 0.1 x 10-9/h"
+   },
+   "evidence_page": 1,
+   "evidence": "CRCW2512"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "CRCW08050000ZSTA",
+   "ppn": "",
+   "family": "D12/CRCW0805",
+   "package": "",
+   "packing": "",
+   "evidence_page": null,
+   "source": "ordering_text",
+   "notes": "LLM归属"
+  },
+  {
+   "opn": "CRCW0805562RFKTA",
+   "ppn": "",
+   "family": "D12/CRCW0805",
+   "package": "",
+   "packing": "",
+   "evidence_page": null,
+   "source": "ordering_text",
+   "notes": "LLM归属"
+  }
+ ],
+ "naming_rules": [
+  {
+   "family": "D/CRCW",
+   "pattern": "CRCW{size}{resistance}{tolerance}{TCR}{packaging}{special}",
+   "positions": [
+    {
+     "segment": "CRCW{size}",
+     "meaning": "Type/size (e.g., CRCW0805)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{resistance}",
+     "meaning": "Resistance code (R=decimal, K=thousand, M=million, 0000=jumper)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{tolerance}",
+     "meaning": "Tolerance code (F=±1%, J=±5%, Z=jumper)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{TCR}",
+     "meaning": "TCR code (K=±100 ppm/K, N=±200 ppm/K, S=jumper)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{packaging}",
+     "meaning": "Packaging code (TA, TC, TD, TE, TF, TG, TH, TK)",
+     "kind": "ordering"
+    },
+    {
+     "segment": "{special}",
+     "meaning": "Special code (up to 2 digits)",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 3,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "D/CRCW",
+   "pattern": "D{xx}/CRCW{size} {TCR} {resistance} {tolerance} {packaging}",
+   "positions": [
+    {
+     "segment": "D{xx}/CRCW{size}",
+     "meaning": "Type/size (e.g., D12/CRCW0805)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{TCR}",
+     "meaning": "TCR value (100 for ±100 ppm/K, 200 for ±200 ppm/K)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{resistance}",
+     "meaning": "Resistance value (e.g., 562R, 10K, 1M, 0R0)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{tolerance}",
+     "meaning": "Tolerance value (1 % or 5 %)",
+     "kind": "functional"
+    },
+    {
+     "segment": "{packaging}",
+     "meaning": "Packaging code (RT1, RT6, RT7, RF4, R02, R67, R82, RT9)",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 3,
+   "expandable": false,
+   "expanded": false
+  }
+ ],
+ "cover_check": {
+  "cover_tokens": [],
+  "uncovered": []
+ },
+ "issues": []
+}

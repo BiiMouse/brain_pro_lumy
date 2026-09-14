@@ -14,6 +14,17 @@ from knowledge.utils.milvus_client_util import create_hybrid_search_requests, ex
 # hyde假设文档搜索
 class HydeSearchNode(BaseNode):
     name = "search_embedding_hyde"  # ========== 修正：添加节点名称 ==========
+
+    # ---------- 覆写钩子（lumy 子类定制集合/字段/过滤） ----------
+    def _collection_name(self) -> str:
+        return self.config.chunks_collection
+
+    def _output_fields(self) -> list:
+        return ["chunk_id", "content", "item_name"]
+
+    def _filter_expr(self, state: "QueryGraphState", item_names: list) -> str:
+        return self.create_item_name_filter(item_names)
+
     def process(self, state: QueryGraphState) -> QueryGraphState:
         print(f"\n========== HydeSearchNode 开始 ==========")
         # 1 参数校验
@@ -41,7 +52,7 @@ class HydeSearchNode(BaseNode):
         # 5 构建查询条件：向量条件 + 标量条件
         # item_name in ["xxx", "yyy"]
         print(f"构建查询条件...")
-        item_name_filter_expr = self.create_item_name_filter(item_names)
+        item_name_filter_expr = self._filter_expr(state, item_names)
         hybrid_search_requests = create_hybrid_search_requests(
             dense_vector=embedding_result['dense'][0],
             sparse_vector=embedding_result['sparse'][0],
@@ -54,17 +65,17 @@ class HydeSearchNode(BaseNode):
         milvus_client = get_milvus_client()
         res = execute_hybrid_search_query(
             milvus_client=milvus_client,
-            collection_name=self.config.chunks_collection,
+            collection_name=self._collection_name(),
             search_requests=hybrid_search_requests,
             norm_score=True,
-            output_fields=["chunk_id", "content", "item_name"]
+            output_fields=self._output_fields()
         )
         print(f"混合查询完成")
 
         if not res or not res[0]:
             print(f"检索结果为空，返回空state")
             print(f"========== HydeSearchNode 完成 ==========\n")
-            return state
+            return {"hyde_embedding_chunks": []}
 
         # 7 更新state返回
         print(f"========== HydeSearchNode 完成 ==========\n")

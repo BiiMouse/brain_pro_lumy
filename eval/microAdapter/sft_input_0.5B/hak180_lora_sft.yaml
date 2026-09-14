@@ -1,0 +1,45 @@
+### HAK180 LoRA SFT 训练配置（第 4 课，0.5B 练手轮）
+### 用法: llamafactory-cli train hak180_lora_sft.yaml
+
+### model
+model_name_or_path: /root/rivermind-data/models/Qwen2.5-0.5B-Instruct/snapshots/master
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all        # 全注意力/FFN 模块挂 LoRA：0.5B 本来就小，全挂参数量也可控
+lora_rank: 8            # 练手轮小秩足够；76 条数据教的是格式行为，不需要大容量
+lora_alpha: 16          # 常用 2*rank
+lora_dropout: 0.05
+
+### dataset
+dataset: hak180_sft     # dataset_info.json 里注册的名字
+template: qwen          # ★ Qwen2.5 chat template——与 smoke.py/bare_baseline.py 的
+                        #   apply_chat_template 同构，"训练格式=推理格式"的又一实例
+cutoff_len: 4096        # 最长 instruction ~1043 中文字 ≈ 2000+ token，留足余量
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### output
+output_dir: /root/rivermind-data/outputs/hak180_sft_lora
+logging_steps: 5
+save_steps: 100         # 总步数不多，中间不存档，只留最终
+plot_loss: true
+overwrite_output_dir: true
+report_to: none
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4   # 有效 batch=8；76 条 ≈ 10 步/epoch
+learning_rate: 1.0e-4    # LoRA 典型 lr 比 full-ft 高一个量级
+num_train_epochs: 3.0    # 小数据多轮易过拟合；训练集与考卷零重合，背了也不污染 eval，
+                         # 但过度拟合会让回答死板，先 3 轮看定性
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+
+### eval
+# 练手轮不切验证集：76 条分走 20% 太伤；训练 loss + 训后定性对比（bare_baseline 同 6 条）即够。
+# 7B 正式轮再上 val_size + eval_strategy。

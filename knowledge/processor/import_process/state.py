@@ -126,6 +126,18 @@ class ImportGraphState(TypedDict, total=False):
 
     chunks: List  # 文档切片列表
 
+    # ==================== Lumy 链路（半导体规格书场景） ====================
+
+    pdf_tables_path: str  # pdfplumber 解析产物（页级表格+文本 JSON）路径
+
+    pdf_page_count: int  # PDF 总页数
+
+    regions_path: str  # LLM 区域标注产物路径
+
+    models_path: str  # 型号提取产物（四层结构 JSON）路径
+
+    pg_counts: Dict  # PG 入库行数统计
+
     # ==================== 默认状态 ====================
 
 

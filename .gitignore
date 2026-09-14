@@ -43,3 +43,12 @@ eval/qa_result.csv
 
 # Local screenshots / reference images
 截图/
+
+# Office lock temp files
+~$*
+
+# Model weights (LoRA adapter binaries)
+*.safetensors
+
+# Personal non-project files
+李帅笔试题.docx

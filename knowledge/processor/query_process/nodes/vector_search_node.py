@@ -10,6 +10,17 @@ from knowledge.utils.milvus_client_util import get_milvus_client, create_hybrid_
 # 向量检索节点
 class VectorSearchNode(BaseNode):
     name = "search_embedding"  # ========== 修正：添加节点名称 ==========
+
+    # ---------- 覆写钩子（lumy 子类定制集合/字段/过滤） ----------
+    def _collection_name(self) -> str:
+        return self.config.chunks_collection
+
+    def _output_fields(self) -> list:
+        return ["chunk_id", "content", "item_name"]
+
+    def _filter_expr(self, state: "QueryGraphState", item_names: list) -> str:
+        return self.create_item_name_filter(item_names)
+
     def process(self, state: QueryGraphState) -> QueryGraphState:
         print(f"\n========== VectorSearchNode 开始 ==========")
         self.logger.info("向量检索节点开始执行")
@@ -38,10 +49,10 @@ class VectorSearchNode(BaseNode):
         # 非空判断
         if not embeddings_result:
             print(f"向量生成失败，返回空结果")
-            return state
+            return {"embedding_chunks": []}
 
         # 3 构建item_name标量字段条件，item_name in ["xxx", "yyy"]
-        item_name_filter_expr = self.create_item_name_filter(item_names)
+        item_name_filter_expr = self._filter_expr(state, item_names)
         self.logger.info(f"构建过滤条件: {item_name_filter_expr}")
 
         # 4 构建问题向量化之后 向量条件
@@ -61,15 +72,16 @@ class VectorSearchNode(BaseNode):
         print(f"搜索请求构建完成")
 
         # 5 执行混合检索（pymilvus的方法）
+        collection_name = self._collection_name()
         print(f"开始执行Milvus检索...")
-        self.logger.info(f"开始执行Milvus混合检索: collection={self.config.chunks_collection}")
+        self.logger.info(f"开始执行Milvus混合检索: collection={collection_name}")
         res = execute_hybrid_search_query(
             milvus_client=milvus_client,
-            collection_name=self.config.chunks_collection,
+            collection_name=collection_name,
             search_requests=hybrid_requests,
             # ranker_weights=(0.5, 0.5),
             norm_score=True,
-            output_fields=["chunk_id", "content", "item_name"]
+            output_fields=self._output_fields()
         )
         print(f"Milvus检索完成")
         self.logger.info(f"Milvus检索完成，返回{len(res[0]) if res and res[0] else 0}条结果")
@@ -79,7 +91,7 @@ class VectorSearchNode(BaseNode):
 
         if not res or not res[0]:
             print(f"检索结果为空，返回空state")
-            return state
+            return {"embedding_chunks": []}
         # 6 更新state返回
         print(f"========== VectorSearchNode 完成 ==========\n")
         return {"embedding_chunks": res[0]} # 为啥不是res

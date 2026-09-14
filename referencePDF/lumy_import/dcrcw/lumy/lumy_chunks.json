@@ -1,0 +1,308 @@
+[
+ {
+  "content": "[表格:Typical applications include military and industrial.](第1页)\n列: TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS | TECHNICAL SPECIFICATIONS\nDESCRIPTION | D10/CRCW0402 | D11/CRCW0603 | D12/CRCW0805 | D25/CRCW1206 | CRCW1210 | CRCW1218 | CRCW2010 | CRCW2512\nImperial size | 0402 | 0603 | 0805 | 1206 | 1210 | 1218 | 2010 | 2512\nMetric size code | RR1005M | RR1608M | RR2012M | RR3216M | RR3225M | RR3246M | RR5025M | RR6332M\nResistance range | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 2.2 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω) | 1 Ω to 10 MΩ; jumper (0 Ω)\nResistance tolerance | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 % | ± 5 %; ± 1 %\nTemperature coefficient | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K | ± 200 ppm/K; ± 100 ppm/K\nRated dissipation, P (1) 70 | 0.063 W | 0.10 W | 0.125 W | 0.25 W | 0.5 W | 1.0 W | 0.75 W | 1.0 W\nOperating voltage, U AC /DC max. RMS | 50 V | 75 V | 150 V | 200 V | 200 V | 200 V | 400 V | 500 V\nPermissible film temperature, ϑ (1) F max. | 155 °C | 155 °C | 155 °C | 155 °C | 155 °C | 155 °C | 155 °C | 155 °C\nOperating temperature range | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C | -55 °C to +155 °C\nMax. resistance change at P for 70 resistance range, |ΔR/R|, after (2): 1000 h 8000 h | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 % | ≤ 1 % ≤ 2 %\nPermissible voltage against ambient (insulation): 1 min, U ins | 75 V | 100 V | 200 V | 300 V | 300 V | 300 V | 300 V | 300 V\nFailure rate: FIT observed | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h | ≤ 0.1 x 10-9/h",
+  "title": "Typical applications include military and industrial.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "[表格:functional lifetime.](第2页)\n列: TEMPERATURE COEFFICIENT AND RESISTANCE RANGE | TEMPERATURE COEFFICIENT AND RESISTANCE RANGE | TEMPERATURE COEFFICIENT AND RESISTANCE RANGE | TEMPERATURE COEFFICIENT AND RESISTANCE RANGE | TEMPERATURE COEFFICIENT AND RESISTANCE RANGE\nTYPE / SIZE | TCR | TOLERANCE | RESISTANCE | E-SERIES\nD10/CRCW0402 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nD10/CRCW0402 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nD10/CRCW0402 | Jumper, I = 1.5 A max. | ≤ 20 mΩ | 0 Ω | -\nD11/CRCW0603 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nD11/CRCW0603 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nD11/CRCW0603 | Jumper, I = 2.0 A max. | ≤ 20 mΩ | 0 Ω | -\nD12/CRCW0805 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nD12/CRCW0805 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nD12/CRCW0805 | Jumper, I = 2.5 A max. | ≤ 20 mΩ | 0 Ω | -\nD25/CRCW1206 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nD25/CRCW1206 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nD25/CRCW1206 | Jumper, I = 3.5 A max. | ≤ 20 mΩ | 0 Ω | -\nCRCW1210 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nCRCW1210 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nCRCW1210 | Jumper, I = 5.0 A max. | ≤ 20 mΩ | 0 Ω | -\nCRCW1218 | ± 200 ppm/K | ± 5 % | 1 Ω to 2.2 MΩ | E24\nCRCW1218 | ± 100 ppm/K | ± 1 % | 1 Ω to 2.2 MΩ | E24; E96\nCRCW1218 | Jumper, I = 7.0 A max. | ≤ 20 mΩ | 0 Ω | -\nCRCW2010 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nCRCW2010 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nCRCW2010 | Jumper, I = 6.0 A max. | ≤ 20 mΩ | 0 Ω | -\nCRCW2512 | ± 200 ppm/K | ± 5 % | 1 Ω to 10 MΩ | E24\nCRCW2512 | ± 100 ppm/K | ± 1 % | 1 Ω to 10 MΩ | E24; E96\nCRCW2512 | Jumper, I = 7.0 A max. | ≤ 20 mΩ | 0 Ω | -",
+  "title": "functional lifetime.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 2,
+  "page_end": 2
+ },
+ {
+  "content": "[表格:www.vishay.com Vishay](第3页)\n列: PACKAGING | PACKAGING | PACKAGING | PACKAGING | PACKAGING | PACKAGING | PACKAGING\nTYPE / SIZE | CODE | QUANTITY | PACKAGING STYLE | WIDTH | PITCH | PACKAGING DIMENSIONS\nD10/CRCW0402 | TD = RT7 TE = RF4 | 10 000 50 000 | Paper tape acc. to IEC 60286-3, Type 1a | 8 mm | 2 mm | Ø 180 mm / 7\" Ø 330 mm / 13\"\nD11/CRCW0603 | TA = RT1 TC = RT6 | 5000 20 000 | Paper tape acc. to IEC 60286-3, Type 1a | 8 mm | 4 mm | Ø 180 mm / 7\" Ø 330 mm / 13\"\nD12/CRCW0805 | TA = RT1 TC = RT6 | 5000 20 000 | Paper tape acc. to IEC 60286-3, Type 1a | 8 mm | 4 mm | Ø 180 mm / 7\" Ø 330 mm / 13\"\nD25/CRCW1206 | TA = RT1 TC = RT6 | 5000 20 000 | Paper tape acc. to IEC 60286-3, Type 1a | 8 mm | 4 mm | Ø 180 mm / 7\" Ø 330 mm / 13\"\nCRCW1210 | TA = RT1 TC = RT6 | 5000 20 000 | Paper tape acc. to IEC 60286-3, Type 1a | 12 mm | 4 mm | Ø 180 mm / 7\" Ø 330 mm / 13\"\nCRCW1218 | TK = RT9 | 4000 | Blister tape acc. to IEC 60286-3, Type 2a | 12 mm | 4 mm | Ø 180 mm / 7\"\nCRCW2010 | TF = R02 | 4000 | Blister tape acc. to IEC 60286-3, Type 2a | 12 mm | 4 mm | Ø 180 mm / 7\"\nCRCW2512 | TG = R67 TH = R82 | 2000 4000 | Blister tape acc. to IEC 60286-3, Type 2a | 12 mm | 8 mm 4 mm | Ø 180 mm / 7\"",
+  "title": "www.vishay.com Vishay",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:TH = R82 4000 4 mm](第3页)\n列: PART NUMBER AND PRODUCT DESCRIPTION\nPart Number: CRCW0805562RFKTA Part Number: CRCW08050000ZSTA C R C W 0 8 0 5 5 6 2 R F K T A TYPE / SIZE RESISTANCE TOLERANCE TCR PACKAGING SPECIAL CRCW0402 R = decimal F = ± 1 % K = ± 100 ppm/K TA, TC, TD, TE, Up to 2 digits CRCW0603 K = thousand J = ± 5 % N = ± 200 ppm/K TF, TG, TH, TK CRCW0805 M = million Z = jumper S = jumper CRCW1206 0000 = jumper CRCW1210 CRCW1218 CRCW2010 CRCW2512 Product Description: D12/CRCW0805 100 562R 1 % RT1 Product Description: D12/CRCW0805 0R0 RT1 D12/CRCW0805 100 562R 1 % RT1 TYPE / SIZE TCR RESISTANCE TOLERANCE PACKAGING D10/CRCW0402 ± 100 ppm/K 10R = 10 Ω ± 1 % RT1, RT6, RT7, D11/CRCW0603 ± 200 ppm/K 562R = 562 Ω ± 5 % RF4, R02, R67, D12/CRCW0805 10K = 10 kΩ R82, RT9 D25/CRCW1206 1M = 1 MΩ CRCW1210 0R0 = jumper CRCW1218 CRCW2010 CRCW2512",
+  "title": "TH = R82 4000 4 mm",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:D12/CRCW0805 100 562R 1 % RT1](第3页)\n列: TYPE / SIZE\nD10/CRCW0402 D11/CRCW0603 D12/CRCW0805 D25/CRCW1206 CRCW1210 CRCW1218 CRCW2010 CRCW2512",
+  "title": "D12/CRCW0805 100 562R 1 % RT1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:D12/CRCW0805 100 562R 1 % RT1](第3页)\n列: TCR\n± 100 ppm/K ± 200 ppm/K",
+  "title": "D12/CRCW0805 100 562R 1 % RT1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:D12/CRCW0805 100 562R 1 % RT1](第3页)\n列: RESISTANCE\n10R = 10 Ω 562R = 562 Ω 10K = 10 kΩ 1M = 1 MΩ 0R0 = jumper",
+  "title": "D12/CRCW0805 100 562R 1 % RT1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:D12/CRCW0805 100 562R 1 % RT1](第3页)\n列: TOLERANCE\n± 1 % ± 5 %",
+  "title": "D12/CRCW0805 100 562R 1 % RT1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:D12/CRCW0805 100 562R 1 % RT1](第3页)\n列: PACKAGING\nRT1, RT6, RT7, RF4, R02, R67, R82, RT9",
+  "title": "D12/CRCW0805 100 562R 1 % RT1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 3,
+  "page_end": 3
+ },
+ {
+  "content": "[表格:1000 10000](第5页)\n列:  | CRCW1 | 218\n | CRCW2 CRCW1 | 010 210\nD2 D1 D1 D1 | 5/CRCW1 2/CRCW0 1/CRCW0 0/CRCW0 | 206 805 603 402",
+  "title": "1000 10000",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 5,
+  "page_end": 5
+ },
+ {
+  "content": "[表格:1000 10000](第5页)\n列:  | CRCW2 CRCW1 | 512 218\n | CRCW2 CRCW1 | 010 210\nD2 D1 D1 D1 | 5/CRCW1 2/CRCW0 1/CRCW0 0/CRCW0 | 206 805 603 402",
+  "title": "1000 10000",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 5,
+  "page_end": 5
+ },
+ {
+  "content": "[表格:Axis Title](第6页)\n列: CRC | W2 | 512 | ,C C | RC RC | W1 W2 | 218 010\n |  |  | C | RC | W1 | 210\n |  | D2 D1 | 5/C 2/C | RC RC | W1 W0 | 206 805\n |  | D1 | 1/C | RC | W0 | 603\n |  | D1 | 0/C | RC | W0 | 402",
+  "title": "Axis Title",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 6,
+  "page_end": 6
+ },
+ {
+  "content": "[表格:Axis Title](第6页)\n列: D2 | 5/CR | CW1 | 206, CRC | W2 | 010\n |  |  | D12/CRC | W0 | 805\n |  |  | D11/CRC D10/CRC | W0 W0 | 603 402",
+  "title": "Axis Title",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 6,
+  "page_end": 6
+ },
+ {
+  "content": "[表格:60115-8, 2.4.2 unless otherwise specified.](第7页)\n列: TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | PROCEDURE | REQUIREMENTS PERMISSIBLE CHANGE (ΔR) | REQUIREMENTS PERMISSIBLE CHANGE (ΔR)\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | PROCEDURE | STABILITY CLASS 1 OR BETTER | STABILITY CLASS 2 OR BETTER\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | Stability for product types: | 1 Ω to 10 MΩ | 1 Ω to 10 MΩ\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | D/CRCW | 1 Ω to 10 MΩ | \n6.1 | - | Measurements of resistance and tolerance | - | ± 1 % | ± 5 %\n6.2 | - | Temperature coefficient of resistance | At (20 / -55 / 20) °C and (20 / 155 / 20) °C | ± 100 ppm/K | ± 200 ppm/K\n7.1 | - | Endurance at rated temperature 70 °C | U = P x R ≤ U 70 max. 1.5 h on; 0.5 h off 70 °C; 1000 h 70 °C; 8000 h | ± (1 % R + 0.05 Ω) ± (2 % R + 0.1 Ω) | ± (2 % R + 0.1 Ω) ± (4 % R + 0.1 Ω)\n7.3 | - | Endurance at maximum temperature | 155 °C; 1000 h | ± (1 % R + 0.05 Ω) | ± (2 % R + 0.1 Ω)\n10.4 | 78 (Cab) | Damp heat, steady state | (40 ± 2) °C; 56 days; (93 ± 3) % RH | ± (1 % R + 0.05 Ω) | ± (1 % R + 0.05 Ω)\n10.5 | 67 (Cy) | Damp heat, steady state, accelerated | (85 ± 2) °C; (85 ± 5) % RH; U = 0.1 x P x R ≤ 100 V; 85 1000 h | ± (1 % R + 0.05 Ω) | ± (2 % R + 0.1 Ω)\n10.3 10.3.4.2 10.3.4.3 10.3.4.4 10.3.4.5 10.3.4.6 10.3.4.7 | - 2 (Ba) 30 (Db) 1 (Ab) 13 (M) 30 (Db) - | Climatic sequence: Dry heat Damp heat, cyclic Cold Low air pressure Damp heat, cyclic DC load | 125 °C; 16 h 55 °C; 24 h; ≥ 90 % RH; 1 cycle -55 °C; 2 h 8.5 kPa; 2 h; (25 ± 10) °C 55 °C; 5 days; > 90 % RH; 5 cycles U = P x R ≤ U ; 1 min 70 max. | ± (1 % R + 0.05 Ω) | ± (2 % R + 0.1 Ω)\n- | 1 (Aa) | Cold | -55 °C; 2 h | ± (0.25 % R + 0.05 Ω) | ± (0.5 % R + 0.05 Ω)\n10.1 | 14 (Na) | Rapid change of temperature | 30 min. at -55 °C and 30 min. at 125 °C 1000 cycles | ± (1 % R + 0.05 Ω) no visible damage | ± (1 % R + 0.05 Ω) no visible damage\n8.1 | - | Short-term overload | U = 2.5 x P x R ≤ 2 x U ; 70 max. whichever is the less severe; 5 s | ± (2 % R + 0.05 Ω) | ± (2 % R + 0.05 Ω)\n8.2 | - | Single pulse high voltage overload | Severity no. 4: U = 10 x P x R 70 or U ≤ 2 x U max.; whichever is the less severe; 10 pulses 10 μs / 700 μs | ± (1 % R + 0.05 Ω) no visible damage | ± (1 % R + 0.05 Ω) no visible damage",
+  "title": "60115-8, 2.4.2 unless otherwise specified.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "[表格:www.vishay.com Vishay](第8页)\n列: TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS | TEST PROCEDURES AND REQUIREMENTS\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | PROCEDURE | REQUIREMENTS PERMISSIBLE CHANGE (ΔR) | REQUIREMENTS PERMISSIBLE CHANGE (ΔR)\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | PROCEDURE | STABILITY CLASS 1 OR BETTER | STABILITY CLASS 2 OR BETTER\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | Stability for product types: | 1 Ω to 10 MΩ | 1 Ω to 10 MΩ\nEN 60115-1 CLAUSE | IEC 60068-2 (1) TEST METHOD | TEST | D/CRCW | 1 Ω to 10 MΩ | \n8.4 | - | Periodic electric overload | U = 15 x P x R 70 or ≤ 2 x U max.; whichever is the less severe; 0.1 s on; 2.5 s off; 1000 cycles | ± (1 % R + 0.05 Ω) no visible damage | ± (1 % R + 0.05 Ω) no visible damage\n8.5 | - | Electrostatic discharge (human body model) | IEC 61340-3-1 (1); 3 positive + 3 negative discharges; ESD voltage acc. to size | ± (1 % R + 0.05 Ω) | ± (1 % R + 0.05 Ω)\n9.11 | 6 (Fc) | Vibration | Endurance by sweeping; 10 Hz to 2000 Hz; no resonance; amplitude ≤ 1.5 mm or ≤ 200 m/s2; 7.5 h | ± (0.25 % R + 0.05 Ω) no visible damage | ± (0.5 % R + 0.05 Ω) no visible damage\n11.1 | 58 (Td) | Solderability | Solder bath method, Sn60Pb40; non-activated flux (235 ± 5) °C; (2 ± 0.2) s | Good tinning (≥ 95 % covered); no visible damage | Good tinning (≥ 95 % covered); no visible damage\n11.1 | 58 (Td) | Solderability | Solder bath method, Sn96.5Ag3Cu0.5 or Sn99.3Cu0.7 non-activated flux (245 ± 5) °C; (3 ± 0.3) s | Good tinning (≥ 95 % covered); no visible damage | \n11.2 | 58 (Td) | Resistance to soldering heat | Soldering bath method; (260 ± 5) °C; (10 ± 1) s | ± (0.25 % R + 0.05 Ω) | ± (0.5 % R + 0.05 Ω)\n11.3 | 45 (XA) | Component solvent resistance | Isopropyl alcohol; +50 °C; method 2 | No visible damage | No visible damage\n9.7 | 21 (Ue ) 3 | Shear (adhesion) | D11/CRCW0603 and smaller: 9 N D12/CRCW0805 to CRCW2512: 45 N | No visible damage | No visible damage\n9.8 | 21 (Uu ) 1 | Substrate bending | Depth 2 mm; 3 times | ± (0.25 % R + 0.05 Ω) no visible damage, no open circuit in bent position | ± (0.25 % R + 0.05 Ω) no visible damage, no open circuit in bent position\n12.2 | - | Voltage proof | U = 1.4 x U ; 60 s ins | No flashover or breakdown | No flashover or breakdown\n12.4 | - | Flammability, needle flame test | IEC 60695-11-5 (1); 10 s | No burning after 30 s | No burning after 30 s",
+  "title": "www.vishay.com Vishay",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 8,
+  "page_end": 8
+ },
+ {
+  "content": "[表格:T1](第9页)\n列: DIMENSIONS AND MASS | DIMENSIONS AND MASS | DIMENSIONS AND MASS | DIMENSIONS AND MASS | DIMENSIONS AND MASS | DIMENSIONS AND MASS | DIMENSIONS AND MASS\nTYPE / SIZE | L (mm) | W (mm) | H (mm) | T1 (mm) | T2 (mm) | MASS (mg)\nD10/CRCW0402 | 1.0 ± 0.05 | 0.5 ± 0.05 | 0.35 ± 0.05 | 0.25 ± 0.10 | 0.2 ± 0.10 | 0.65\nD11/CRCW0603 | 1.55 + 0.10 / - 0.05 | 0.85 ± 0.10 | 0.45 ± 0.05 | 0.3 ± 0.20 | 0.3 ± 0.20 | 2\nD12/CRCW0805 | 2.0 + 0.20 / - 0.10 | 1.25 ± 0.15 | 0.5 ± 0.10 | 0.3 + 0.20 / - 0.10 | 0.3 ± 0.20 | 5.5\nD25/CRCW1206 | 3.2 + 0.10 / - 0.20 | 1.6 ± 0.15 | 0.55 ± 0.05 | 0.45 ± 0.20 | 0.4 ± 0.20 | 10\nCRCW1210 | 3.2 ± 0.20 | 2.5 ± 0.20 | 0.55 ± 0.05 | 0.45 ± 0.20 | 0.4 ± 0.20 | 16\nCRCW1218 | 3.2 + 0.10 / - 0.20 | 4.6 ± 0.15 | 0.55 ± 0.05 | 0.45 ± 0.20 | 0.4 ± 0.20 | 29.5\nCRCW2010 | 5.0 ± 0.15 | 2.5 ± 0.15 | 0.6 ± 0.10 | 0.6 ± 0.20 | 0.6 ± 0.20 | 25.5\nCRCW2512 | 6.3 ± 0.20 | 3.15 ± 0.15 | 0.6 ± 0.10 | 0.6 ± 0.20 | 0.6 ± 0.20 | 40.5",
+  "title": "T1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 9,
+  "page_end": 9
+ },
+ {
+  "content": "[表格:Z](第9页)\n列: RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS | RECOMMENDED SOLDER PAD DIMENSIONS\nTYPE / SIZE | WAVE SOLDERING | WAVE SOLDERING | WAVE SOLDERING | WAVE SOLDERING | REFLOW SOLDERING | REFLOW SOLDERING | REFLOW SOLDERING | REFLOW SOLDERING\nTYPE / SIZE | G (mm) | Y (mm) | X (mm) | Z (mm) | G (mm) | Y (mm) | X (mm) | Z (mm)\nD10/CRCW0402 | - | - | - | - | 0.45 | 0.60 | 0.60 | 1.65\nD11/CRCW0603 | 0.65 | 1.10 | 1.25 | 2.85 | 0.75 | 0.75 | 1.00 | 2.25\nD12/CRCW0805 | 0.90 | 1.30 | 1.60 | 3.50 | 1.00 | 0.95 | 1.45 | 2.90\nD25/CRCW1206 | 1.40 | 1.40 | 1.95 | 4.20 | 1.50 | 1.05 | 1.80 | 3.60\nCRCW1210 | 1.80 | 1.45 | 2.95 | 4.70 | 1.70 | 1.10 | 2.80 | 3.90\nCRCW1218 | 1.80 | 1.30 | 5.10 | 4.40 | 1.90 | 1.10 | 4.90 | 4.10\nCRCW2010 | 3.40 | 1.65 | 2.85 | 6.70 | 3.50 | 1.45 | 2.80 | 6.40\nCRCW2512 | 4.60 | 1.60 | 3.65 | 7.80 | 4.75 | 1.45 | 3.50 | 7.65",
+  "title": "Z",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 9,
+  "page_end": 9
+ },
+ {
+  "content": "Lead (Pb)-Bearing Thick Film Chip Resistors\nFEATURES\n• Stability at different environmental conditions\nΔR/R ≤ 1 % (1000 h rated power at 70 °C)\n• AEC-Q200 qualified\n• Material categorization: for definitions of complianc e\nplease see www.vishay.com/doc?99912\nAPPLICATIONS\n• Military\nLINKS TO ADDITIONAL RESOURCES\n• Industrial\n3DDD 333D\n3D Models\nThe lead (Pb)-bearing D/CRCW thick film chip resistor s\nseries are the perfect choice for most fields of modern\nelectronics where lead (Pb)-bearing terminations are\nmandatory and high reliability and stability are of major\nconcern.\nTypical applications include military and industrial.\nNotes\n(1) Please refer to “Application Information” below\n(2) Apply to components with stability class 1",
+  "title": "Lead (Pb)-Bearing Thick Film Chip Resistors",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 1,
+  "page_end": 1
+ },
+ {
+  "content": "Revision: 09-Jul-2024 1 Document Number: 20008\nAPPLICATION INFORMATION\nWhen the resistor dissipates power, a temperature rise above the ambient temperature occurs, dependent on the thermal\nresistance of the assembled resistor together with the printed circuit board. The rated dissipation applies only if the permitted\nfilm temperature is not exceeded.\nThese resistors do not feature a limited lifetime when operated within the permissible limits. However, resistance value drif t\nincreasing over operating time may result in exceeding a limit acceptable to the specific application, thereby establishing a\nfunctional lifetime.\nNote\n• The temperature coefficient of resistance (TCR) is not specified for 0 Ω jumpers",
+  "title": "Revision: 09-Jul-2024 1 Document Number: 20008",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 1,
+  "page_end": 2
+ },
+ {
+  "content": "Revision: 09-Jul-2024 2 Document Number: 20008\nRevision: 09-Jul-2024 3 Document Number: 20008\nDESCRIPTION MATERIALS\nProduction is strictly controlled and follows an extensive se t Vishay acknowledges the following systems for th e\nof instructions established for reproducibility. A cermet film regulation of hazardous substances:\nlayer and a glass-over are deposited on a high grade (Al O )\n2 3 • IEC 62474, Material Declaration for Products of and for the\nceramic substrate with its prepared inner contacts. A\nElectrotechnical Industry, with the list of declarable\nspecial laser is used to achieve the target value by smoothly\nsubstances given therein (2)\nfine trimming the resistive layer without damaging the",
+  "title": "Revision: 09-Jul-2024 2 Document Number: 20008",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 2,
+  "page_end": 4
+ },
+ {
+  "content": "• The Global Automotive Declarable Substance Lis t\nceramics. The resistor elements are covered by a protectiv e\n(GADSL) (3)\ncoating designed for electrical, mechanical and climati c\nprotection. The terminations receive a SnPb layer on nickel • The REACH regulation (1907/2006/EC) and the related lis t\nplating . of substances with very high concern (SVHC) (4) for its\nThe result of the determined production is verified by an supply chain\nextensive testing procedure on 100 % of the individual chip Except for the intentionally added lead (Pb) in th e\nresistors. Only accepted products are laid directly into termination finish, the products do not contain any of th e\nthe tape in accordance with IEC 60286-3 Type 1a and banned substances as per IEC 62474, GADSL, or the SVHC",
+  "title": "• The Global Automotive Declarable Substance Lis t",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 4,
+  "page_end": 4
+ },
+ {
+  "content": "Type 2a (1). list, see www.vishay.com/how/leadfree.\nASSEMBLY Vishay pursues the elimination of conflict minerals from its\nsupply chain, see the Conflict Minerals Policy a t\nThe resistors are suitable for processing on automatic SMD www.vishay.com/doc?49037.\nassembly systems. They are suitable for automatic\nsoldering using wave, reflow or vapor phase as shown in APPROVALS\nIEC 61760-1 (1). The encapsulation is resistant to all\nThe resistors are qualified according to AEC-Q200.\ncleaning solvents commonly used in the electronics\nWhere applicable, the resistors are tested in accordanc e\nindustry, including alcohols, esters and aqueous solutions.\nwith EN 140401-802 which refers to EN 60115-1,\nThe suitability of conformal coatings, potting compounds",
+  "title": "Type 2a (1). list, see www.vishay.com/how/leadfree.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 4,
+  "page_end": 4
+ },
+ {
+  "content": "EN 60115-8 and the variety of environmental tes t\nand their processes, if applied, shall be qualified b y\nprocedures of the IEC 60068 (1) series.\nappropriate means to ensure the long-term stability of th e\nwhole system.\nRELATED PRODUCTS\nThe resistors with SnPb plating provides compatibility with\nThe D/CRCW e3 with lead (Pb)-free termination plating i s\nlead (Pb)-free and lead (Pb)-containing soldering processes.\ndesigned for applications where lead (Pb)-free terminations\nSolderability is specified for 2 years after production or\nare mandatory. For ordering D/CRCW with lead (Pb)-free\nrequalification. The permitted storage time is 20 years. Th e\nterminations please refer to latest edition of datasheet\nimmunity of the plating against tin whisker growth has been",
+  "title": "EN 60115-8 and the variety of environmental tes t",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 4,
+  "page_end": 4
+ },
+ {
+  "content": "D/CRCW e3 (www.vishay.com/doc?20035).\nproven under extensive testing.\nFor more information about products with better TCR and\ntighter tolerance please refer to the “Lead (Pb)-Bearing\nThick Film, Rectangular, Semi-Precision Chip Resistors ”\ndatasheet (www.vishay.com/doc?20009).\nNotes\n(1) The quoted IEC standards are also released as EN standards with the same number and identical contents\n(2) The IEC 62474 list of declarable substances is maintained in a dedicated database, which is available at http://std.iec.ch/iec62474\n(3) The Global Automotive Declarable Substance List (GADSL) is maintained by the American Chemistry Council and available at www.gadsl.org\n(4) The SVHC list is maintained by the European Chemical Agency (ECHA) and available at http://echa.europa.eu/candidate-list-table",
+  "title": "D/CRCW e3 (www.vishay.com/doc?20035).",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 4,
+  "page_end": 4
+ },
+ {
+  "content": "Revision: 09-Jul-2024 4 Document Number: 20008\nFUNCTIONAL PERFORMANCE\nSingle Pulse\nAxis Title\n1000 10000\n100\n1000\n10\n1\n100\n0.1\n0.01 10\n0.000001 0.00001 0.0001 0.001 0.01 0.1 1 10 100\nMaximum pulse load, single pulse; applicable if P → 0 and n < 1000 and = ;\nmax.\nfor permissible resistance change equivalent to 8000 h operation\nContinuous Pulse\nMaximum pulse load, continuous pulses; applicable if P ≤ P (ϑ ) and = ;\namb max.\nfor permissible resistance change equivalent to 8000 h operation\nPulse Voltage\nMaximum pulse voltage, single and continuous pulses; applicable if = ;\nmax.\nfor permissible resistance change equivalent to 8000 h operation\nRevision: 09-Jul-2024 5 Document Number: 20008\nenil\ndn2\n)W(\ndaoL\ne s\nl u\nP\n-\nP^\n.xam\nenil",
+  "title": "Revision: 09-Jul-2024 4 Document Number: 20008",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 4,
+  "page_end": 5
+ },
+ {
+  "content": "ts1\nenil\ndn2\nt-Pulse Duration (s)\ni\nUˆ Uˆ\nAxis Title\n1000 10000\n100\n1000\n10\n1\n100\n0.1\n0.01 10\n0.000001 0.00001 0.0001 0.001 0.01 0.1 1 10 100\nenil\ndn2\n)W(\ndaoL\ne\ns l u P\ns u\no\nu\nn\ni t n\no\nC\n-\n^P\n.xam\nenil\nts1\nenil\ndn2\nt-Pulse Duration (s)\ni\nUˆ Uˆ\nAxis Title\n2000 10000\n1800\n1600\n1400\n1000\n1200\n1000\n800\n100\n600\n400\n200\n0 10\n0.000001 0.00001 0.0001 0.001 0.01 0.1 1 10\nenil\ndn2\n)V(\negatlo\nV\ne s\nl u\nP\n-\nU^\n.xam\nenil\nts1\nenil\ndn2\nCRCW2512\nCRCW2010\nD25/CRCW1206, CRCW1210, CRCW1218\nD12/CRCW0805\nD11/CRCW0603\nD10/CRCW0402\nt-Pulse Duration (s)\ni\nPˆ Pˆ\nDerating\nAxis Title\n1.2 10000\n1.0\n0.8 1000\n0.6\n0.4 100\n0.2\n0 10\n-70 -60 -50 -40 -30 -20 -10 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160\nNon-Linearity\nCurrent Noise\nRevision: 09-Jul-2024 6 Document Number: 20008\nenil\ndn2\n)W(\nnoitapissiD",
+  "title": "ts1",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 5,
+  "page_end": 6
+ },
+ {
+  "content": "rewoP-P\nenil\nts1\nenil\ndn2\n-50 0 50 70 100 150\nϑ -Ambient Temperature (°C)\namb\nAxis Title\n120 10000\n100\n80 1000\n60\n40 100\n20\n0 10\n10 100 1K 10K 100K 1M 10M\nenil\ndn2\n)Bd(\n3A\ncniomraHdr3\nfo\nnoitaunettA\nenil\nts1\nenil\ndn2\nR-Resistance Value (Ω)\nAxis Title\n100 10000\n10\n1000\n1\n100\n0.1\n0.01 10\n100 1K 10K 100K 1M 10M\nenil\ndn2\n)V/Vμ(\nA\nesioN\ntnerruC\n1 enil\nts1\nenil\ndn2\nD10/CRCW0402\nD11/CRCW0603\nD12/CRCW0805\nD25/CRCW1206\nCRCW2010\nR-Resistance Value (Ω)\nTESTS AND REQUIREMENTS\nAll executed tests are carried out in accordance with the The testing also covers most of the requirements specifie d\nfollowing specifications: by EIA/IS-703 and JIS-C-5201-1.\nEN 60115-1, generic specification The tests are carried out under standard atmospheri c\nEN 60115-8, sectional specification conditions in accordance with IEC 60068-1, 4.3, whereupon",
+  "title": "rewoP-P",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 6,
+  "page_end": 7
+ },
+ {
+  "content": "the following values are applied:\nEN 140401-802, detail specification\nTemperature: 15 °C to 35 °C\nIEC 60068-2-xx, test methods\nRelative humidity: 25 % to 75 %\nThe parameters stated in the Test Procedures an d\nRequirements table are based on the required tests and Air pressure: 86 kPa to 106 kPa (860 mbar to 1060 mbar).\npermitted limits of EN 140401-802. The table presents only A climatic category LCT / UCT / 56 is applied, defined by the\nthe most important tests, for the full test schedule refer t o lower category temperature (LCT), the upper categor y\nthe documents listed above. However, some additional temperature (UCT), and the duration of exposure in th e\ntests and a number of improvements against thos e damp heat, steady state test (56 days). The components ar e",
+  "title": "the following values are applied:",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 7,
+  "page_end": 7
+ },
+ {
+  "content": "minimum requirements have been included. mounted for testing on boards in accordance with E N\n60115-8, 2.4.2 unless otherwise specified.\nRevision: 09-Jul-2024 7 Document Number: 20008\nNote\n(1) The quoted IEC standards are also released as EN standards with the same number and identical contents\nRevision: 09-Jul-2024 8 Document Number: 20008\nDIMENSIONS\nL\nT2\nW\nH\nT1\nSOLDER PAD DIMENSIONS\nG X\nY\nZ\nNote\n• The rated dissipation applies only if the permitted film temperature is not exceeded. Furthermore, a high level of ambient temperature or of\npower dissipation may raise the temperature of the solder joint, hence special solder alloys or board materials may be required to maintai n\nthe reliability of the assembly.\nThe given solder pad dimensions reflect the considerations for board design and assembly as outlined e.g. in standards IEC 61188-5-x or",
+  "title": "minimum requirements have been included. mounted for testing on boards in accord",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 7,
+  "page_end": 9
+ },
+ {
+  "content": "in publication IPC-7351. They do not guarantee any supposed thermal properties, particularly as these are also strongly influenced by man y\nother parameters. Still, the given solder pad dimensions will be found adequate for most general applications\nRevision: 09-Jul-2024 9 Document Number: 20008\nLegal Disclaimer Notice\nDisclaimer\nALL PRODUCT, PRODUCT SPECIFICATIONS AND DATA ARE SUBJECT TO CHANGE WITHOUT NOTICE TO IMPROV E\nRELIABILITY, FUNCTION OR DESIGN OR OTHERWISE.\nVishay Intertechnology, Inc., its affiliates, agents, and employees, and all persons acting on its or their behalf (collectively,\n“Vishay”), disclaim any and all liability for any errors, inaccuracies or incompleteness contained in any datasheet or in any other",
+  "title": "in publication IPC-7351. They do not guarantee any supposed thermal properties, ",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 9,
+  "page_end": 10
+ },
+ {
+  "content": "disclosure relating to any product.\nVishay makes no warranty, representation or guarantee regarding the suitability of the products for any particular purpose o r\nthe continuing production of any product. To the maximum extent permitted by applicable law, Vishay disclaims (i) any and all\nliability arising out of the application or use of any product, (ii) any and all liability, including without limitation special,\nconsequential or incidental damages, and (iii) any and all implied warranties, including warranties of fitness for particular\npurpose, non-infringement and merchantability.\nStatements regarding the suitability of products for certain types of applications are based on Vishay's knowledge of typical",
+  "title": "disclosure relating to any product.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 10,
+  "page_end": 10
+ },
+ {
+  "content": "requirements that are often placed on Vishay products in generic applications. Such statements are not binding statement s\nabout the suitability of products for a particular application. It is the customer's responsibility to validate that a particular produc t\nwith the properties described in the product specification is suitable for use in a particular application. Parameters provided in\ndatasheets and / or specifications may vary in different applications and performance may vary over time. All operatin g\nparameters, including typical parameters, must be validated for each customer application by the customer's technical experts.\nProduct specifications do not expand or otherwise modify Vishay's terms and conditions of purchase, including but not limited",
+  "title": "requirements that are often placed on Vishay products in generic applications. S",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 10,
+  "page_end": 10
+ },
+ {
+  "content": "to the warranty expressed therein.\nHyperlinks included in this datasheet may direct users to third-party websites. These links are provided as a convenience and\nfor informational purposes only. Inclusion of these hyperlinks does not constitute an endorsement or an approval by Vishay of\nany of the products, services or opinions of the corporation, organization or individual associated with the third-party website.\nVishay disclaims any and all liability and bears no responsibility for the accuracy, legality or content of the third-party website\nor for that of subsequent links.\nVishay products are not designed for use in life-saving or life-sustaining applications or any application in which the failure of",
+  "title": "to the warranty expressed therein.",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 10,
+  "page_end": 10
+ },
+ {
+  "content": "the Vishay product could result in personal injury or death unless specifically qualified in writing by Vishay. Customers using or\nselling Vishay products not expressly indicated for use in such applications do so at their own risk. Please contact authorized\nVishay personnel to obtain written terms and conditions regarding products designed for such applications.\nNo license, express or implied, by estoppel or otherwise, to any intellectual property rights is granted by this document or b y\nany conduct of Vishay. Product names and markings noted herein may be trademarks of their respective owners.\n© 2026 VISHAY INTERTECHNOLOGY, INC. ALL RIGHTS RESERVED\nRevision: 01-Jan-2026 1 Document Number: 91000",
+  "title": "the Vishay product could result in personal injury or death unless specifically ",
+  "parent_title": "",
+  "file_title": "dcrcw",
+  "item_name": "D10/CRCW0402,D11/CRCW0603,D12/CRCW0805,D25/CRCW1206,CRCW1210,CRCW1218,CRCW2010,CRCW2512",
+  "page": 10,
+  "page_end": 10
+ }
+]

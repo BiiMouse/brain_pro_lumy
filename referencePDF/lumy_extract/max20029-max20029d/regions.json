@@ -1,0 +1,99 @@
+{
+ "file_name": "max20029-max20029d.pdf",
+ "page_count": 18,
+ "regions": [
+  {
+   "type": "features",
+   "title": "General Description / Benefits and Features",
+   "page_start": 1,
+   "page_end": 2,
+   "role": "body"
+  },
+  {
+   "type": "ec_table",
+   "title": "Absolute Maximum Ratings / Electrical Characteristics / Typical Operating Characteristics",
+   "page_start": 3,
+   "page_end": 7,
+   "role": "param_source"
+  },
+  {
+   "type": "body",
+   "title": "Pin Configuration / Pin Description / Internal Block Diagram / Detailed Description / Applications Information / Typical Operating Circuits",
+   "page_start": 8,
+   "page_end": 15,
+   "role": "body"
+  },
+  {
+   "type": "selector_guide",
+   "title": "Selector Guide",
+   "page_start": 16,
+   "page_end": 16,
+   "role": "model_source"
+  },
+  {
+   "type": "ordering_info",
+   "title": "Ordering Information",
+   "page_start": 17,
+   "page_end": 17,
+   "role": "opn_source"
+  },
+  {
+   "type": "selector_guide",
+   "title": "[anchor:selector guide]",
+   "page_start": 17,
+   "page_end": 17,
+   "role": "model_source"
+  },
+  {
+   "type": "body",
+   "title": "Revision History",
+   "page_start": 18,
+   "page_end": 18,
+   "role": "body"
+  }
+ ],
+ "anchors": [
+  {
+   "page": 4,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 5,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 6,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 16,
+   "type": "selector_guide",
+   "role": "model_source",
+   "keyword": "selector guide",
+   "strength": "strong"
+  },
+  {
+   "page": 17,
+   "type": "ordering_info",
+   "role": "opn_source",
+   "keyword": "ordering information",
+   "strength": "strong"
+  },
+  {
+   "page": 17,
+   "type": "selector_guide",
+   "role": "model_source",
+   "keyword": "selector guide",
+   "strength": "weak"
+  }
+ ]
+}

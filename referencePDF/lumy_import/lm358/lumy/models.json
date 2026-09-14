@@ -1,0 +1,1985 @@
+{
+ "file_name": "lm358.pdf",
+ "families": [
+  {
+   "family_name": "LM358",
+   "family_type": "normal",
+   "notes": "行业内标准双运放，含 LM358/LM358A/LM358B/LM358BA 四个功能变体（代际 B 与失调档 A）。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "LM2904",
+   "family_type": "normal",
+   "notes": "车规/宽温双运放家族，含 LM2904、LM2904B、LM2904BA、LM2904V（及文档列出的 LM2904AV），区别于 LM358 的工作温度与供电范围。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "LM258",
+   "family_type": "normal",
+   "notes": "−25°C 至 85°C 温度档双运放家族，含 LM258 与低失调档 LM258A。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "LM158",
+   "family_type": "normal",
+   "notes": "军用级 −55°C 至 125°C 温度档双运放家族，含 LM158 与低失调档 LM158A。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "LM358B",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM358BA",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM2904B",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM2904BA",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM358A",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM2904V",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM2904AV",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM258A",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "LM158A",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "LM358",
+   "family": "LM358",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±7 mV",
+    "input_bias_current_typ_max": "20 / 250 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "0 to 70 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM358 LM358A | Supply voltage 3 to 30 | Offset voltage (max, 25°C) ± 7 ± 3 | Operating ambient temperature 0 to 70"
+  },
+  {
+   "ppn": "LM358A",
+   "family": "LM358",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±3 mV",
+    "input_bias_current_typ_max": "15 / 100 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "0 to 70 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM358 LM358A | Offset voltage (max, 25°C) ± 7 ± 3 | Input bias current 20 / 250 15 / 100"
+  },
+  {
+   "ppn": "LM358B",
+   "family": "LM358",
+   "attributes": {
+    "supply_voltage": "3 to 36 V",
+    "offset_voltage_max_25C": "±3 mV",
+    "input_bias_current_typ_max": "10 / 35 nA",
+    "gain_bandwidth_product": "1.2 MHz",
+    "supply_current_typ_per_ch": "0.3 mA",
+    "ESD_HBM": "2000 V",
+    "operating_ambient_temp": "-40 to 85 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM358B LM358BA | Supply voltage 3 to 36 | Offset voltage (max, 25°C) ± 3 ± 2 | Gain bandwidth product 1.2 | Operating ambient temperature −40 to 85"
+  },
+  {
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "attributes": {
+    "supply_voltage": "3 to 36 V",
+    "offset_voltage_max_25C": "±2 mV",
+    "input_bias_current_typ_max": "10 / 35 nA",
+    "gain_bandwidth_product": "1.2 MHz",
+    "supply_current_typ_per_ch": "0.3 mA",
+    "ESD_HBM": "2000 V",
+    "operating_ambient_temp": "-40 to 85 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Features: 2mV input offset voltage maximum at 25°C (BA version); Family Comparison: LM358B LM358BA | Offset voltage (max, 25°C) ± 3 ± 2"
+  },
+  {
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "attributes": {
+    "supply_voltage": "3 to 26 V",
+    "offset_voltage_max_25C": "±7 mV",
+    "input_bias_current_typ_max": "20 / 250 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-40 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM2904 | Supply voltage 3 to 26 | Offset voltage (max, 25°C) ± 7 | Operating ambient temperature −40 to 125"
+  },
+  {
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "attributes": {
+    "supply_voltage": "3 to 36 V",
+    "offset_voltage_max_25C": "±3 mV",
+    "input_bias_current_typ_max": "10 / 35 nA",
+    "gain_bandwidth_product": "1.2 MHz",
+    "supply_current_typ_per_ch": "0.3 mA",
+    "ESD_HBM": "2000 V",
+    "operating_ambient_temp": "-40 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM2904B LM2904BA | Supply voltage 3 to 36 | Offset voltage (max, 25°C) ± 3 ± 2 | Operating ambient temperature −40 to 125"
+  },
+  {
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "attributes": {
+    "supply_voltage": "3 to 36 V",
+    "offset_voltage_max_25C": "±2 mV",
+    "input_bias_current_typ_max": "10 / 35 nA",
+    "gain_bandwidth_product": "1.2 MHz",
+    "supply_current_typ_per_ch": "0.3 mA",
+    "ESD_HBM": "2000 V",
+    "operating_ambient_temp": "-40 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Features: 2mV maximum for LM358BA and LM2904BA; Family Comparison: LM2904B LM2904BA | Offset voltage (max, 25°C) ± 3 ± 2"
+  },
+  {
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±7 mV",
+    "input_bias_current_typ_max": "20 / 250 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-40 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM2904V LM2904AV | Supply voltage 3 to 30 | Offset voltage (max, 25°C) ± 7 ± 2 | Operating ambient temperature −40 to 125"
+  },
+  {
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±2 mV",
+    "gain_bandwidth_product": "0.7 MHz",
+    "operating_ambient_temp": "-40 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison 表头列: LM2904V LM2904AV | Offset voltage (max, 25°C) ± 7 ± 2"
+  },
+  {
+   "ppn": "LM258",
+   "family": "LM258",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±5 mV",
+    "input_bias_current_typ_max": "20 / 150 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-25 to 85 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM258 LM258A | Offset voltage (max, 25°C) ± 5 ± 3 | Operating ambient temperature −25 to 85"
+  },
+  {
+   "ppn": "LM258A",
+   "family": "LM258",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±3 mV",
+    "input_bias_current_typ_max": "15 / 80 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-25 to 85 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM258 LM258A | Input bias current (typ / max) 20 / 150 15 / 80 | Offset voltage (max, 25°C) ± 5 ± 3"
+  },
+  {
+   "ppn": "LM158",
+   "family": "LM158",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±5 mV",
+    "input_bias_current_typ_max": "20 / 150 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-55 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM158 LM158A | Offset voltage (max, 25°C) ± 5 ± 2 | Operating ambient temperature −55 to 125"
+  },
+  {
+   "ppn": "LM158A",
+   "family": "LM158",
+   "attributes": {
+    "supply_voltage": "3 to 30 V",
+    "offset_voltage_max_25C": "±2 mV",
+    "input_bias_current_typ_max": "15 / 50 nA",
+    "gain_bandwidth_product": "0.7 MHz",
+    "supply_current_typ_per_ch": "0.35 mA",
+    "ESD_HBM": "500 V",
+    "operating_ambient_temp": "-55 to 125 °C"
+   },
+   "evidence_page": 1,
+   "evidence": "Family Comparison: LM158 LM158A | Input bias current (typ / max) 20 / 150 15 / 50 | Offset voltage (max, 25°C) ± 5 ± 2"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "5962-87710012A",
+   "ppn": "",
+   "family": "LM158",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum",
+   "notes": "LLM归属"
+  },
+  {
+   "opn": "5962-8771001PA",
+   "ppn": "",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum",
+   "notes": "LLM归属"
+  },
+  {
+   "opn": "5962-87710022A",
+   "ppn": "",
+   "family": "LM158A",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum",
+   "notes": "LLM归属"
+  },
+  {
+   "opn": "5962-8771002PA",
+   "ppn": "",
+   "family": "LM158A",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum",
+   "notes": "LLM归属"
+  },
+  {
+   "opn": "LM158AFKB",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158AFKB.A",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158AJG",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158AJG.A",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158AJGB",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158AJGB.A",
+   "ppn": "LM158A",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158FKB",
+   "ppn": "LM158",
+   "family": "LM158",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158FKB.A",
+   "ppn": "LM158",
+   "family": "LM158",
+   "package": "LCCC (FK) | 20",
+   "packing": "55 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158JG",
+   "ppn": "LM158",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158JG.A",
+   "ppn": "LM158",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 33,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM158JGB.A",
+   "ppn": "LM158",
+   "family": "LM158",
+   "package": "CDIP (JG) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADGKR",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADGKR.A",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADGKR.B",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADR",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADR.A",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADR.B",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADRG4",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADRG4.A",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258ADRG4.B",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258AP",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258AP.A",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258AP.B",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258APE4",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258APE4.A",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258APE4.B",
+   "ppn": "LM258A",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DGKR",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DGKR.A",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DGKR.B",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DR",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DR.A",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DR.B",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DRG3",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DRG4",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258DRG4.B",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258P",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258P.A",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258P.B",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258PE4",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM258PE4.B",
+   "ppn": "LM258",
+   "family": "LM258",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDR",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDR.A",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDR.B",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDRG4",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDRG4.A",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQDRG4.B",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWR",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWR.A",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWR.B",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWRG4",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWRG4.A",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904AVQPWRG4.B",
+   "ppn": "LM2904AV",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDDFR",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDDFR.A",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDDFR.B",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDGKR",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDGKR.A",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDGKR.B",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDR",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDR.A",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIDR.B",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIPWR",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIPWR.A",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BAIPWR.B",
+   "ppn": "LM2904BA",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDDFR.A",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDDFR.B",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDGKR",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDGKR.A",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDGKR.B",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDR",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDR.A",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDR.B",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDRG4",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDRG4.A",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIDRG4.B",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIPWR",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIPWR.A",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904BIPWR.B",
+   "ppn": "LM2904B",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DE4",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "null (null) |",
+   "packing": "75 | TUBE",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DGKR",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DGKR.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DGKR.B",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DR",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DR.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DR.B",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DRG3",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904DRG4",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904P",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904P.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904P.B",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PE4",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PE4.B",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PSR",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PSR.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PW",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PWR",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PWR.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PWRG3",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904PWRG4-JF",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904QDR",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904QDR.A",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904QDR.B",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904QDRG4",
+   "ppn": "LM2904",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDR",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDR.A",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDR.B",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDRG4",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDRG4.A",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQDRG4.B",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWR",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWR.A",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWR.B",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWRG4",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWRG4.A",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM2904VQPWRG4.B",
+   "ppn": "LM2904V",
+   "family": "LM2904",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADE4",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "null (null) |",
+   "packing": "75 | TUBE",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADGKR",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADGKR.A",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADR",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADR.A",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358ADR.B",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358AP",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358AP.B",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APE4",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APE4.A",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APE4.B",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APW",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APWR",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358APWR.A",
+   "ppn": "LM358A",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFR",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFR.A",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFR.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFRG4",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFRG4.A",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDDFRG4.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDGKR",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDGKR.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDR",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDR.A",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDR.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDRG4",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDRG4.A",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIDRG4.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIPWR",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIPWR.A",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BAIPWR.B",
+   "ppn": "LM358BA",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDDFR",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDDFR.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOT-23-THIN (DDF) | 8",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDGKR.A",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDGKR.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDR",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDR.A",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDR.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDRG4",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDRG4.A",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIDRG4.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWR",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWR.A",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWR.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWRG4",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWRG4.A",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358BIPWRG4.B",
+   "ppn": "LM358B",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358D",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DGKR",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DGKR.B",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "VSSOP (DGK) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DR",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DR.A",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DR.B",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DRG3",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358DRG4",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358P",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358P.A",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358P.B",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PE3",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PE4",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PE4.A",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PSR",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PSR.A",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PW",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PWR",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PWR.A",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PWRG3",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "LM358PWRG4-JF",
+   "ppn": "LM358",
+   "family": "LM358",
+   "package": "TSSOP (PW) | 8",
+   "packing": "-",
+   "evidence_page": 40,
+   "source": "addendum"
+  }
+ ],
+ "naming_rules": [],
+ "cover_check": {
+  "cover_tokens": [
+   "LM158",
+   "LM158A",
+   "LM258",
+   "LM258A",
+   "LM2904",
+   "LM2904B",
+   "LM2904BA",
+   "LM2904V",
+   "LM358",
+   "LM358A",
+   "LM358B",
+   "LM358BA"
+  ],
+  "uncovered": []
+ },
+ "issues": []
+}

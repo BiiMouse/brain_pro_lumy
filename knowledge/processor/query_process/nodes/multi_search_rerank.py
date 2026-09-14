@@ -18,6 +18,12 @@ class RerankSearchNode(BaseNode):
         # web搜索数据 + rrf融合数据
         merged_multi_doc:List[Dict[str,Any]] = self.merge_multi_data(state)
 
+        # 空候选保护：两路检索都为空时直接返回，避免 compute_score([]) 崩溃
+        if not merged_multi_doc:
+            self.logger.info("融合后候选为空，跳过 Rerank")
+            state['reranked_docs'] = []
+            return state
+
         # ========== 性能优化：限制Reranker输入数量（CPU模式优化）==========
         # 3. 限制最大输入数量（避免CPU模式下Reranker推理过慢）
         #    原因：CPU模式下BGE-Reranker推理速度约50-100ms/文档，30个文档需要1.5-3秒
@@ -45,8 +51,8 @@ class RerankSearchNode(BaseNode):
         # 定义列表，封装最终数据
         # [{content:'111',title:'444'},{...}]
         final_data = []
-        # 处理rrf数据
-        rrf_chunks = state.get('rrf_chunks' or [])
+        # 处理rrf数据（or [] 兜底：lumy 图无 web_search 节点时通道可能未设置）
+        rrf_chunks = state.get('rrf_chunks') or []
         for rrf_doc in rrf_chunks:
             content = rrf_doc.get('content')
             if not content:
@@ -56,12 +62,16 @@ class RerankSearchNode(BaseNode):
             chunk_dict_data = {
                 "content":content,
                 "title":title,
-                "chunk_id":chunk_id
+                "chunk_id":chunk_id,
+                # lumy 链路的证据字段（brain 链路无此字段时为空串，向后兼容）
+                "page": rrf_doc.get('page', ''),
+                "page_end": rrf_doc.get('page_end', ''),
+                "file_title": rrf_doc.get('file_title', ''),
             }
             final_data.append(chunk_dict_data)
 
         # 处理web搜索数据
-        web_search_docs = state.get('web_search_docs' or [])
+        web_search_docs = state.get('web_search_docs') or []
         for web_doc in web_search_docs:
             content = (web_doc.get('content','')
                        or web_doc.get('snippet',''))

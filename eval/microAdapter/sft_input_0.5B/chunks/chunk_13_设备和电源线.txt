@@ -1,0 +1,13 @@
+# 设备和电源线
+
+•	请仅使用本设备随附的电源线。
+
+•	不要在本设备周围放置任何物体。在紧急情况下，此类物体会阻碍接近电源插座。必须保证在需要时可以拔出设备的插头。
+
+•	请遵守所有适用法规来处理本设备。
+
+![禁止在设备周围放置物体阻碍电源插头拔出](http://192.168.11.104:9000/knowledge-base-v2/hak180产品安全手册/7b91b771f18d46023a8f124b362b664a35c4cb5f7b9edf71f8aedcf936652326.jpg)
+
+产品中有害物质的名称及含量
+
+<table><tr><td rowspan=1 colspan=1>型号</td><td rowspan=1 colspan=6>有害物质</td></tr><tr><td rowspan=1 colspan=1>HAK180</td><td rowspan=1 colspan=1>铅</td><td rowspan=1 colspan=1>汞</td><td rowspan=1 colspan=1>镉</td><td rowspan=1 colspan=1>六价铬</td><td rowspan=1 colspan=1>多溴联苯</td><td rowspan=1 colspan=1>多溴二苯醚</td></tr><tr><td rowspan=1 colspan=1>部件名称</td><td rowspan=1 colspan=1>(Pb)</td><td rowspan=1 colspan=1>(Hg)</td><td rowspan=1 colspan=1>(Cd)</td><td rowspan=1 colspan=1>(Cr(VI))</td><td rowspan=1 colspan=1>(PBB)</td><td rowspan=1 colspan=1>(PBDE)</td></tr><tr><td rowspan=1 colspan=1>框架L单元</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>框架R单元</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>中框架单元</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>框架</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>顶盖单元</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>进纸器单元</td><td rowspan=1 colspan=1>×</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>O</td><td rowspan=1 colspan=1>0</td><td rowspan=1 colspan=1>0</td></tr><tr><td rowspan=1 colspan=1>热熔器</td><td rowspan=1 colspan=1>×</td><td rowspan=1

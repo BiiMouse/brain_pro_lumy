@@ -1,0 +1,260 @@
+{
+ "file_name": "tl431.pdf",
+ "page_count": 85,
+ "regions": [
+  {
+   "type": "features",
+   "title": "1 Features / 3 Description",
+   "page_start": 1,
+   "page_end": 1,
+   "role": "body"
+  },
+  {
+   "type": "toc",
+   "title": "Table of Contents",
+   "page_start": 2,
+   "page_end": 2,
+   "role": "noise"
+  },
+  {
+   "type": "comparison",
+   "title": "4 Device Comparison Table",
+   "page_start": 3,
+   "page_end": 3,
+   "role": "model_source"
+  },
+  {
+   "type": "body",
+   "title": "5 Pin Configuration and Functions",
+   "page_start": 4,
+   "page_end": 4,
+   "role": "body"
+  },
+  {
+   "type": "ec_table",
+   "title": "6 Specifications / Electrical Characteristics / Typical Characteristics",
+   "page_start": 5,
+   "page_end": 20,
+   "role": "param_source"
+  },
+  {
+   "type": "body",
+   "title": "8 Detailed Description / 9 Applications and Implementation",
+   "page_start": 21,
+   "page_end": 31,
+   "role": "body"
+  },
+  {
+   "type": "nomenclature",
+   "title": "10.1 Device Nomenclature",
+   "page_start": 32,
+   "page_end": 32,
+   "role": "model_source"
+  },
+  {
+   "type": "body",
+   "title": "10 Device and Documentation Support",
+   "page_start": 33,
+   "page_end": 33,
+   "role": "body"
+  },
+  {
+   "type": "package_addendum",
+   "title": "PACKAGE OPTION ADDENDUM / PACKAGING INFORMATION",
+   "page_start": 34,
+   "page_end": 85,
+   "role": "opn_source"
+  }
+ ],
+ "anchors": [
+  {
+   "page": 3,
+   "type": "comparison",
+   "role": "model_source",
+   "keyword": "device comparison table",
+   "strength": "strong"
+  },
+  {
+   "page": 6,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 7,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 8,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 9,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 10,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 11,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 12,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 13,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 14,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 32,
+   "type": "nomenclature",
+   "role": "model_source",
+   "keyword": "device nomenclature",
+   "strength": "weak"
+  },
+  {
+   "page": 34,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "packaging information",
+   "strength": "strong"
+  },
+  {
+   "page": 34,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 35,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 36,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 37,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 38,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 39,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 40,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 41,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 42,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 43,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 44,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 45,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 46,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 47,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 48,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  }
+ ]
+}

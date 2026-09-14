@@ -1,4 +1,5 @@
 import json
+import os
 
 from langgraph.constants import END
 from langgraph.graph import StateGraph
@@ -13,6 +14,15 @@ from knowledge.processor.import_process.nodes.knowledge_graph_node import KnowGr
 from knowledge.processor.import_process.nodes.md_img import MdImageNode
 from knowledge.processor.import_process.nodes.pdf_to_md import PdfToMdNode
 from knowledge.processor.import_process.state import ImportGraphState, create_default_state
+
+# Lumy 链路节点（半导体规格书场景）
+from knowledge.processor.import_process.nodes.pdf_table_extract import PdfTableExtractNode
+from knowledge.processor.import_process.nodes.region_label import RegionLabelNode
+from knowledge.processor.import_process.nodes.model_extract import ModelExtractNode
+from knowledge.processor.import_process.nodes.pg_import import PgImportNode
+from knowledge.processor.import_process.nodes.lumy_chunk_nodes import (
+    LumyDocumentSplitNode, LumyImportMilvusNode,
+)
 
 # 路由方法
 def import_router(state:ImportGraphState):
@@ -109,7 +119,48 @@ def create_graph_import() -> StateGraph:
     graph = builder.compile()
     return graph
 
-graph = create_graph_import()
+
+# ============================================================================
+# Lumy 场景导入图（半导体规格书：结构化链路B + 语义链路A）
+# 链路B：pdf_table_extract → region_label → model_extract → pg_import
+# 链路A：lumy_split(带页码分块) → bge_embedding → lumy_import_milvus
+# 通过环境变量 KB_SCENARIO=lumy 启用；默认 brain 走上方原图，行为不变
+# ============================================================================
+def create_graph_import_lumy() -> StateGraph:
+    builder = StateGraph(ImportGraphState)
+
+    builder.set_entry_point("entry_node")
+    nodes = {
+        "entry_node": EntryNode(),
+        # 链路B（结构化）
+        "pdf_table_extract": PdfTableExtractNode(),
+        "region_label": RegionLabelNode(),
+        "model_extract": ModelExtractNode(),
+        "pg_import": PgImportNode(),
+        # 链路A（语义，带页码）
+        "lumy_split": LumyDocumentSplitNode(),
+        "bge_embedding_node": ChunksEmbeddingNode(),
+        "import_milvus_node": LumyImportMilvusNode(),
+    }
+    for key, value in nodes.items():
+        builder.add_node(key, value)
+
+    builder.add_edge("entry_node", "pdf_table_extract")
+    builder.add_edge("pdf_table_extract", "region_label")
+    builder.add_edge("region_label", "model_extract")
+    builder.add_edge("model_extract", "pg_import")
+    builder.add_edge("pg_import", "lumy_split")
+    builder.add_edge("lumy_split", "bge_embedding_node")
+    builder.add_edge("bge_embedding_node", "import_milvus_node")
+    builder.add_edge("import_milvus_node", END)
+
+    return builder.compile()
+
+
+# 场景开关：KB_SCENARIO=lumy 时导入图走 Lumy 双链路，否则保持 brain 原图
+graph = (create_graph_import_lumy()
+         if os.getenv("KB_SCENARIO", "brain") == "lumy"
+         else create_graph_import())
 
 # 测试
 # 构建状态数据，流式输出

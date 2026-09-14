@@ -117,14 +117,17 @@ class _MilvusInsertBuilder:
 
 # 4 节点类：主体调用流程
 class ImportMilvusNode(BaseNode):
+    def _collection_name(self) -> str:
+        """集合名钩子：lumy 子类覆写以使用独立集合"""
+        return get_config().chunks_collection
+
     def process(self, state: ImportGraphState) -> ImportGraphState:
         # 1 参数校验
         chunks = self._validate_param(state)
 
         # 2 获取milvus连接对象和集合名称
         milvus_client = get_milvus_client()
-        config = get_config()
-        collection_name = config.chunks_collection
+        collection_name = self._collection_name()
 
         # 3 判断集合是否存在，不存在创建
         self.is_has_collection(milvus_client,collection_name)

@@ -1,0 +1,204 @@
+Could not find platform independent libraries <prefix>
+D:\AIpractise\shopkeer_brain - 副本\.venv\Lib\site-packages\langgraph\checkpoint\base\__init__.py:18: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+待导入 5 份: ['dcrcw.pdf', 'lm317.pdf', 'lm358.pdf', 'max20029-max20029d.pdf', 'tl431.pdf']
+INFO:import.base_node:--- base_node 开始 ---
+INFO:import.base_node:[步骤1] [开始检查文件类型]
+INFO:import.base_node:[pdf] [pdf检查通过]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.pdf_table_extract:--- pdf_table_extract 开始 ---
+INFO:import.pdf_table_extract:[step1] dcrcw.pdf 共10页，提取表格17个，跨页合并1组 → referencePDF\lumy_import\dcrcw\lumy\pdf_tables.json
+INFO:import.pdf_table_extract:--- pdf_table_extract 完成 ---
+INFO:import.region_label:--- region_label 开始 ---
+INFO:import.region_label:[step1] 锚点命中 1 处
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.region_label:[step2] LLM 划分 6 个区域
+INFO:import.region_label:[step3] 区域标注完成 → referencePDF\lumy_import\dcrcw\lumy\regions.json
+INFO:import.region_label:--- region_label 完成 ---
+INFO:import.model_extract:--- model_extract 开始 ---
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.model_extract:[done] 家族8 PPN8 OPN2 规则2 → referencePDF\lumy_import\dcrcw\lumy\models.json
+INFO:import.model_extract:--- model_extract 完成 ---
+INFO:import.pg_import:--- pg_import 开始 ---
+INFO:import.pg_import:[done] dcrcw.pdf 入库: {'families': 8, 'ppns': 8, 'opns': 2, 'naming_rules': 2, 'regions': 7}
+INFO:import.pg_import:--- pg_import 完成 ---
+INFO:import.lumy_document_split:--- lumy_document_split 开始 ---
+INFO:import.lumy_document_split:[done] dcrcw: 34 块 (页眉页脚剔除 5 行) → lumy_chunks.json
+INFO:import.lumy_document_split:--- lumy_document_split 完成 ---
+INFO:import.base_node:--- base_node 开始 ---
+INFO:knowledge.utils.bgem3_client_util:首次加载BGE-M3模型...
+INFO:FlagEmbedding.finetune.embedder.encoder_only.m3.runner:loading existing colbert_linear and sparse_linear---------
+INFO:knowledge.utils.bgem3_client_util:BGE-M3模型加载完成
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 86.48it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:44<00:44, 44.35s/it]Inference Embeddings: 100%|██████████| 2/2 [00:46<00:00, 19.66s/it]Inference Embeddings: 100%|██████████| 2/2 [00:46<00:00, 23.37s/it]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 开始 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 完成 ---
+[OK] dcrcw: 229s pg={'families': 8, 'ppns': 8, 'opns': 2, 'naming_rules': 2, 'regions': 7} chunks=34
+INFO:import.base_node:--- base_node 开始 ---
+INFO:import.base_node:[步骤1] [开始检查文件类型]
+INFO:import.base_node:[pdf] [pdf检查通过]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.pdf_table_extract:--- pdf_table_extract 开始 ---
+INFO:import.pdf_table_extract:[step1] lm317.pdf 共44页，提取表格39个，跨页合并1组 → referencePDF\lumy_import\lm317\lumy\pdf_tables.json
+INFO:import.pdf_table_extract:--- pdf_table_extract 完成 ---
+INFO:import.region_label:--- region_label 开始 ---
+INFO:import.region_label:[step1] 锚点命中 7 处
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.region_label:[step2] LLM 划分 9 个区域
+INFO:import.region_label:[step3] 区域标注完成 → referencePDF\lumy_import\lm317\lumy\regions.json
+INFO:import.region_label:--- region_label 完成 ---
+INFO:import.model_extract:--- model_extract 开始 ---
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.model_extract:[done] 家族7 PPN7 OPN15 规则1 → referencePDF\lumy_import\lm317\lumy\models.json
+INFO:import.model_extract:--- model_extract 完成 ---
+INFO:import.pg_import:--- pg_import 开始 ---
+INFO:import.pg_import:[done] lm317.pdf 入库: {'families': 7, 'ppns': 7, 'opns': 15, 'naming_rules': 1, 'regions': 10}
+INFO:import.pg_import:--- pg_import 完成 ---
+INFO:import.lumy_document_split:--- lumy_document_split 开始 ---
+INFO:import.lumy_document_split:[done] lm317: 94 块 (页眉页脚剔除 2 行) → lumy_chunks.json
+INFO:import.lumy_document_split:--- lumy_document_split 完成 ---
+INFO:import.base_node:--- base_node 开始 ---
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 209.48it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:42<00:42, 42.39s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 18.44s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 22.03s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 121.29it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:42<00:42, 42.90s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 18.50s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 22.16s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 70.03it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:30<00:30, 30.87s/it]Inference Embeddings: 100%|██████████| 2/2 [00:35<00:00, 15.42s/it]Inference Embeddings: 100%|██████████| 2/2 [00:35<00:00, 17.74s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 36.65it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:24<00:24, 24.58s/it]Inference Embeddings: 100%|██████████| 2/2 [00:29<00:00, 12.91s/it]Inference Embeddings: 100%|██████████| 2/2 [00:29<00:00, 14.66s/it]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 开始 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 完成 ---
+[OK] lm317: 373s pg={'families': 7, 'ppns': 7, 'opns': 15, 'naming_rules': 1, 'regions': 10} chunks=94
+INFO:import.base_node:--- base_node 开始 ---
+INFO:import.base_node:[步骤1] [开始检查文件类型]
+INFO:import.base_node:[pdf] [pdf检查通过]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.pdf_table_extract:--- pdf_table_extract 开始 ---
+INFO:import.pdf_table_extract:[step1] lm358.pdf 共68页，提取表格62个，跨页合并5组 → referencePDF\lumy_import\lm358\lumy\pdf_tables.json
+INFO:import.pdf_table_extract:--- pdf_table_extract 完成 ---
+INFO:import.region_label:--- region_label 开始 ---
+INFO:import.region_label:[step1] 锚点命中 18 处
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.region_label:[step2] LLM 划分 6 个区域
+INFO:import.region_label:[step3] 区域标注完成 → referencePDF\lumy_import\lm358\lumy\regions.json
+INFO:import.region_label:--- region_label 完成 ---
+INFO:import.model_extract:--- model_extract 开始 ---
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.model_extract:[done] 家族13 PPN13 OPN187 规则0 → referencePDF\lumy_import\lm358\lumy\models.json
+INFO:import.model_extract:--- model_extract 完成 ---
+INFO:import.pg_import:--- pg_import 开始 ---
+INFO:import.pg_import:[done] lm358.pdf 入库: {'families': 13, 'ppns': 13, 'opns': 187, 'naming_rules': 0, 'regions': 6}
+INFO:import.pg_import:--- pg_import 完成 ---
+INFO:import.lumy_document_split:--- lumy_document_split 开始 ---
+INFO:import.lumy_document_split:[done] lm358: 156 块 (页眉页脚剔除 0 行) → lumy_chunks.json
+INFO:import.lumy_document_split:--- lumy_document_split 完成 ---
+INFO:import.base_node:--- base_node 开始 ---
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 75.55it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:40<00:40, 40.63s/it]Inference Embeddings: 100%|██████████| 2/2 [00:47<00:00, 20.77s/it]Inference Embeddings: 100%|██████████| 2/2 [00:47<00:00, 23.75s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize:  50%|█████     | 1/2 [00:00<00:00,  1.26it/s]pre tokenize: 100%|██████████| 2/2 [00:01<00:00,  1.03it/s]pre tokenize: 100%|██████████| 2/2 [00:01<00:00,  1.06it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:39<00:39, 39.90s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 17.48s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 20.84s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 55.62it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:39<00:39, 39.41s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 17.48s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 20.77s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 40.55it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:39<00:39, 39.48s/it]Inference Embeddings: 100%|██████████| 2/2 [00:42<00:00, 18.01s/it]Inference Embeddings: 100%|██████████| 2/2 [00:42<00:00, 21.23s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 101.02it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:32<00:32, 32.04s/it]Inference Embeddings: 100%|██████████| 2/2 [00:36<00:00, 16.11s/it]Inference Embeddings: 100%|██████████| 2/2 [00:36<00:00, 18.50s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 43.13it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:36<00:36, 36.93s/it]Inference Embeddings: 100%|██████████| 2/2 [00:42<00:00, 18.58s/it]Inference Embeddings: 100%|██████████| 2/2 [00:42<00:00, 21.33s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 79.51it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:26<00:26, 26.01s/it]Inference Embeddings: 100%|██████████| 2/2 [00:30<00:00, 13.20s/it]Inference Embeddings: 100%|██████████| 2/2 [00:30<00:00, 15.12s/it]
+pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 46.48it/s]
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:30<00:00, 30.44s/it]Inference Embeddings: 100%|██████████| 1/1 [00:30<00:00, 30.44s/it]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 开始 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 完成 ---
+[OK] lm358: 679s pg={'families': 13, 'ppns': 13, 'opns': 187, 'naming_rules': 0, 'regions': 6} chunks=156
+INFO:import.base_node:--- base_node 开始 ---
+INFO:import.base_node:[步骤1] [开始检查文件类型]
+INFO:import.base_node:[pdf] [pdf检查通过]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.pdf_table_extract:--- pdf_table_extract 开始 ---
+INFO:import.pdf_table_extract:[step1] max20029-max20029d.pdf 共18页，提取表格18个，跨页合并2组 → referencePDF\lumy_import\max20029-max20029d\lumy\pdf_tables.json
+INFO:import.pdf_table_extract:--- pdf_table_extract 完成 ---
+INFO:import.region_label:--- region_label 开始 ---
+INFO:import.region_label:[step1] 锚点命中 6 处
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.region_label:[step2] LLM 划分 7 个区域
+INFO:import.region_label:[step3] 区域标注完成 → referencePDF\lumy_import\max20029-max20029d\lumy\regions.json
+INFO:import.region_label:--- region_label 完成 ---
+INFO:import.model_extract:--- model_extract 开始 ---
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.model_extract:PPN/OPN 同串去重：36 → 18
+INFO:import.model_extract:[done] 家族4 PPN18 OPN18 规则4 → referencePDF\lumy_import\max20029-max20029d\lumy\models.json
+INFO:import.model_extract:--- model_extract 完成 ---
+INFO:import.pg_import:--- pg_import 开始 ---
+INFO:import.pg_import:[done] max20029-max20029d.pdf 入库: {'families': 4, 'ppns': 18, 'opns': 18, 'naming_rules': 4, 'regions': 8}
+INFO:import.pg_import:--- pg_import 完成 ---
+INFO:import.lumy_document_split:--- lumy_document_split 开始 ---
+INFO:import.lumy_document_split:[done] max20029-max20029d: 47 块 (页眉页脚剔除 2 行) → lumy_chunks.json
+INFO:import.lumy_document_split:--- lumy_document_split 完成 ---
+INFO:import.base_node:--- base_node 开始 ---
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 52.32it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:39<00:39, 39.17s/it]Inference Embeddings: 100%|██████████| 2/2 [00:40<00:00, 16.79s/it]Inference Embeddings: 100%|██████████| 2/2 [00:40<00:00, 20.15s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 65.83it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:29<00:29, 29.41s/it]Inference Embeddings: 100%|██████████| 2/2 [00:33<00:00, 14.71s/it]Inference Embeddings: 100%|██████████| 2/2 [00:33<00:00, 16.91s/it]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 开始 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 完成 ---
+[OK] max20029-max20029d: 253s pg={'families': 4, 'ppns': 18, 'opns': 18, 'naming_rules': 4, 'regions': 8} chunks=47
+INFO:import.base_node:--- base_node 开始 ---
+INFO:import.base_node:[步骤1] [开始检查文件类型]
+INFO:import.base_node:[pdf] [pdf检查通过]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.pdf_table_extract:--- pdf_table_extract 开始 ---
+INFO:import.pdf_table_extract:[step1] tl431.pdf 共85页，提取表格71个，跨页合并4组 → referencePDF\lumy_import\tl431\lumy\pdf_tables.json
+INFO:import.pdf_table_extract:--- pdf_table_extract 完成 ---
+INFO:import.region_label:--- region_label 开始 ---
+INFO:import.region_label:[step1] 锚点命中 27 处
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.region_label:[step2] LLM 划分 9 个区域
+INFO:import.region_label:[step3] 区域标注完成 → referencePDF\lumy_import\tl431\lumy\regions.json
+INFO:import.region_label:--- region_label 完成 ---
+INFO:import.model_extract:--- model_extract 开始 ---
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:import.model_extract:[done] 家族2 PPN20 OPN331 规则1 → referencePDF\lumy_import\tl431\lumy\models.json
+INFO:import.model_extract:--- model_extract 完成 ---
+INFO:import.pg_import:--- pg_import 开始 ---
+INFO:import.pg_import:[done] tl431.pdf 入库: {'families': 2, 'ppns': 20, 'opns': 331, 'naming_rules': 1, 'regions': 9}
+INFO:import.pg_import:--- pg_import 完成 ---
+INFO:import.lumy_document_split:--- lumy_document_split 开始 ---
+INFO:import.lumy_document_split:[done] tl431: 165 块 (页眉页脚剔除 0 行) → lumy_chunks.json
+INFO:import.lumy_document_split:--- lumy_document_split 完成 ---
+INFO:import.base_node:--- base_node 开始 ---
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 168.08it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:40<00:40, 40.19s/it]Inference Embeddings: 100%|██████████| 2/2 [00:43<00:00, 18.29s/it]Inference Embeddings: 100%|██████████| 2/2 [00:43<00:00, 21.57s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 126.99it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:40<00:40, 40.02s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 17.07s/it]Inference Embeddings: 100%|██████████| 2/2 [00:41<00:00, 20.51s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 108.25it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:40<00:40, 40.65s/it]Inference Embeddings: 100%|██████████| 2/2 [00:43<00:00, 18.41s/it]Inference Embeddings: 100%|██████████| 2/2 [00:43<00:00, 21.75s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 187.73it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:42<00:42, 42.11s/it]Inference Embeddings: 100%|██████████| 2/2 [00:54<00:00, 24.40s/it]Inference Embeddings: 100%|██████████| 2/2 [00:54<00:00, 27.06s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 150.84it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:41<00:41, 41.75s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 19.07s/it]Inference Embeddings: 100%|██████████| 2/2 [00:44<00:00, 22.47s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 82.37it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:23<00:23, 23.48s/it]Inference Embeddings: 100%|██████████| 2/2 [00:27<00:00, 11.96s/it]Inference Embeddings: 100%|██████████| 2/2 [00:27<00:00, 13.69s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 105.76it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:26<00:26, 26.92s/it]Inference Embeddings: 100%|██████████| 2/2 [00:30<00:00, 13.36s/it]Inference Embeddings: 100%|██████████| 2/2 [00:30<00:00, 15.39s/it]
+pre tokenize:   0%|          | 0/2 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 2/2 [00:00<00:00, 222.34it/s]
+Inference Embeddings:   0%|          | 0/2 [00:00<?, ?it/s]Inference Embeddings:  50%|█████     | 1/2 [00:27<00:27, 27.47s/it]Inference Embeddings: 100%|██████████| 2/2 [00:32<00:00, 14.01s/it]Inference Embeddings: 100%|██████████| 2/2 [00:32<00:00, 16.03s/it]
+INFO:import.base_node:--- base_node 完成 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 开始 ---
+INFO:import.lumy_import_milvus:--- lumy_import_milvus 完成 ---
+[OK] tl431: 692s pg={'families': 2, 'ppns': 20, 'opns': 331, 'naming_rules': 1, 'regions': 9} chunks=165
+============================================================
+完成 5/5
+  ✓ dcrcw
+  ✓ lm317
+  ✓ lm358
+  ✓ max20029-max20029d
+  ✓ tl431

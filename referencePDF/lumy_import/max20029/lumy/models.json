@@ -1,0 +1,689 @@
+{
+ "file_name": "max20029-max20029d.pdf",
+ "families": [
+  {
+   "family_name": "MAX20029",
+   "family_type": "normal",
+   "notes": "输出1V至4.0V，最多四路1.5A的低压降压DC-DC转换器，功能变体通过后缀字母区分。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "MAX20029B",
+   "family_type": "normal",
+   "notes": "输出1V至4.0V，最多一路3A加两路1.5A的低压降压DC-DC转换器，功能变体通过后缀字母区分。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "MAX20029C",
+   "family_type": "normal",
+   "notes": "输出0.7V至3.8V，最多四路1.5A的低压降压DC-DC转换器，功能变体通过后缀字母区分。",
+   "evidence_page": 1
+  },
+  {
+   "family_name": "MAX20029D",
+   "family_type": "normal",
+   "notes": "输出0.7V至3.8V，最多一路3A加两路1.5A的低压降压DC-DC转换器，功能变体通过后缀字母区分。",
+   "evidence_page": 1
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "MAX20029ATIA",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1": "1.5",
+    "IOUT_CH2": "1.5",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "ADJ",
+    "VOUT_CH2": "ADJ",
+    "VOUT_CH3": "ADJ",
+    "VOUT_CH4": "ADJ",
+    "SPREAD_SPECTRUM": "Off",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | ADJ | ADJ | ADJ | ADJ | Off | 256"
+  },
+  {
+   "ppn": "MAX20029ATIB",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1": "1.0",
+    "IOUT_CH2": "1.0",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.5",
+    "VOUT_CH2": "1.8",
+    "VOUT_CH3": "1.15",
+    "VOUT_CH4": "1.4",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIB/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.5 | 1.8 | 1.15 | 1.4 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATIC",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1": "1.0",
+    "IOUT_CH2": "1.0",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.8",
+    "VOUT_CH2": "1.35",
+    "VOUT_CH3": "3.3",
+    "VOUT_CH4": "1.2",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIC/V+ | 1.0 | 1.0 | 1.5 | 1.5 | 1.8 | 1.35 | 3.3 | 1.2 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATID",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1": "1.0",
+    "IOUT_CH2": "1.0",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "0.5",
+    "VOUT_CH1": "1.0",
+    "VOUT_CH2": "1.8",
+    "VOUT_CH3": "ADJ",
+    "VOUT_CH4": "3.3",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATID/V+ | 1.0 | 1.0 | 1.5 | 0.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029ATIF",
+   "family": "MAX20029",
+   "attributes": {
+    "IOUT_CH1": "1.5",
+    "IOUT_CH2": "1.5",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.0",
+    "VOUT_CH2": "1.8",
+    "VOUT_CH3": "ADJ",
+    "VOUT_CH4": "3.3",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029ATIF/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.0 | 1.8 | ADJ | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIA",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "ADJ",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "ADJ",
+    "VOUT_CH4": "ADJ",
+    "SPREAD_SPECTRUM": "Off",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIA/V+ | 3.0 | ― | 1.5 | 1.5 | ADJ | ― | ADJ | ADJ | Off | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIB",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "1.8",
+    "VOUT_CH4": "1.5",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIB/V+ | 3.0 | ― | 1.5 | 1.5 | 1 | ― | 1.8 | 1.5 | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIC",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.1",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "1.8",
+    "VOUT_CH4": "1.0",
+    "SPREAD_SPECTRUM": "Off",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIC/V+ | 3.0 | ― | 1.5 | 1.5 | 1.1 | ― | 1.8 | 1.0 | Off | 256"
+  },
+  {
+   "ppn": "MAX20029BATID",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "0.5",
+    "VOUT_CH1": "1.0",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "1.8",
+    "VOUT_CH4": "1.2",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATID/V+ | 3.0 | ― | 1.5 | 0.5 | 1.0 | ― | 1.8 | 1.2 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIE",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.5",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "1.8",
+    "VOUT_CH4": "3.3",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIE/V+** | 3.0 | — | 1.5 | 1.5 | 1.5 | — | 1.8 | 3.3 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029BATIF",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "ADJ",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "ADJ",
+    "VOUT_CH4": "ADJ",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIF/V+ | 3.0 | — | 1.5 | 1.5 | ADJ | — | ADJ | ADJ | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029BATIH",
+   "family": "MAX20029B",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.15",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "3.3",
+    "VOUT_CH4": "1.8",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029BATIH/V+ | 3.0 | — | 1.5 | 1.5 | 1.15 | — | 3.3 | 1.8 | +3% | 20,480"
+  },
+  {
+   "ppn": "MAX20029CATIA",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1": "1.5",
+    "IOUT_CH2": "1.5",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "3.3",
+    "VOUT_CH2": "1.8",
+    "VOUT_CH3": "1.0",
+    "VOUT_CH4": "0.7",
+    "SPREAD_SPECTRUM": "Off",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIA/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 3.3 | 1.8 | 1.0 | 0.7 | Off | 256"
+  },
+  {
+   "ppn": "MAX20029CATIB",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1": "1.0",
+    "IOUT_CH2": "1.0",
+    "IOUT_CH3": "0.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.5",
+    "VOUT_CH2": "0.9",
+    "VOUT_CH3": "1.1",
+    "VOUT_CH4": "0.7",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIB/V+ | 1.0 | 1.0 | 0.5 | 1.5 | 1.5 | 0.9 | 1.1 | 0.7 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029CATIC",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1": "1.5",
+    "IOUT_CH2": "1.5",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.8",
+    "VOUT_CH2": "3.3",
+    "VOUT_CH3": "0.85",
+    "VOUT_CH4": "1.8",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "256"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIC/V+ | 1.5 | 1.5 | 1.5 | 1.5 | 1.8 | 3.3 | 0.85 | 1.8 | +3% | 256"
+  },
+  {
+   "ppn": "MAX20029CATIF",
+   "family": "MAX20029C",
+   "attributes": {
+    "IOUT_CH1": "0.5",
+    "IOUT_CH2": "0.5",
+    "IOUT_CH3": "0.5",
+    "IOUT_CH4": "0.5",
+    "VOUT_CH1": "0.9",
+    "VOUT_CH2": "1.1",
+    "VOUT_CH3": "1.8",
+    "VOUT_CH4": "3.3",
+    "SPREAD_SPECTRUM": "+6%",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029CATIF/V+ | 0.5 | 0.5 | 0.5 | 0.5 | 0.9 | 1.1 | 1.8 | 3.3 | +6% | 20,480"
+  },
+  {
+   "ppn": "MAX20029DATIA",
+   "family": "MAX20029D",
+   "attributes": {
+    "IOUT_CH1": "3.0",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.1",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "0.7",
+    "VOUT_CH4": "1.8",
+    "SPREAD_SPECTRUM": "Off",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029DATIA/V+ | 3.0 | — | 1.5 | 1.5 | 1.1 | — | 0.7 | 1.8 | Off | 20,480"
+  },
+  {
+   "ppn": "MAX20029DATIE",
+   "family": "MAX20029D",
+   "attributes": {
+    "IOUT_CH1": "3",
+    "IOUT_CH2": "-",
+    "IOUT_CH3": "1.5",
+    "IOUT_CH4": "1.5",
+    "VOUT_CH1": "1.05",
+    "VOUT_CH2": "-",
+    "VOUT_CH3": "1.35",
+    "VOUT_CH4": "1.95",
+    "SPREAD_SPECTRUM": "+3%",
+    "PG_TIMEOUT_CYCLES": "20,480"
+   },
+   "evidence_page": 16,
+   "evidence": "MAX20029DATIE/V+ | 3 | — | 1.5 | 1.5 | 1.05 | — | 1.35 | 1.95 | +3% | 20,480"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "MAX20029ATIA/V+",
+   "ppn": "MAX20029ATIA",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIB/V+",
+   "ppn": "MAX20029ATIB",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIC/V+",
+   "ppn": "MAX20029ATIC",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATID/V+",
+   "ppn": "MAX20029ATID",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029ATIF/V+",
+   "ppn": "MAX20029ATIF",
+   "family": "MAX20029",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIA/V+",
+   "ppn": "MAX20029BATIA",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIB/V+",
+   "ppn": "MAX20029BATIB",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIC/V+",
+   "ppn": "MAX20029BATIC",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATID/V+",
+   "ppn": "MAX20029BATID",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIE/V+",
+   "ppn": "MAX20029BATIE",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIF/V+",
+   "ppn": "MAX20029BATIF",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029BATIH/V+",
+   "ppn": "MAX20029BATIH",
+   "family": "MAX20029B",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIA/V+",
+   "ppn": "MAX20029CATIA",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIB/V+",
+   "ppn": "MAX20029CATIB",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIC/V+",
+   "ppn": "MAX20029CATIC",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029CATIF/V+",
+   "ppn": "MAX20029CATIF",
+   "family": "MAX20029C",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029DATIA/V+",
+   "ppn": "MAX20029DATIA",
+   "family": "MAX20029D",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  },
+  {
+   "opn": "MAX20029DATIE/V+",
+   "ppn": "MAX20029DATIE",
+   "family": "MAX20029D",
+   "package": "",
+   "packing": "",
+   "evidence_page": 16,
+   "source": "selector_guide"
+  }
+ ],
+ "naming_rules": [
+  {
+   "family": "MAX20029",
+   "pattern": "MAX20029ATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029",
+     "meaning": "产品家族",
+     "kind": "functional"
+    },
+    {
+     "segment": "A",
+     "meaning": "汽车级/固定标识",
+     "kind": "ordering"
+    },
+    {
+     "segment": "T",
+     "meaning": "封装代码（TQFN）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "I",
+     "meaning": "温度等级",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "功能配置代码（定义各通道IOUT/VOUT、展频、PG超时）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（无铅/汽车认证等）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029B",
+   "pattern": "MAX20029BATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029B",
+     "meaning": "产品家族",
+     "kind": "functional"
+    },
+    {
+     "segment": "A",
+     "meaning": "汽车级/固定标识",
+     "kind": "ordering"
+    },
+    {
+     "segment": "T",
+     "meaning": "封装代码（TQFN）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "I",
+     "meaning": "温度等级",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "功能配置代码（定义各通道IOUT/VOUT、展频、PG超时）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（无铅/汽车认证等）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029C",
+   "pattern": "MAX20029CATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029C",
+     "meaning": "产品家族",
+     "kind": "functional"
+    },
+    {
+     "segment": "A",
+     "meaning": "汽车级/固定标识",
+     "kind": "ordering"
+    },
+    {
+     "segment": "T",
+     "meaning": "封装代码（TQFN）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "I",
+     "meaning": "温度等级",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "功能配置代码（定义各通道IOUT/VOUT、展频、PG超时）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（无铅/汽车认证等）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  },
+  {
+   "family": "MAX20029D",
+   "pattern": "MAX20029DATI_/V+",
+   "positions": [
+    {
+     "segment": "MAX20029D",
+     "meaning": "产品家族",
+     "kind": "functional"
+    },
+    {
+     "segment": "A",
+     "meaning": "汽车级/固定标识",
+     "kind": "ordering"
+    },
+    {
+     "segment": "T",
+     "meaning": "封装代码（TQFN）",
+     "kind": "ordering"
+    },
+    {
+     "segment": "I",
+     "meaning": "温度等级",
+     "kind": "ordering"
+    },
+    {
+     "segment": "_",
+     "meaning": "功能配置代码（定义各通道IOUT/VOUT、展频、PG超时）",
+     "kind": "functional"
+    },
+    {
+     "segment": "/V+",
+     "meaning": "订购后缀（无铅/汽车认证等）",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 17,
+   "expandable": false,
+   "expanded": false
+  }
+ ],
+ "cover_check": {
+  "cover_tokens": [
+   "MAX20029",
+   "MAX20029/MAX20029B",
+   "MAX20029/MAX20029C",
+   "MAX20029B/MAX20029D",
+   "MAX20029C",
+   "MAX20029C/MAX20029D"
+  ],
+  "uncovered": []
+ },
+ "issues": []
+}

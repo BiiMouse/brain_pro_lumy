@@ -1,0 +1,3261 @@
+{
+ "file_name": "tl431.pdf",
+ "families": [
+  {
+   "family_name": "TL431",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  },
+  {
+   "family_name": "TL432",
+   "family_type": "normal",
+   "notes": "",
+   "evidence_page": null
+  }
+ ],
+ "ppns": [
+  {
+   "ppn": "TL431C",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431C"
+  },
+  {
+   "ppn": "TL432C",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432C"
+  },
+  {
+   "ppn": "TL431I",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431I"
+  },
+  {
+   "ppn": "TL432I",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432I"
+  },
+  {
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431Q"
+  },
+  {
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "2% (blank)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432Q"
+  },
+  {
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431AC"
+  },
+  {
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432AC"
+  },
+  {
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431AI"
+  },
+  {
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432AI"
+  },
+  {
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431AQ"
+  },
+  {
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "1% (A)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432AQ"
+  },
+  {
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431BC"
+  },
+  {
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "0°C to 70°C (C)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432BC"
+  },
+  {
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431BI"
+  },
+  {
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "-40°C to 85°C (I)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432BI"
+  },
+  {
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "attributes": {
+    "product": "TL431",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL431BQ"
+  },
+  {
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "attributes": {
+    "product": "TL432",
+    "initial_accuracy": "0.5% (B)",
+    "temperature_range": "-40°C to 125°C (Q)"
+   },
+   "evidence_page": 3,
+   "evidence": "EC表节标题：TL432BQ"
+  },
+  {
+   "ppn": "TL431",
+   "family": "TL431",
+   "attributes": {},
+   "evidence_page": null,
+   "evidence": "comparison-family"
+  },
+  {
+   "ppn": "TL432",
+   "family": "TL432",
+   "attributes": {},
+   "evidence_page": null,
+   "evidence": "comparison-family"
+  }
+ ],
+ "opns": [
+  {
+   "opn": "TL431ACD",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACD.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBVR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBVR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBVRG4",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "-",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBVT",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBVT.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZRG4",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZRG4.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZT",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZT.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZTG4",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDBZTG4.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDCKR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDCKR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACDRG4",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACLP",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACLP.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 34,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACLPM.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACLPR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACLPR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACP",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACP.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "PDIP (P) | 8",
+   "packing": "50 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPK",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPK.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPSR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPSR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "SO (PS) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPWR",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ACPWR.A",
+   "ppn": "TL431AC",
+   "family": "TL431",
+   "package": "TSSOP (PW) | 8",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AID",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AID.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBVR",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBVR.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBVRG4",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "-",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBVT",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBVT.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZR",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZR.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZRG4",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZRG4.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZT",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZT.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 35,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDBZTG4.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKR",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKR.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKRE4",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKRG4",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKRG4.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKT",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDCKT.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDR",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDR.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIDRG4",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILP",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILP.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILPM",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILPM.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILPR",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AILPR.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIPK",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AIPK.A",
+   "ppn": "TL431AI",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBVR",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBVR.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBVT",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBVT.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZR",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZR.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 36,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZRG4.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZT",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZT.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZTG4",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDBZTG4.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDCKR",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDCKR.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDCKT",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQDCKT.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQPK",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431AQPK.A",
+   "ppn": "TL431AQ",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCD",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCD.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBVR",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBVR.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBVT",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBVT.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZR",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZR.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZRG4",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZRG4.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZT",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 37,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZTG4",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDBZTG4.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDCKR",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDCKR.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDCKT",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDCKT.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDE4",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDR",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCDR.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCLP",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCLP.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCLPR",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCLPR.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCPK",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BCPK.A",
+   "ppn": "TL431BC",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BID",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BID.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBVR",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBVR.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBVT",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBVT.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZR",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZR.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZRG4",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 38,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZT",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZT.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZTG4",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDBZTG4.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDCKR",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDCKR.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDCKT",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDCKT.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDE4",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDG4",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDR",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDR.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIDRG4",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BILP",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BILP.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BILPR",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BILPR.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIP",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "PDIP (P) | 8",
+   "packing": "-",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIPK",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BIPK.A",
+   "ppn": "TL431BI",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQD",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQD.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBVR",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBVR.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBVT",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBVT.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZR",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 39,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZRG4",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZRG4.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZT",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZT.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZTG4",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDBZTG4.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDCKR",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDCKR.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDCKT",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDCKT.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDE4",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDR",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDR.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQDRG4",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLP",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLP.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLPM",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLPM.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLPR",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQLPR.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQPK",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431BQPK.A",
+   "ppn": "TL431BQ",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CD",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CD.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBVR",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBVR.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 40,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBVT.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZR",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZR.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZRG4",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZRG4.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZT",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZT.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZTG4",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDBZTG4.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDG4",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDR",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDR-J",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDR-J.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDR.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CDRG4",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLP",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLP-Z",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLP-Z.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLP.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLPM",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLPM.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | AMMO",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLPR",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CLPR.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CPK",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CPK.A",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CPKE6",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 41,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431CPSR",
+   "ppn": "TL431C",
+   "family": "TL431",
+   "package": "SO (PS) | 8",
+   "packing": "-",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ID",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ID.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBVR",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBVR.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBVRG4",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "-",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBVT",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBVT.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZR",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZR.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZRG4",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZRG4.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZT",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZT.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZTG4",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDBZTG4.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDR",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDR.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IDRG4",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "-",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ILP",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ILP.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "1000 | BULK",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ILPR",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431ILPR.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "TO-92 (LP) | 3",
+   "packing": "2000 | LARGE T&R",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IP",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "PDIP (P) | 8",
+   "packing": "-",
+   "evidence_page": 42,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IPK.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IPK3",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431IPK3.A",
+   "ppn": "TL431I",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QD",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QD.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "75 | TUBE",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBVR",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBVR.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBVT",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBVT.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZR",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZR.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZRG4",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZRG4.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZT",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZT.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZTG4",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDBZTG4.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDCKR",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDCKR.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDCKT",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDCKT.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SC70 (DCK) | 6",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDR",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QDR.A",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOIC (D) | 8",
+   "packing": "2500 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL431QPK",
+   "ppn": "TL431Q",
+   "family": "TL431",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 43,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBVR",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBVR.A",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZR",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZR.A",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZRG4",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZRG4.A",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZT",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZT.A",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZTG4",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432ACDBZTG4.A",
+   "ppn": "TL432AC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBVR",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBVR.A",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZR",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZR.A",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZRG4",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZRG4.A",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZT",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZT.A",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZTG4",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIDBZTG4.A",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AIPK",
+   "ppn": "TL432AI",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 44,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBVR",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBVR.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBVT",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBVT.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZR",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZR.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZRG4",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZRG4.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZT",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZT.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZTG4",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQDBZTG4.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQPK",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432AQPK.A",
+   "ppn": "TL432AQ",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBVR",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBVR.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZR",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZR.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZRG4",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZRG4.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZT",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZT.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZTG4",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCDBZTG4.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 45,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BCPK.A",
+   "ppn": "TL432BC",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZR",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZR.A",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZRG4",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZRG4.A",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZT",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZT.A",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZTG4",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIDBZTG4.A",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIPK",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BIPK.A",
+   "ppn": "TL432BI",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQDBZR",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQDBZR.A",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQDBZR1G4",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQDBZR1G4.A",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQPK",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432BQPK.A",
+   "ppn": "TL432BQ",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CDBVR",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CDBVR.A",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CDBZR",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CDBZR.A",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CDBZRG4",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 46,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CPK",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432CPK.A",
+   "ppn": "TL432C",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBVR",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBVR.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBV) | 5",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZR",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZR.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZRG4",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZRG4.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZT",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZT.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZTG4",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IDBZTG4.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "250 | SMALL T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IPK",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432IPK.A",
+   "ppn": "TL432I",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QDBZR",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QDBZR.A",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QDBZRG4",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QDBZRG4.A",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-23 (DBZ) | 3",
+   "packing": "3000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QPK",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  },
+  {
+   "opn": "TL432QPK.A",
+   "ppn": "TL432Q",
+   "family": "TL432",
+   "package": "SOT-89 (PK) | 3",
+   "packing": "1000 | LARGE T&R",
+   "evidence_page": 47,
+   "source": "addendum"
+  }
+ ],
+ "naming_rules": [
+  {
+   "family": "TL43x",
+   "pattern": "TL43x X X XXX X XX",
+   "positions": [
+    {
+     "segment": "TL43x",
+     "meaning": "基础产品型号，TL431 或 TL432（引脚不同）",
+     "kind": "functional"
+    },
+    {
+     "segment": "X",
+     "meaning": "初始精度：B=0.5%, A=1%, 空白=2%",
+     "kind": "functional"
+    },
+    {
+     "segment": "X",
+     "meaning": "工作温度：C=0°C to 70°C, I=-40°C to 85°C, Q=-40°C to 125°C",
+     "kind": "functional"
+    },
+    {
+     "segment": "XXX",
+     "meaning": "封装类型：DCK, D, P, PS, DBV, DBZ, PW, LP, LPR, LPM 等",
+     "kind": "ordering"
+    },
+    {
+     "segment": "X",
+     "meaning": "包装形式/数量：R=Tape & Reel, T=Small Tape & Reel 等",
+     "kind": "ordering"
+    },
+    {
+     "segment": "XX",
+     "meaning": "Eco Plan：G3, G4, E3, E4 等",
+     "kind": "ordering"
+    }
+   ],
+   "source_page": 32,
+   "expandable": false,
+   "expanded": false
+  }
+ ],
+ "cover_check": {
+  "cover_tokens": [
+   "TL431",
+   "TL432"
+  ],
+  "uncovered": []
+ },
+ "issues": []
+}

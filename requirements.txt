@@ -15,6 +15,10 @@ openai-agents==0.17.5
 pymongo>=4.8.0
 neo4j>=5.20.0
 
+# Lumy 结构化链路（半导体规格书场景）
+pdfplumber>=0.11.0        # PDF 表格/文本精确提取（带页码）
+psycopg2-binary>=2.9.0    # PostgreSQL 型号库驱动
+
 # 向量嵌入（抛弃远古1.x版本，用稳定2.x）
 sentence-transformers>=2.7.0,<3.0.0
 

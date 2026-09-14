@@ -1,0 +1,12 @@
+{
+  "hak180_dpo": {
+    "file_name": "dpo_preference.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}

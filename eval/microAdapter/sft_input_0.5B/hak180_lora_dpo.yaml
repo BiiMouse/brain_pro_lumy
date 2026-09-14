@@ -1,0 +1,49 @@
+### HAK180 LoRA DPO 训练配置（第 6 课，0.5B 练手轮，从 SFT adapter 续训）
+### 用法: llamafactory-cli train hak180_lora_dpo.yaml
+### 与 SFT 轮的差异只在 method/train 两段：stage=dpo、数据换 hak180_dpo、
+### 基座挂 SFT adapter（DPO 叠 SFT：SFT 教行为，DPO 教偏好）。
+
+### model
+model_name_or_path: /root/rivermind-data/models/Qwen2.5-0.5B-Instruct/snapshots/master
+adapter_name_or_path: /root/rivermind-data/outputs/hak180_sft_lora   # ★ 从 SFT 续训
+trust_remote_code: true
+
+### method
+stage: dpo                # ★ SFT→DPO
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 8              # 与 SFT 轮同秩——DPO 阶段继续训的是同一组 LoRA 权重
+lora_alpha: 16
+lora_dropout: 0.05
+
+pref_beta: 0.1            # DPO KL 系数，LLaMA-Factory 默认值；练手轮不动
+pref_loss: sigmoid        # 标准 DPO loss
+
+### dataset
+dataset: hak180_dpo       # dataset_info.json 里注册名（ranking: true）
+template: qwen            # 与 SFT 轮一致——消息结构同构
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### output
+output_dir: /root/rivermind-data/outputs/hak180_dpo_lora
+logging_steps: 2          # 32 对总共步数少，记密一点好看曲线
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+report_to: none
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 4   # 有效 batch=8；32 对 = 4 步/epoch
+learning_rate: 5.0e-5    # ★ DPO 阶段 lr 减半：偏好学习是微调的微调，
+                         #   大 lr 会把 SFT 学到的行为冲掉（灾难性遗忘）
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+
+### eval
+# 同 SFT 轮：不切验证集，训后三方定性对比（bare/SFT/SFT+DPO）即验收

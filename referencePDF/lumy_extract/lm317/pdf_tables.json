@@ -1,0 +1,2497 @@
+{
+ "file_name": "lm317.pdf",
+ "pdf_path": "referencePDF\\lm317.pdf",
+ "page_count": 44,
+ "pages": [
+  {
+   "page_no": 1,
+   "text": "LM317 3-Pin Adjustable Regulator\n1 Features\n• Output voltage range:\n– Adjustable: 1.25V to 37V\n• Output current: 1.5A\n• Line regulation: 0.01%/V (typ)\n• Load regulation: 0.1% (typ)\n• Internal short-circuit current limiting\n• Thermal overload protection\n• Output safe-area compensation (new chip)\n• PSRR: 80dB at 120Hz for C = 10μF (new chip)\nADJ\n• Packages:\n– 4-pin, SOT-223 (DCY)\n– 3-pin, TO-263 (KTT)\n– 3-pin, TO-220 (KCS, KCT), legacy chip\n2 Applications\n• Multifunction printers\n• AC drive power stage modules\n• Electricity meters\n• Servo drive control modules\n• Merchant network and server PSU\nV V\nIN OUT\nADJ\nC1*\n0.1\nGND\n(cid:1)\nR1\n240\nF\n(cid:2)\nR2\n5k\n(cid:0)\nC2†\n1\n(cid:3)\nV V ††\nIN OUT\n+\nF\n(cid:4)\nLM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n3 Description\nThe LM317 is an adjustable three-pin, positive-voltage\nregulator capable of supplying more than 1.5A over\nan output voltage range of 1.25V to 37V. The device\nrequires only two external resistors to set the output\nvoltage. The device features a typical line regulation\nof 0.01% and typical load regulation of 0.1%. The\nLM317 includes current limiting, thermal overload\nprotection, and safe operating area protection.\nOverload protection remains functional even if the\nADJUST pin is disconnected.\nTypically, no capacitors are needed unless the device\nis situated more than 6 inches from the input filter\ncapacitors. In that case, an input bypass is needed.\nAdd an optional output capacitor to improve transient\nresponse. Bypass the adjustment pin to achieve very\nhigh ripple rejection ratios that are difficult to achieve\nwith standard 3-pin regulators.\nPackage Information\nLM317\n28V\n(1) For more information, see the Mechanical, Packaging, and\nOrderable Information.\n(2) The package size (length × width) is a nominal value and\nincludes pins, where applicable.\n(3) Legacy chip.\nR\nS\nLM317 0.2W\nV INPUT OUTPUT\nI\n*Needed if the device is more than 6 inches from filter ADJUST R1\ncapacitors. 240W\n†Optional, improves transient response.\n††See Equation 1. R2\n2.4 kW\n(1)\nR2\nVOUT = 1.25V × 1 + R1 + IADJ× R2 Battery-Charger Circuit\nTypical Application\nAn IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,\nintellectual property matters and other important disclaimers. PRODUCTION DATA.",
+   "tables": [
+    {
+     "page_no": 1,
+     "bbox": [
+      315.0,
+      354.7,
+      555.3,
+      419.4
+     ],
+     "title": "Package Information",
+     "n_rows": 4,
+     "n_cols": 3,
+     "rows": [
+      [
+       "PART NUMBER",
+       "PACKAGE(1)",
+       "PACKAGE SIZE(2)"
+      ],
+      [
+       "LM317",
+       "DCY (SOT-223, 4)",
+       "6.5mm × 7mm"
+      ],
+      [
+       "LM317",
+       "KTT (TO-263, 3)",
+       "10.16mm × 15.24mm"
+      ],
+      [
+       "LM317",
+       "KCS, KCT (TO-220, 3 (3)",
+       ") 10.16mm × 4.55mm"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 2,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\nThe regulator is floating and detects only the input-to-output differential voltage. Thus, supplies of several\nhundred volts are regulated as long as the maximum input-to-output differential is not exceeded. That is, avoid\nshort-circuiting the output.\nBy connecting a fixed resistor between the adjustment pin and output, the LM317 is also able to be used as a\nprecision current regulator. Supplies with electronic shutdown are achieved by clamping the adjustment terminal\nto ground, which programs the output to 1.25V where most loads draw little current.\n2 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 3,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\nTable of Contents\n1 Features............................................................................1 7.4 Device Functional Modes..........................................14\n2 Applications.....................................................................1 8 Application and Implementation..................................15\n3 Description.......................................................................1 8.1 Application Information.............................................15\n4 Device Comparison Table...............................................4 8.2 Typical Application....................................................15\n5 Pin Configuration and Functions...................................5 8.3 System Examples.....................................................17\n6 Specifications..................................................................6 8.4 Power Supply Recommendations.............................23\n6.1 Absolute Maximum Ratings........................................6 8.5 Layout.......................................................................23\n6.2 ESD Ratings...............................................................6 9 Device and Documentation Support............................28\n6.3 Recommended Operating Conditions.........................6 9.1 Device Support.........................................................28\n6.4 Thermal Information (Legacy Chip)............................7 9.2 Receiving Notification of Documentation Updates....28\n6.5 Thermal Information (New Chip).................................7 9.3 Support Resources...................................................28\n6.6 Electrical Characteristics.............................................8 9.4 Trademarks...............................................................28\n6.7 Typical Characteristics................................................9 9.5 Electrostatic Discharge Caution................................28\n7 Detailed Description......................................................13 9.6 Glossary....................................................................28\n7.1 Overview...................................................................13 10 Revision History..........................................................29\n7.2 Functional Block Diagram.........................................13 11 Mechanical, Packaging, and Orderable\n7.3 Feature Description...................................................13 Information....................................................................29\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 3\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 4,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n4 Device Comparison Table\n4 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 4,
+     "bbox": [
+      56.7,
+      95.5,
+      555.3,
+      512.8
+     ],
+     "title": "4 Device Comparison Table",
+     "n_rows": 27,
+     "n_cols": 8,
+     "rows": [
+      [
+       "I OUT",
+       "PARAMETER",
+       "LM317 (Legacy Chip)",
+       "LM317 (New Chip)",
+       "LM317-N",
+       "LM317A",
+       "LM317HV",
+       "UNIT"
+      ],
+      [
+       "1.5A",
+       "Input voltage range",
+       "4.25 to 40",
+       "4.25 to 40",
+       "4.25 to 40",
+       "4.25 to 40",
+       "4.25 - 60",
+       "V"
+      ],
+      [
+       "1.5A",
+       "Load regulation accuracy",
+       "1.5",
+       "1.5",
+       "1.5",
+       "1",
+       "1.5",
+       "%"
+      ],
+      [
+       "1.5A",
+       "PSRR (120Hz)",
+       "64",
+       "80",
+       "80",
+       "80",
+       "65",
+       "dB"
+      ],
+      [
+       "1.5A",
+       "Recommended operating temperature",
+       "0 to 125",
+       "0 to 125",
+       "0 to 125",
+       "–40 to 125",
+       "0 to 125",
+       "°C"
+      ],
+      [
+       "1.5A",
+       "TO-220 (NDE) T JA",
+       "23.5",
+       "",
+       "23.2",
+       "23.3",
+       "23",
+       "°C/W"
+      ],
+      [
+       "1.5A",
+       "TO-200 (KCT) T JA",
+       "37.9",
+       "",
+       "N/A",
+       "N/A",
+       "",
+       "°C/W"
+      ],
+      [
+       "1.5A",
+       "TO-252 T JA",
+       "N/A",
+       "",
+       "54",
+       "54",
+       "",
+       "°C/W"
+      ],
+      [
+       "1.5A",
+       "TO-263 T JA",
+       "38",
+       "41",
+       "41",
+       "N/A",
+       "",
+       "°C/W"
+      ],
+      [
+       "1.5A",
+       "SOT-223 T JA",
+       "66.8",
+       "59.6",
+       "59.6",
+       "59.6",
+       "",
+       "°C/W"
+      ],
+      [
+       "1.5A",
+       "TO-92 T JA",
+       "N/A",
+       "",
+       "186",
+       "186",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.5A",
+       "",
+       "LM317M",
+       "",
+       "",
+       "",
+       "",
+       ""
+      ],
+      [
+       "0.5A",
+       "Input voltage range",
+       "3.75 to 40",
+       "",
+       "",
+       "",
+       "",
+       "V"
+      ],
+      [
+       "0.5A",
+       "Load regulation accuracy",
+       "1.5",
+       "",
+       "",
+       "",
+       "",
+       "%"
+      ],
+      [
+       "0.5A",
+       "PSRR (120Hz)",
+       "80",
+       "",
+       "",
+       "",
+       "",
+       "dB"
+      ],
+      [
+       "0.5A",
+       "Recommended operating temperature",
+       "−40 to 125",
+       "",
+       "",
+       "",
+       "",
+       "°C"
+      ],
+      [
+       "0.5A",
+       "SOT-223 T JA",
+       "60.2",
+       "",
+       "",
+       "",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.5A",
+       "TO-252 T JA",
+       "56.9",
+       "",
+       "",
+       "",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.1A",
+       "",
+       "LM317L",
+       "",
+       "LM317L-N",
+       "",
+       "",
+       ""
+      ],
+      [
+       "0.1A",
+       "Input voltage range",
+       "3.75 to 40",
+       "",
+       "4.25 to 40",
+       "",
+       "",
+       "V"
+      ],
+      [
+       "0.1A",
+       "Load regulation accuracy",
+       "1",
+       "",
+       "1.5",
+       "",
+       "",
+       "%"
+      ],
+      [
+       "0.1A",
+       "PSRR (120Hz)",
+       "62",
+       "",
+       "80",
+       "",
+       "",
+       "dB"
+      ],
+      [
+       "0.1A",
+       "Recommended operating temperature",
+       "–40 to 125",
+       "",
+       "–40 to 125",
+       "",
+       "",
+       "°C"
+      ],
+      [
+       "0.1A",
+       "SOT-23 T JA",
+       "167.8",
+       "",
+       "N/A",
+       "",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.1A",
+       "SO-8 T JA",
+       "N/A",
+       "",
+       "165",
+       "",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.1A",
+       "DSBGA T JA",
+       "N/A",
+       "",
+       "290",
+       "",
+       "",
+       "°C/W"
+      ],
+      [
+       "0.1A",
+       "TO-92 T JA",
+       "N/A",
+       "",
+       "180",
+       "",
+       "",
+       "°C/W"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 5,
+   "text": "5 Pin Configuration and Functions\n1 ADJUST\n2 OUTPUT\n3 INPUT\nTUPTUO\n4\n3 INPUT\n2 OUTPUT\n1 ADJUST\nFigure 5-1. DCY Package, 4-Pin SOT-223 (Top View)\nTUPTUO\nFigure 5-2. KCS or KCT Package, 3-Pin TO-220\n(Top View), Legacy Chip\n3 INPUT\n2 OUTPUT\n1 ADJUST\nTUPTUO\nLM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\nFigure 5-3. KTT Package, 3-Pin TO-263 (Top View)\nPin Functions, Metal Can Packages\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 5\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 5,
+     "bbox": [
+      57.1,
+      310.4,
+      555.3,
+      399.3
+     ],
+     "title": "Pin Functions, Metal Can Packages",
+     "n_rows": 5,
+     "n_cols": 6,
+     "rows": [
+      [
+       "PIN",
+       "PIN",
+       "PIN",
+       "PIN",
+       "",
+       ""
+      ],
+      [
+       "NAME",
+       "TO-220 (Legacy Chip)",
+       "TO-263",
+       "SOT-223",
+       "I/O",
+       "DESCRIPTION"
+      ],
+      [
+       "ADJUST",
+       "1",
+       "1",
+       "1",
+       "—",
+       "Output voltage adjustment pin. Connect to a resistor divider to set V . OUT"
+      ],
+      [
+       "INPUT",
+       "3",
+       "3",
+       "3",
+       "I",
+       "Input voltage pin for the regulator."
+      ],
+      [
+       "OUTPUT",
+       "2, TAB",
+       "2, TAB",
+       "2, TAB",
+       "O",
+       "Output voltage pin for the regulator."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 6,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n6 Specifications\n6.1 Absolute Maximum Ratings\nover operating free-air temperature range (unless otherwise noted)(1) (2)\n(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress\nratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under\nRecommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device\nreliability.\n(2) If Military/Aerospace specified devices are required, please contact the Texas Instruments Sales Office/Distributors for availability and\nspecifications.\n6.2 ESD Ratings\n(1) JEDEC document JEP155 states that 500V HBM allows safe manufacturing with a standard ESD control process.\n(2) JEDEC document JEP157 states that 250V CDM allows safe manufacturing with a standard ESD control process.\n6.3 Recommended Operating Conditions\n6 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 6,
+     "bbox": [
+      56.7,
+      129.7,
+      555.3,
+      199.3
+     ],
+     "title": "over operating free-air temperature range (unless otherwise noted)(1) (2)",
+     "n_rows": 5,
+     "n_cols": 4,
+     "rows": [
+      [
+       "",
+       "MIN",
+       "MAX",
+       "UNIT"
+      ],
+      [
+       "Power dissipation",
+       "Internally limited",
+       "Internally limited",
+       ""
+      ],
+      [
+       "Input-output voltage differential",
+       "−0.3 40",
+       "−0.3 40",
+       "V"
+      ],
+      [
+       "Storage temperature, T stg",
+       "−65 150",
+       "−65 150",
+       "°C"
+      ],
+      [
+       "Operating virtual junction temperature, T (legacy chip) J",
+       "−65 150",
+       "−65 150",
+       "°C"
+      ]
+     ]
+    },
+    {
+     "page_no": 6,
+     "bbox": [
+      56.7,
+      292.9,
+      555.3,
+      367.8
+     ],
+     "title": "6.2 ESD Ratings",
+     "n_rows": 4,
+     "n_cols": 6,
+     "rows": [
+      [
+       "",
+       "",
+       "",
+       "VALUE",
+       "VALUE",
+       ""
+      ],
+      [
+       "",
+       "",
+       "",
+       "Legacy Chip",
+       "New Chip",
+       "UNIT"
+      ],
+      [
+       "V (ESD)",
+       "Electrostatic discharge",
+       "Human body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)",
+       "±2500",
+       "±3000",
+       "V"
+      ],
+      [
+       "V (ESD)",
+       "Electrostatic discharge",
+       "Charged device model (CDM), per JEDEC specification JESD22- C101(2)",
+       "±1000",
+       "NA",
+       "V"
+      ]
+     ]
+    },
+    {
+     "page_no": 6,
+     "bbox": [
+      56.7,
+      423.0,
+      555.3,
+      492.6
+     ],
+     "title": "6.3 Recommended Operating Conditions",
+     "n_rows": 5,
+     "n_cols": 5,
+     "rows": [
+      [
+       "",
+       "",
+       "MIN",
+       "MAX",
+       "UNIT"
+      ],
+      [
+       "V O",
+       "Output voltage",
+       "1.25 37",
+       "1.25 37",
+       "V"
+      ],
+      [
+       "V – V I O",
+       "Input-to-output differential voltage",
+       "3 40",
+       "3 40",
+       "V"
+      ],
+      [
+       "I O",
+       "Output current",
+       "0.01 1.5",
+       "0.01 1.5",
+       "A"
+      ],
+      [
+       "T J",
+       "Operating virtual junction temperature",
+       "0 125",
+       "0 125",
+       "°C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 7,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n6.4 Thermal Information (Legacy Chip)\n(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC package thermal metrics application\nnote.\n6.5 Thermal Information (New Chip)\n(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC package thermal metrics application\nnote.\n(2) When surface-mount packages are used (SOT-223), the junction to ambient thermal resistance is reduced by increasing the PCB\ncopper area that is thermally connected to the package. See the Heat Sink Requirements section for heat sink techniques.\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 7\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 7,
+     "bbox": [
+      56.9,
+      94.4,
+      555.3,
+      229.5
+     ],
+     "title": "6.4 Thermal Information (Legacy Chip)",
+     "n_rows": 9,
+     "n_cols": 7,
+     "rows": [
+      [
+       "",
+       "",
+       "LM317",
+       "LM317",
+       "LM317",
+       "LM317",
+       ""
+      ],
+      [
+       "THERMAL METRIC(1)",
+       "THERMAL METRIC(1)",
+       "DCY (SOT-223)",
+       "KCS (TO-220)",
+       "KCT (TO-220)",
+       "KTT (TO-263)",
+       "UNIT"
+      ],
+      [
+       "THERMAL METRIC(1)",
+       "",
+       "4 PINS",
+       "3 PINS",
+       "3 PINS",
+       "3 PINS",
+       "UNIT"
+      ],
+      [
+       "R Ju θ(JA)",
+       "nction-to-ambient thermal resistance",
+       "66.8",
+       "23.5",
+       "37.9",
+       "38.0",
+       "°C/W"
+      ],
+      [
+       "R Ju θJC(top)",
+       "nction-to-case (top) thermal resistance",
+       "43.2",
+       "15.9",
+       "51.1",
+       "36.5",
+       "°C/W"
+      ],
+      [
+       "R Ju θJB",
+       "nction-to-board thermal resistance",
+       "16.9",
+       "7.9",
+       "23.2",
+       "18.9",
+       "°C/W"
+      ],
+      [
+       "ψ Ju JT",
+       "nction-to-top characterization parameter",
+       "3.6",
+       "3.0",
+       "13.0",
+       "6.9",
+       "°C/W"
+      ],
+      [
+       "ψ Ju JB",
+       "nction-to-board characterization parameter",
+       "16.8",
+       "7.8",
+       "22.8",
+       "17.9",
+       "°C/W"
+      ],
+      [
+       "R Ju θJC(bot)",
+       "nction-to-case (bottom) thermal resistance",
+       "NA",
+       "0.1",
+       "4.2",
+       "1.1",
+       "°C/W"
+      ]
+     ]
+    },
+    {
+     "page_no": 7,
+     "bbox": [
+      56.9,
+      284.7,
+      555.3,
+      419.8
+     ],
+     "title": "6.5 Thermal Information (New Chip)",
+     "n_rows": 9,
+     "n_cols": 5,
+     "rows": [
+      [
+       "",
+       "",
+       "LM317",
+       "LM317",
+       ""
+      ],
+      [
+       "THERMAL METRIC (1) (2)",
+       "THERMAL METRIC (1) (2)",
+       "DCY (SOT-223)",
+       "KTT (TO-263)",
+       "UNIT"
+      ],
+      [
+       "THERMAL METRIC (1) (2)",
+       "",
+       "4 PINS",
+       "3 PINS",
+       "UNIT"
+      ],
+      [
+       "R θ(JA)",
+       "Junction-to-ambient thermal resistance",
+       "59.6",
+       "41.0",
+       "°C/W"
+      ],
+      [
+       "R θJC(top)",
+       "Junction-to-case (top) thermal resistance",
+       "39.3",
+       "43.6",
+       "°C/W"
+      ],
+      [
+       "R θJB",
+       "Junction-to-board thermal resistance",
+       "8.4",
+       "23.6",
+       "°C/W"
+      ],
+      [
+       "ψ JT",
+       "Junction-to-top characterization parameter",
+       "1.8",
+       "10.4",
+       "°C/W"
+      ],
+      [
+       "ψ JB",
+       "Junction-to-board characterization parameter",
+       "8.3",
+       "22.6",
+       "°C/W"
+      ],
+      [
+       "R θJC(bot)",
+       "Junction-to-case (bottom) thermal resistance",
+       "—",
+       "0.9",
+       "°C/W"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 8,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n6.6 Electrical Characteristics\nsome specifications apply over the full operating temperature range as noted; unless otherwise specified, T = 25°C, V −\nJ IN\nV = 5V, and I = 10mA(1)\nOUT OUT\n(1) For the legacy chip (unless otherwise noted), the following test conditions apply: |V – V | = 5V, I = 1.5A, and T = 0°C to 125°C.\nI O OMAX J\nPulse testing techniques are used to maintain the junction temperature as close to the ambient temperature as possible.\n(2) For the legacy chip, line regulation is expressed as the percentage change in output voltage per 1V change at the input.\n(3) For the legacy chip, maximum power dissipation is a function of T , R , and T . The maximum allowable power dissipation at\nJ(max) θJA A\nany allowable ambient temperature is P = (T – T ) / R . Operating at the absolute maximum T of 150°C potentially affects\nD J(max) A θJA J\nreliability.\n(4) For the legacy chip, C is connected between the ADJUST pin and GND.\nADJ\n(5) For the new chip, regulation is measured at a constant junction temperature, using pulse testing with a low duty cycle. Changes in\noutput voltage resulting from heating effects are covered under the specifications for thermal regulation.\n8 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 8,
+     "bbox": [
+      56.7,
+      123.1,
+      555.3,
+      559.0
+     ],
+     "title": "OUT OUT",
+     "n_rows": 25,
+     "n_cols": 8,
+     "rows": [
+      [
+       "PARAMETER",
+       "TEST CONDITIONS(1)",
+       "TEST CONDITIONS(1)",
+       "TEST CONDITIONS(1)",
+       "MIN",
+       "TYP",
+       "MAX",
+       "UNIT"
+      ],
+      [
+       "Reference voltage",
+       "T = 25°C J",
+       "T = 25°C J",
+       "T = 25°C J",
+       "1.25",
+       "1.25",
+       "1.25",
+       "V"
+      ],
+      [
+       "Reference voltage",
+       "3V ≤ (V − V ) ≤ 40V, IN OUT 10mA ≤ I ≤ 1500mA, P ≤ 20W OUT D",
+       "3V ≤ (V − V ) ≤ 40V, IN OUT 10mA ≤ I ≤ 1500mA, P ≤ 20W OUT D",
+       "3V ≤ (V − V ) ≤ 40V, IN OUT 10mA ≤ I ≤ 1500mA, P ≤ 20W OUT D",
+       "1.2 1.25 1.3",
+       "1.2 1.25 1.3",
+       "1.2 1.25 1.3",
+       "V"
+      ],
+      [
+       "Line regulation(2)",
+       "3V ≤ (V − V ) ≤ 40V(4) IN OUT",
+       "3V ≤ (V − V ) ≤ 40V(4) IN OUT",
+       "T = 25°C J",
+       "0.01 0.04",
+       "0.01 0.04",
+       "0.01 0.04",
+       "%/V"
+      ],
+      [
+       "Line regulation(2)",
+       "3V ≤ (V − V ) ≤ 40V(4) IN OUT",
+       "",
+       "(over full operating temperature range)",
+       "0.02 0.07",
+       "0.02 0.07",
+       "0.02 0.07",
+       "%/V"
+      ],
+      [
+       "Load regulation",
+       "Legacy chip",
+       "I = 10mA to O 1500mA, C = ADJ 10μF(3), T = J 25°C",
+       "V ≤ 5V O",
+       "25",
+       "25",
+       "25",
+       "mV"
+      ],
+      [
+       "Load regulation",
+       "Legacy chip",
+       "I = 10mA to O 1500mA, C = ADJ 10μF(3), T = J 25°C",
+       "V ≥ 5V O",
+       "0.1 0.5",
+       "0.1 0.5",
+       "0.1 0.5",
+       "%V O"
+      ],
+      [
+       "Load regulation",
+       "Legacy chip",
+       "I = 10mA to O 1500mA, T = J 0°C to 125°C",
+       "V ≤ 5V O",
+       "20 70",
+       "20 70",
+       "20 70",
+       "mV"
+      ],
+      [
+       "Load regulation",
+       "Legacy chip",
+       "I = 10mA to O 1500mA, T = J 0°C to 125°C",
+       "V ≥ 5V O",
+       "0.3 1.5",
+       "0.3 1.5",
+       "0.3 1.5",
+       "%V O"
+      ],
+      [
+       "Load regulation",
+       "New chip",
+       "10mA ≤ I ≤ OUT I (5) MAX",
+       "T = 25°C J",
+       "0.1 0.5",
+       "0.1 0.5",
+       "0.1 0.5",
+       "%V O"
+      ],
+      [
+       "Load regulation",
+       "New chip",
+       "10mA ≤ I ≤ OUT I (5) MAX",
+       "(over full operating temperature range)",
+       "0.3 1.5",
+       "0.3 1.5",
+       "0.3 1.5",
+       "%V O"
+      ],
+      [
+       "Thermal regulation",
+       "20ms pulse",
+       "20ms pulse",
+       "20ms pulse",
+       "0.04 0.07",
+       "0.04 0.07",
+       "0.04 0.07",
+       "%/W"
+      ],
+      [
+       "Adjustment pin current",
+       "Over full operating temperature range",
+       "Over full operating temperature range",
+       "Over full operating temperature range",
+       "50 100",
+       "50 100",
+       "50 100",
+       "μA"
+      ],
+      [
+       "Adjustment pin current change",
+       "10mA ≤ I ≤ I (4) OUT MAX 3V ≤ (V − V ) ≤ 40V IN OUT",
+       "10mA ≤ I ≤ I (4) OUT MAX 3V ≤ (V − V ) ≤ 40V IN OUT",
+       "Over full operating temperature range",
+       "0.2 5",
+       "0.2 5",
+       "0.2 5",
+       "μA"
+      ],
+      [
+       "Temperature stability",
+       "Legacy chip",
+       "T ≤ T ≤ T MIN J MAX",
+       "Over full operating temperature range",
+       "0.7",
+       "0.7",
+       "0.7",
+       "%V O"
+      ],
+      [
+       "Temperature stability",
+       "New chip",
+       "T ≤ T ≤ T MIN J MAX",
+       "Over full operating temperature range",
+       "1%",
+       "1%",
+       "1%",
+       "%V O"
+      ],
+      [
+       "Minimum load current",
+       "(V − V ) = 40V IN OUT",
+       "(V − V ) = 40V IN OUT",
+       "Over full operating temperature range",
+       "3.5 10",
+       "3.5 10",
+       "3.5 10",
+       "mA"
+      ],
+      [
+       "Current limit",
+       "(V − V ) ≤ 15V IN OUT",
+       "(V − V ) ≤ 15V IN OUT",
+       "P < P (3) D MAX",
+       "1.5 2.2",
+       "1.5 2.2",
+       "1.5 2.2",
+       "A"
+      ],
+      [
+       "Current limit",
+       "(V − V ) = 40V IN OUT",
+       "(V − V ) = 40V IN OUT",
+       "P < P (3), T = 25°C D MAX J",
+       "0.15 0.4",
+       "0.15 0.4",
+       "0.15 0.4",
+       "A"
+      ],
+      [
+       "RMS output noise, % of V OUT",
+       "10Hz ≤ f ≤ 10kHz",
+       "10Hz ≤ f ≤ 10kHz",
+       "10Hz ≤ f ≤ 10kHz",
+       "0.003",
+       "0.003",
+       "0.003",
+       "%"
+      ],
+      [
+       "Ripple rejection ratio",
+       "Legacy chip",
+       "V = 10V, f = 120Hz, C = 0μF(4) OUT ADJ",
+       "V = 10V, f = 120Hz, C = 0μF(4) OUT ADJ",
+       "57",
+       "57",
+       "57",
+       "dB"
+      ],
+      [
+       "Ripple rejection ratio",
+       "Legacy chip",
+       "V = 10V, f = 120Hz, C = 10μF(4) OUT ADJ",
+       "V = 10V, f = 120Hz, C = 10μF(4) OUT ADJ",
+       "62 64",
+       "62 64",
+       "62 64",
+       "dB"
+      ],
+      [
+       "Ripple rejection ratio",
+       "New chip",
+       "V = 10V, f = 120Hz, C = 0μF (over full OUT ADJ operating temperature range)",
+       "V = 10V, f = 120Hz, C = 0μF (over full OUT ADJ operating temperature range)",
+       "65",
+       "65",
+       "65",
+       "dB"
+      ],
+      [
+       "Ripple rejection ratio",
+       "New chip",
+       "V = 10V, f = 120Hz, C = 10μF (over OUT ADJ full operating temperature range)",
+       "V = 10V, f = 120Hz, C = 10μF (over OUT ADJ full operating temperature range)",
+       "66 80",
+       "66 80",
+       "66 80",
+       "dB"
+      ],
+      [
+       "Long-term stability",
+       "T = 25°C J",
+       "T = 25°C J",
+       "T = 25°C J",
+       "0.3 1",
+       "0.3 1",
+       "0.3 1",
+       "%/1k hr"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 9,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n6.7 Typical Characteristics\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 9\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 9,
+     "bbox": [
+      57.5,
+      124.6,
+      555.3,
+      701.5
+     ],
+     "title": "6.7 Typical Characteristics",
+     "n_rows": 3,
+     "n_cols": 2,
+     "rows": [
+      [
+       "10.01 T = 25°C A T =–40°C A 10.005 10 V–TUOV 9.995 T = 125°C A 9.99 9.985 V = 10 V Nom OUT 9.98 0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 1 1.1 2.1 3.1 4.1 5.1 IOUT–A Figure 6-1. Load Regulation (Legacy Chip)",
+       "1.4 1.2 T=–40°C 1 A 0.8 T= 25°C 0.6 V–TUOV A 0.4 T= 125°C A 0.2 0 -0.2 V = V OUT REF -0.4 0 2.0 4.0 6.0 8.0 1 2.1 4.1 6.1 8.1 2 2.2 4.2 6.2 8.2 3 2.3 4.3 IOUT–A Figure 6-2. Load Regulation (Legacy Chip)"
+      ],
+      [
+       "Figure 6-3. Load Regulation (New Chip)",
+       "0 11 -0.5 10.8 -1 10.6 IOUT -1.5 10.4 A V urrent – - 2 - . 5 2 VOUT 1 1 0 0 .2 Deviati o n – C oad - 3 9 . 8 OUT L - 3 . 5 9 . 6 V -4 9.4 -4.5 9.2 CADJ= 0 µF -5 9 -30 -20 -10 0 10 20 30 40 50 60 70 Time–µs Figure 6-4. Load Transient Response (Legacy Chip)"
+      ],
+      [
+       "0 11 -0.5 10.8 -1 10.6 IOUT -1.5 10.4 V A urrent – - 2 VOUT 1 0.2̶ ati o n -2 .5 1 0 vi C e oad - 3 9 . 8 D OUT L -3 .5 9 . 6 V -4 9.4 -4.5 9.2 CADJ= 10 µF -5 9 -30 -20 -10 0 10 20 30 40 50 60 70 Time–µs Figure 6-5. Load Transient Response (Legacy Chip)",
+       "Figure 6-6. Load Transient Response (New Chip)"
+      ]
+     ]
+    },
+    {
+     "page_no": 9,
+     "bbox": [
+      161.7,
+      140.6,
+      223.8,
+      249.7
+     ],
+     "title": "6.7 Typical Characteristics",
+     "n_rows": 3,
+     "n_cols": 1,
+     "rows": [
+      [
+       "T = 25°C A T =–40° A"
+      ],
+      [
+       "T = 125°C A"
+      ],
+      [
+       "10 V Nom"
+      ]
+     ]
+    },
+    {
+     "page_no": 9,
+     "bbox": [
+      385.5,
+      140.6,
+      494.3,
+      249.7
+     ],
+     "title": "6.7 Typical Characteristics",
+     "n_rows": 4,
+     "n_cols": 6,
+     "rows": [
+      [
+       "",
+       "",
+       "",
+       "T= A",
+       "–40",
+       "°C"
+      ],
+      [
+       "",
+       "",
+       "",
+       "T",
+       "= A",
+       "25°C"
+      ],
+      [
+       "",
+       "",
+       "",
+       "T= A",
+       "125",
+       "°C"
+      ],
+      [
+       "V OU",
+       "= T",
+       "V REF",
+       "",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "page_no": 9,
+     "bbox": [
+      385.5,
+      333.2,
+      463.7,
+      441.1
+     ],
+     "title": "Figure 6-2. Load Regulation (Legacy Chip)",
+     "n_rows": 3,
+     "n_cols": 2,
+     "rows": [
+      [
+       "IOUT",
+       ""
+      ],
+      [
+       "VOUT",
+       ""
+      ],
+      [
+       "",
+       "CADJ="
+      ]
+     ]
+    },
+    {
+     "page_no": 9,
+     "bbox": [
+      161.7,
+      525.6,
+      223.8,
+      633.2
+     ],
+     "title": "Figure 6-3. Load Regulation (New Chip) Figure 6-4. Load Transient Response (Legacy Chip)",
+     "n_rows": 3,
+     "n_cols": 1,
+     "rows": [
+      [
+       "IOUT"
+      ],
+      [
+       "VOUT"
+      ],
+      [
+       "CADJ= 1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 10,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n6.7 Typical Characteristics (continued)\n10 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 10,
+     "bbox": [
+      56.7,
+      124.6,
+      555.3,
+      720.7
+     ],
+     "title": "6.7 Typical Characteristics (continued)",
+     "n_rows": 3,
+     "n_cols": 2,
+     "rows": [
+      [
+       "1.285 1.28 1.275 1.27 T =–40°C A 1.265 V–TUOV T = 25°C 1.26 A 1.255 T = 125°C A 1.25 1.245 1.24 0 5 01 51 02 52 03 53 04 VIN–V Figure 6-7. Line Regulation (Legacy Chip)",
+       "Figure 6-8. Output Voltage vs Input Voltage, V = V (New OUT REF Chip)"
+      ],
+      [
+       "Figure 6-9. Output Voltage vs Input Voltage, V = 5V (New OUT Chip)",
+       "-68 -66 -64 Bd–noitcejeRelppiR -62 -60 -58 -56 VIN=15V -54 VOUT=10V -52 f=120Hz TA=25°C -50 0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 1 1.1 2.1 3.1 4.1 5.1 IOUT–A Figure 6-10. Ripple Rejection vs Output Current (Legacy Chip)"
+      ],
+      [
+       "-75 -70 -65 Bd–noitcejeRelppiR -60 -55 -50 -45 VIN–VOUT=15V IOUT=500mA -40 f=120Hz TA=25°C -35 5 10 15 20 25 30 35 VOUT–V Figure 6-11. Ripple Rejection vs Output Voltage (Legacy Chip)",
+       "-90 VIN=15V -80 VOUT=10V IOUT=500mA CADJ= 0 µF TA=25°C -70 Bd–noitcejeRelppiR -60 -50 CADJ= 10 µF -40 -30 -20 -10 100 1000 10000 100000 1000000 100 1k 10k 100k 1M Frequency–Hz Figure 6-12. Ripple Rejection vs Frequency (Legacy Chip)"
+      ]
+     ]
+    },
+    {
+     "page_no": 10,
+     "bbox": [
+      134.8,
+      140.7,
+      247.1,
+      251.7
+     ],
+     "title": "6.7 Typical Characteristics (continued)",
+     "n_rows": 4,
+     "n_cols": 5,
+     "rows": [
+      [
+       "",
+       "",
+       "",
+       "T =– A",
+       "40°C"
+      ],
+      [
+       "T",
+       "T",
+       "= 25 A",
+       "°C",
+       ""
+      ],
+      [
+       "T",
+       "T",
+       "= 12",
+       "5°C",
+       ""
+      ],
+      [
+       "",
+       "",
+       "A",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "page_no": 10,
+     "bbox": [
+      383.3,
+      342.6,
+      474.4,
+      452.2
+     ],
+     "title": "Chip)",
+     "n_rows": 5,
+     "n_cols": 2,
+     "rows": [
+      [
+       "",
+       "V"
+      ],
+      [
+       "VIN=15",
+       "V"
+      ],
+      [
+       "VOUT=1 f=120",
+       "0V Hz"
+      ],
+      [
+       "TA=25",
+       "°C"
+      ],
+      [
+       "",
+       "°C"
+      ]
+     ]
+    },
+    {
+     "page_no": 10,
+     "bbox": [
+      134.8,
+      544.5,
+      247.1,
+      654.3
+     ],
+     "title": "Chip)",
+     "n_rows": 4,
+     "n_cols": 4,
+     "rows": [
+      [
+       "",
+       "",
+       "V",
+       "V"
+      ],
+      [
+       "V –",
+       "V =15",
+       "V",
+       ""
+      ],
+      [
+       "IN IOUT= f=12",
+       "OUT 500mA 0Hz",
+       "",
+       ""
+      ],
+      [
+       "TA=",
+       "25°C",
+       "",
+       ""
+      ]
+     ]
+    },
+    {
+     "page_no": 10,
+     "bbox": [
+      383.3,
+      544.5,
+      474.4,
+      654.3
+     ],
+     "title": "Chip)",
+     "n_rows": 4,
+     "n_cols": 4,
+     "rows": [
+      [
+       "VIN=1 VOUT=",
+       "5V 10V",
+       "",
+       ""
+      ],
+      [
+       "IOUT=5 TA=25",
+       "00mA °C",
+       "",
+       "CADJ= 0 µF"
+      ],
+      [
+       "",
+       "C",
+       "= 10 µF",
+       ""
+      ],
+      [
+       "",
+       "ADJ",
+       "",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 11,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n6.7 Typical Characteristics (continued)\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 11\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 11,
+     "bbox": [
+      57.5,
+      124.6,
+      555.3,
+      701.5
+     ],
+     "title": "6.7 Typical Characteristics (continued)",
+     "n_rows": 3,
+     "n_cols": 2,
+     "rows": [
+      [
+       "Figure 6-13. Ripple Rejection vs Output Voltage (New Chip)",
+       "Figure 6-14. Ripple Rejection vs Frequency (New Chip)"
+      ],
+      [
+       "Figure 6-15. Ripple Rejection vs Output Current (New Chip)",
+       "Figure 6-16. Current Limit Threshold (New Chip)"
+      ],
+      [
+       "Figure 6-17. Adjustment Current vs Temperature (New Chip)",
+       "Figure 6-18. Dropout Voltage vs Temperature (New Chip)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 12,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n6.7 Typical Characteristics (continued)\n12 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 12,
+     "bbox": [
+      56.7,
+      124.6,
+      555.3,
+      509.2
+     ],
+     "title": "6.7 Typical Characteristics (continued)",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "Figure 6-19. Temperature Stability (New Chip)",
+       "Figure 6-20. Minimum Operating Current (New Chip)"
+      ],
+      [
+       "Figure 6-21. Output Impedance vs Frequency (New Chip)",
+       "Figure 6-22. Line Transient Response (New Chip)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 13,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n7 Detailed Description\n7.1 Overview\nThe LM317 is an adjustable three-pin, positive-voltage regulator capable of supplying up to 1.5A over an output\nvoltage range of 1.25V to 37V. The device requires only two external resistors to set the output voltage. The\ndevice features a typical line regulation of 0.01% and typical load regulation of 0.1%. The LM317 includes\ncurrent limiting, thermal overload protection, and safe operating area protection. Overload protection remains\nfunctional even if the ADJUST pin is disconnected.\nThe LM317 is designed to minimize the I current and make this current constant with line and load\nADJUST\nchanges. A 100μA current from the ADJUST pin represents an error term.\n7.2 Functional Block Diagram\nInput\nI\nadj\n+\n1.25 V\nOverTemp&\nOverCurrent\nProtection\nAdj.\nOutput\n7.3 Feature Description\n7.3.1 NPN Darlington Output Drive\nThe NPN Darlington output topology provides naturally low output impedance and an output capacitor is\noptional. A 3V headroom is recommended (V – V ) to support maximum current and lowest temperature.\nI O\n7.3.2 Overload Block\nOvercurrent and overtemperature shutdown protects the device against overload or damage from operating in\nexcessive heat.\n7.3.3 Programmable Feedback\nAn op amp with a 1.25V offset input at the ADJUST pin provides easy output voltage or current programming\n(but not both). For current regulation applications, use a single resistor whose resistance value is 1.25V / I and\nO\na power rating greater than (1.25V)2 / R. For voltage regulation applications, two resistors set the output voltage.\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 13\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 14,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n7.4 Device Functional Modes\n7.4.1 Normal Operation\nThe device OUTPUT pin sources current necessary to make the OUTPUT pin 1.25V greater than ADJUST pin to\nprovide output regulation.\n7.4.2 Operation With Low Input Voltage\nThe device requires up to 3V headroom (V – V ) to operate in regulation. The device potentially drops out and\nI O\nOUTPUT voltage becomes the INPUT voltage minus the dropout voltage with less headroom.\n7.4.3 Operation at Light Loads\nThe device passes the bias current to the OUTPUT pin. Make sure the load or feedback consumes this minimum\ncurrent for regulation or the output is potentially too high. See the Electrical Characteristics table for the minimum\nload current needed to maintain regulation.\n7.4.4 Operation In Self Protection\nWhen an overload occurs, the device shuts down the Darlington NPN output stage or reduces the output current\nto prevent device damage. The device automatically resets from the overload. The output is either reduced or\nalternates between on and off until the overload is removed.\n14 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 15,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n8 Application and Implementation\nNote\nInformation in the following applications sections is not part of the TI component specification,\nand TI does not warrant its accuracy or completeness. TI’s customers are responsible for\ndetermining suitability of components for their purposes, as well as validating and testing their design\nimplementation to confirm system functionality.\n8.1 Application Information\nThe flexibility of the LM317 allows the device to be configured to take on many different functions in DC power\napplications.\n8.2 Typical Application\nD1\n1N4002\nInput Output\nVI L VO\nIAdj\nCi CO\n0.1µF 1.0µF\nFigure 8-1. Adjustable Voltage Regulator\n8.2.1 Design Requirements\n• R1 and R2 are required to set the output voltage.\n• Use C to improve ripple rejection. C prevents amplification of the ripple when the output voltage\nADJ ADJ\nis adjusted higher. The impact of C on the ripple rejection performance is captured in the Electrical\nADJ\nCharacteristics table.\n• C is recommended, particularly if the regulator is not in close proximity to the power-supply filter capacitors.\ni\nA 0.1µF or 1µF ceramic or tantalum capacitor provides sufficient bypassing for most applications, especially\nwhen adjustment and output capacitors are used.\n• C improves transient response, but is not needed for stability.\nO\n• Protection diode D2 is recommended if C is used. The diode provides a low-impedance discharge path to\nADJ\nprevent the capacitor from discharging into the output of the regulator.\n• Protection diode D1 is recommended if C is used. The diode provides a low-impedance discharge path to\nO\nprevent the capacitor from discharging into the output of the regulator.\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 15\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 15,
+     "bbox": [
+      233.9,
+      320.6,
+      464.6,
+      463.9
+     ],
+     "title": "Input Output",
+     "n_rows": 2,
+     "n_cols": 4,
+     "rows": [
+      [
+       "",
+       "1.25 V",
+       "R1 240W",
+       "D2 1N4002 CADJ"
+      ],
+      [
+       "R2",
+       "R2",
+       "R2",
+       "D2 1N4002 CADJ"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 16,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n8.2.2 Detailed Design Procedure\nV is calculated as shown in Equation 2. I is typically 50µA and negligible in most applications.\nO ADJ\nV = V (1 + R2 / R1) + (I × R2) (2)\nO REF ADJ\n8.2.3 Application Curves\n16 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 16,
+     "bbox": [
+      56.7,
+      153.8,
+      555.3,
+      521.4
+     ],
+     "title": "8.2.3 Application Curves",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "20 10.10 CADJ= 0 µF 19 10.08 VOUT 18 10.06 V–egnahCNIV V–TUOV 17 10.04 VIN 16 10.02 15 10.00 14 9.98 52- 51- 5- 5 51 52 53 54 55 56 Time–µs Figure 8-2. Line-Transient Response (Legacy Chip)",
+       "20 10.12 CADJ= 10 µF 19 10.10 10.08 VOUT 18 V–egnahCNIV 10.06 V–TUOV 17 10.04 VIN 16 10.02 15 10.00 14 9.98 52- 51- 5- 5 51 52 53 54 55 56 Time–µs Figure 8-3. Line-Transient Response (Legacy Chip)"
+      ],
+      [
+       "Figure 8-4. Line-Transient Response (New Chip)",
+       "Figure 8-5. Load Transient Response (New Chip)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 17,
+   "text": "8.3 System Examples\n8.3.1 0V to 30V Regulator Circuit\nHere, the voltage is determined by:\næ R +R ö\nV OUT = V REFç1+ 2 R 3 ÷ -10V\nè 1 ø (3)\nBy varying the voltage at the terminal of R3 (−10V in Figure 8-6), V is varied from 0V to 30V. In the absence\nOUT\nof −10V, the V is only regulated to the lowest value of V by making R = 0Ω.\nOUT REF 2\nLM317\nINPUT OUTPUT\nADJUST\nC1\n0.1µF\n680(cid:2)\nR3\n120(cid:1)\n3k(cid:0)\nR1\nR2\nLM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n+35V\nVO\n-10V\nGND\nFigure 8-6. 0V to 30V Regulator Circuit\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 17\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 18,
+   "text": "8.3.2 Adjustable Regulator Circuit With Improved Ripple Rejection\nAs shown in Figure 8-7, C2 helps stabilize the voltage at the ADJUST pin, which helps reject noise. Diode D1\nexists to discharge C2 in case the output is shorted to ground.\nLM317\nINPUT OUTPUT\nADJUST\nC1\n0.1µF\n5k(cid:0) R2\n240(cid:1)\nR1\nLM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\nVI\nVO\nD1\n1N4002\nC3\nC2\n1µF\n10µF\nGND\nFigure 8-7. Adjustable Regulator Circuit with Improved Ripple Rejection\n8.3.3 Precision Current-Limiter Circuit\nThis application limits the output current to I in Figure 8-8.\nLIMIT\nLM317\n1.2\nV I INPUT OUTPUT I limit R1\nR1\nADJUST\nFigure 8-8. Precision Current-Limiter Circuit\n8.3.4 Tracking Preregulator Circuit\nThis application keeps a constant voltage across the second LM317 in the circuit of Figure 8-9.\nR2\n720Ω\nR1\n240Ω\nADJUST\nVI INPUT OUTPUT\nLM317\nLM317\nINPUT OUTPUT VO\nADJUST R3\n120Ω\nC1\n0.1µF C2\n1µF\nOutput R4\nAdjust 1 kΩ\nFigure 8-9. Tracking Preregulator Circuit\n18 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 19,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n8.3.5 1.25V to 20V Regulator Circuit With Minimum Program Current\nBecause the value of V is constant, the value of R determines the amount of current that flows through R\nREF 1 1\nand R . The size of R2 determines the IR drop from ADJUSTMENT to GND. Higher values of R2 translate to\n2\nhigher V . Equation 4, Equation 5, and Figure 8-10 illustrate this relationship.\nOUT\n(4)\nR2\nVOUT = VREF 1 + R1\n(5)\nR1 + R2 min = Volreg min LM317\nV I INPUT OUTPUT V O\nADJUST\nR1\n1.2 kΩ\nR2\n20 kΩ\nFigure 8-10. 1.25V to 20V Regulator Circuit With Minimum Program Current\n8.3.6 Battery-Charger Circuit\nThe series resistor limits the current output of the LM317, minimizing damage to the battery cell.\n§ R2·\nV 1.25 V u¨ 1(cid:14) ¸\nOUT © R1¹ (6)\n1.25V\nIOUT(short)=\nRS (7)\n§ R2·\nOutputImpedance RSu¨1(cid:14) ¸\n© R1¹ (8)\nR\nS\nLM317 0.2W\nV INPUT OUTPUT\nI\nADJUST R1\n240W\nR2\n2.4 kW\nFigure 8-11. Battery-Charger Circuit\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 19\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 20,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n8.3.7 50mA, Constant-Current, Battery-Charger Circuit\nUse the current-limit operation mode to trickle charge a battery at a fixed current. I = 1.25V ÷ 24Ω. Make\nCHG\nsure V is greater than V + 4.25V. (1.25V [V ] + 3V [headroom]). Figure 8-12 shows a diagram of a\nI BAT REF\nbattery-charger circuit.\nLM317\n24Ω\nV I INPUT OUTPUT\nADJUST\nFigure 8-12. 50mA, Constant-Current, Battery-Charger Circuit\n8.3.8 Slow Turn-On 15V Regulator Circuit\nThe capacitor C1, in combination with the PNP transistor, helps the circuit (Figure 8-13) to slowly start supplying\nvoltage. In the beginning, the capacitor is not charged. Therefore, the output voltage starts at V + V + 1.25V\nC1 BE\n= 0V + 0.65V + 1.25V = 1.9V. When the capacitor voltage rises, V rises at the same rate. When the output\nOUT\nvoltage reaches the value determined by R1 and R2, the PNP is turned off.\nLM317\nV I INPUT V O = 15V\nAD D1\n1N4002\nR2\n2.7 kΩ\nC1\n25µF\nFigure 8-13. Slow Turn-On 15V Regulator Circuit\n8.3.9 AC Voltage-Regulator Circuit\nFigure 8-14 shows a circuit employing two LM317 devices. These two LM317 devices regulate both the positive\nand negative swings of a sinusoidal AC input.\nLM317\nVI INPUT OUTPUT\nADJUST 120Ω\n12 VI(PP)\n480Ω\n6 VO(PP)\n2 W (TYP)\nADJUST\nVI INPUT OUTPUT\nLM317\nFigure 8-14. AC Voltage-Regulator Circuit\n20 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 20,
+     "bbox": [
+      258.0,
+      322.2,
+      363.0,
+      440.2
+     ],
+     "title": "LM317",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "",
+       "R1 240Ω"
+      ],
+      [
+       "R3 50 kΩ 2N2905",
+       "R3 50 kΩ 2N2905"
+      ]
+     ]
+    },
+    {
+     "page_no": 20,
+     "bbox": [
+      323.1,
+      560.2,
+      363.0,
+      659.5
+     ],
+     "title": "LM317",
+     "n_rows": 2,
+     "n_cols": 1,
+     "rows": [
+      [
+       "480Ω"
+      ],
+      [
+       "120Ω"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 21,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n8.3.10 Current-Limited 6V Charger Circuit\nWhen charge current increases, the voltage at the bottom resistor increases until the NPN starts sinking current\nfrom the ADJUST pin. The voltage at the ADJUST pin drops, and consequently the output voltage decreases\nuntil the NPN stops conducting. Figure 8-15 shows the current-limited circuit.\nLM317\nV INPUT OUTPUT\nI+\nADJUST R1\n240W\nR2\n1.1 kW\nR3\nV\nI−\nFigure 8-15. Current-Limited 6V Charger Circuit\n8.3.11 Adjustable 4A Regulator Circuit\nThis application keeps the output current at 4A while having the ability to adjust the output voltage using the\nadjustable (1.5kΩ in Figure 8-16) resistor.\nLM317\n0.2 Ω\nVI INPUT OUTPUT\nADJUST\nLM317\n0.2 Ω\nINPUT OUTPUT\nADJUST\n4.5 V to 25 V\nLM317\n0.2 Ω\nINPUT OUTPUT\nADJUST\n5 kΩ\n100 Ω 5 kΩ\n_\nTL084 150 Ω\n2N2905 +\n200 pF\n1.5 kΩ\nFigure 8-16. Adjustable 4A Regulator Circuit\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 21\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 22,
+   "text": "8.3.12 High-Current Adjustable Regulator Circuit\nThe PNP (2N2905) and NPN (2N6486) at the top of Figure 8-17 allow higher currents at V than the LM317\nOUT\nprovides. Meanwhile, the output voltage remains at levels determined by the ADJUST pin resistor divider of the\nLM317.\nLM317\nINPUT OUTPUT\nADJUST\n10µF\n120(cid:1)\nR1\nVO\nD1\n1N4002\nC3\n10µF 47µF\nGND\n5k(cid:0)\n22\n(cid:2)\n2N2905\n500\n(cid:3)\nLM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n2N6486\nVI\nFigure 8-17. High-Current Adjustable Regulator Circuit\n22 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 23,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n8.4 Power Supply Recommendations\nThe LM317 is designed to operate from an input voltage supply range between 1.25V to 37V greater than the\noutput voltage. If the device is more than six inches from the input filter capacitors, use an input bypass capacitor\nof any type for stability. Make sure this capacitor is 0.1μF or greater.\n8.5 Layout\n8.5.1 Layout Guidelines\n• Bypass the input pin to ground with a bypass capacitor.\n• The optimum placement is closest to the input pin of the device and the system GND. Take care to minimize\nthe loop area formed by the bypass-capacitor connection, the input pin, and the system GND.\n• For operation at full rated load, use wide trace lengths to eliminate I × R drop and heat dissipation.\n8.5.1.1 Thermal Considerations\n8.5.1.1.1 Heat Sink Requirements\nThe LM317 (new chip) regulators have internal thermal shutdown to protect the device from overheating. Under\nall operating conditions, make sure the device junction temperature does not exceed the rated maximum junction\ntemperature (T ) of 125°C for the LM317 (new chip). A heat sink is required depending on the maximum device\nJ\npower dissipation and the maximum ambient temperature of the application. To determine if a heat sink is\nneeded, Equation 9 calculates the power dissipated by the regulator, P .\nD\nP = ((V − V ) × I ) + (V × I ) (9)\nD IN OUT L IN G\nFigure 8-18 shows the voltage and currents that are present in the circuit.\nEquation 10 calculates the next parameter, which is the maximum allowable temperature rise, T .\nR(MAX)\nT = T − T (10)\nR(MAX) J(MAX) A(MAX)\nwhere:\n• T is the maximum allowable junction temperature (125°C for the LM317, new chip)\nJ(MAX)\n• T is the maximum ambient temperature encountered in the application\nA(MAX)\nUsing the calculated values for T and P , Equation 11 calculates the maximum allowable value for the\nR(MAX) D\njunction-to-ambient thermal resistance (R ).\nθJA\nR = (T / P ) (11)\nθJA R(MAX) D\nFigure 8-18. Power Dissipation Diagram\nIf the calculated maximum allowable thermal resistance is higher than the actual package rating, then no\nadditional work is needed. If the calculated maximum allowable thermal resistance is lower than the actual\npackage rating, correct this issue. Either reduce P or T , or lower R by adding a heat sink, or some\nD A(MAX) θJA\ncombination thereof. P is the device power dissipation, T is the maximum ambient temperature, and R\nD A(MAX) θJA\nis the device thermal resistance.\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 23\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 24,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\nEquation 12 calculates the value if a heat sink is needed.\nθ ≤ (R – (θ + R )) (12)\nHA θJA CH θJC\nwhere:\n• θ is the thermal resistance of the contact area between the device case and the heat sink surface\nCH\n• R is thermal resistance from the junction of the die to the surface of the package case\nθJC\nWhen a value for θ is calculated, select a heat sink with a value that is less than, or equal to, this number.\nHA\nThe θ rating is specified numerically by the heat sink manufacturer in the catalog, or given in a curve plotting\nHA\ntemperature rise versus power dissipation for the heat sink.\n8.5.1.1.2 Heat Sinking Surface-Mount Packages\nThe TO-263 (KTT), SOT-223 (DCY), and TO-220 (KCS, KCT) packages use a copper plane on the PCB and the\nPCB as a heat sink. To optimize the heat sinking ability of the plane and PCB, solder the tab of the package to\nthe plane.\n8.5.1.1.2.1 Heatsinking the SOT-223 (DCY) Package\nFigure 8-19 and Figure 8-20 show information for the SOT-223 package. Figure 8-20 assumes a R of 74°C/W\nθJA\nfor 1oz. copper and 59.6°C/W for 2oz. copper (further details are in Section 6.5) and a maximum junction\ntemperature of 125°C. See the AN-1028 Maximum Power Enhancement Techniques for Power Packages\napplication note for thermal enhancement techniques to be used with the SOT-223 and TO-252 packages.\nFigure 8-19. R vs Copper (2oz.) Area for the Figure 8-20. Maximum Power Dissipation vs T\nθJA AMB\nSOT-223 Package for the SOT-223 Package\n24 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 25,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n8.5.1.1.2.2 Heat Sinking the TO-263 (KTT) Package\nFigure 8-21 shows the TO-263 measured values of R for different copper area sizes using a typical PCB with\nθJA\n1oz. copper. This figure also shows no solder mask over the copper area used for heat sinking.\nAs shown in Figure 8-21, increasing the copper area beyond 1 square inch produces very little improvement.\nThe minimum value of R for the TO-263 package mounted to a PCB is 32°C/W.\nθJA\nFigure 8-21. R vs Copper (1-oz.) Area for the TO-263 Package\nθJA\nAs a design aid, Figure 8-22 shows the maximum allowable power dissipation compared to ambient temperature\nfor the TO-263 device. This figure assumes R is 35°C/W and the maximum junction temperature is 125°C.\nθJA\nFigure 8-22. Maximum Power Dissipation vs T for the TO-263 Package\nAMB\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 25\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 26,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n8.5.2 Layout Examples\nC\nOUT\nR2\nPower\nHigh\nHigh Input\nFrequency\nBypass\nBypass 0.1μF 10μFCapacitor\nR1 Capacitor\nC\nadj\nGround\nFigure 8-23. Layout Example (Legacy Chip)\nFigure 8-24. SOT-223 Layout Example (New Chip)\n26 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 26,
+     "bbox": [
+      129.4,
+      96.2,
+      147.4,
+      193.4
+     ],
+     "title": "8.5.2 Layout Examples",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "dnuorG",
+       "dnuorG"
+      ],
+      [
+       "dnuorG",
+       ""
+      ]
+     ]
+    },
+    {
+     "page_no": 26,
+     "bbox": [
+      263.4,
+      96.2,
+      335.4,
+      264.2
+     ],
+     "title": "8.5.2 Layout Examples",
+     "n_rows": 2,
+     "n_cols": 1,
+     "rows": [
+      [
+       "OUTPUT"
+      ],
+      [
+       "OUTPUT"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 27,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\nFigure 8-25. TO-220 Layout Example (New Chip)\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 27\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 28,
+   "text": "LM317\nSLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025 www.ti.com\n9 Device and Documentation Support\n9.1 Device Support\n9.1.1 Device Nomenclature\nDevice Nomenclature\n(1) For the most current package and ordering information see the Package Option Addendum at the end of this document, or visit the\ndevice product folder at www.ti.com.\n9.2 Receiving Notification of Documentation Updates\nTo receive notification of documentation updates, navigate to the device product folder on ti.com. Click on\nNotifications to register and receive a weekly digest of any product information that has changed. For change\ndetails, review the revision history included in any revised document.\n9.3 Support Resources\nTI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight\nfrom the experts. Search existing answers or ask your own question to get the quick design help you need.\nLinked content is provided \"AS IS\" by the respective contributors. They do not constitute TI specifications and do\nnot necessarily reflect TI's views; see TI's Terms of Use.\n9.4 Trademarks\nTI E2E™ is a trademark of Texas Instruments.\nAll trademarks are the property of their respective owners.\n9.5 Electrostatic Discharge Caution\nThis integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled\nwith appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.\nESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may\nbe more susceptible to damage because very small parametric changes could cause the device not to meet its published\nspecifications.\n9.6 Glossary\nTI Glossary This glossary lists and explains terms, acronyms, and definitions.\n28 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated\nProduct Folder Links: LM317",
+   "tables": [
+    {
+     "page_no": 28,
+     "bbox": [
+      56.7,
+      147.7,
+      555.3,
+      223.5
+     ],
+     "title": "Device Nomenclature",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "PRODUCT(1)",
+       "V OUT"
+      ],
+      [
+       "LM317yyyz",
+       "yyy is the package designator. z is the package quantity designator. Devices ship with either the legacy chip (CSO: SHE) or the new chip (CSO: FFAB). The reel packaging label provides CSO information to distinguish which chip is used. Device performance for new and legacy chips is denoted throughout the data sheet."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 29,
+   "text": "LM317\nwww.ti.com SLVS044Z – SEPTEMBER 1997 – REVISED APRIL 2025\n10 Revision History\nNOTE: Page numbers for previous revisions may differ from page numbers in the current version.\nChanges from Revision Y (April 2020) to Revision Z (April 2025) Page\n• Updated the numbering format for tables, figures, and cross-references throughout the document.................1\n• Added new silicon devices to document.............................................................................................................1\n• Added new silicon curves to Typical Characteristics section .............................................................................1\n• Changed Features, Applications, and Description sections...............................................................................1\n• Added LM317 (New Chip) column to Device Comparison Table ......................................................................4\n• Changed DCY pinout drawing and INPUT and OUTPUT description in Pin Functions table.............................5\n• Added Power dissipation row to Absolute Maximum Ratings table....................................................................6\n• Added new chip information to ESD Ratings table.............................................................................................6\n• Added Thermal Information (New Chip) table....................................................................................................7\n• Changed Electrical Characteristics table............................................................................................................8\n• Changed ADJUST pin current discussion in second paragraph of Overview section......................................13\n• Added effect of C on ripple rejection discussion to second bullet of Design Requirements .......................15\nADJ\n• Added new silicon curves to Application Curves .............................................................................................16\n• Deleted −10V from Equation 2.........................................................................................................................19\n• Changed The NPNs to The PNP (2N2905) and NPN (2N6486) in High-Current Adjustable Regulator Circuit\nsection..............................................................................................................................................................22\n• Added Thermal Considerations section and subsections.................................................................................23\nChanges from Revision X (September 2016) to Revision Y (April 2020) Page\n• Added Device Comparison Table ......................................................................................................................4\n• Changed V to I in Load Transient Response figures..................................................................................9\nIN OUT\n• Added missing caption to second y-axis in second Load Transient Response figure........................................9\n• Changed V and output impedance equations in Battery-Charger Circuit section.......................................19\nOUT\n11 Mechanical, Packaging, and Orderable Information\nThe following pages include mechanical, packaging, and orderable information. This information is the most\ncurrent data available for the designated devices. This data is subject to change without notice and revision of\nthis document. For browser-based versions of this data sheet, refer to the left-hand navigation.\nCopyright © 2025 Texas Instruments Incorporated Submit Document Feedback 29\nProduct Folder Links: LM317",
+   "tables": []
+  },
+  {
+   "page_no": 30,
+   "text": "PACKAGE OPTION ADDENDUM\nwww.ti.com 24-Mar-2026\nPACKAGING INFORMATION\n(1) Status: For more details on status, see our product life cycle.\nAddendum-Page 1",
+   "tables": [
+    {
+     "page_no": 30,
+     "bbox": [
+      22.7,
+      121.1,
+      816.3,
+      490.4
+     ],
+     "title": "PACKAGING INFORMATION",
+     "n_rows": 20,
+     "n_cols": 10,
+     "rows": [
+      [
+       "Orderable part number",
+       "Status (1)",
+       "Material type (2)",
+       "Package | Pins",
+       "Package qty | Carrier",
+       "RoHS (3)",
+       "Lead finish/ Ball material (4)",
+       "MSL rating/ Peak reflow (5)",
+       "Op temp (°C)",
+       "Part marking (6)"
+      ],
+      [
+       "LM317DCY",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "80 | TUBE",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCY.A",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "80 | TUBE",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCY.B",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "80 | TUBE",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCYG3",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "80 | TUBE",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCYR",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "2500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCYR.A",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "2500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCYR.B",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "2500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317DCYRG3",
+       "Active",
+       "Production",
+       "SOT-223 (DCY) | 4",
+       "2500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-2-260C-1 YEAR",
+       "0 to 125",
+       "L3"
+      ],
+      [
+       "LM317KCS",
+       "NRND",
+       "Production",
+       "TO-220 (KCS) | 3",
+       "50 | TUBE",
+       "Yes",
+       "SN",
+       "N/A for Pkg Type",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KCS.A",
+       "NRND",
+       "Production",
+       "TO-220 (KCS) | 3",
+       "50 | TUBE",
+       "Yes",
+       "SN",
+       "N/A for Pkg Type",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KCSE3",
+       "NRND",
+       "Production",
+       "TO-220 (KCS) | 3",
+       "50 | TUBE",
+       "Yes",
+       "SN",
+       "N/A for Pkg Type",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "ROHS Exempt",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR.A",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR.A",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "ROHS Exempt",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR.B",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTR.B",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "ROHS Exempt",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTRG3",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "ROHS Exempt",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ],
+      [
+       "LM317KTTRG3",
+       "Active",
+       "Production",
+       "DDPAK/ TO-263 (KTT) | 3",
+       "500 | LARGE T&R",
+       "Yes",
+       "SN",
+       "Level-3-245C-168 HR",
+       "0 to 125",
+       "LM317"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 31,
+   "text": "PACKAGE OPTION ADDENDUM\nwww.ti.com 24-Mar-2026\n(2) Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,\nreliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional\nwaiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.\n(3) RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.\n(4) Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum\ncolumn width.\n(5) MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.\nRefer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.\n(6) Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.\nMultiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a \"~\" will appear on a part. If a line is indented then it is a continuation of the previous line and the two\ncombined represent the entire part marking for that device.\nImportant Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and\nmakes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative\nand accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers\nand other limited information may not be available for release.\nIn no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.\nAddendum-Page 2",
+   "tables": []
+  },
+  {
+   "page_no": 32,
+   "text": "PACKAGE MATERIALS INFORMATION\nwww.ti.com 10-Aug-2026\nTAPE AND REEL INFORMATION\nREEL DIMENSIONS TAPE DIMENSIONS\nK0 P1\nW\nB0\nReel\nDiameter\nCavity A0\nReel Width (W1)\nQUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE\nSprocket Holes\nUser Direction of Feed\nPocket Quadrants\n*All dimensions are nominal\nPack Materials-Page 1",
+   "tables": [
+    {
+     "page_no": 32,
+     "bbox": [
+      256.4,
+      213.5,
+      506.9,
+      264.0
+     ],
+     "title": "Cavity A0",
+     "n_rows": 5,
+     "n_cols": 2,
+     "rows": [
+      [
+       "A0",
+       "Dimension designed to accommodate the component width"
+      ],
+      [
+       "B0",
+       "Dimension designed to accommodate the component length"
+      ],
+      [
+       "K0",
+       "Dimension designed to accommodate the component thickness"
+      ],
+      [
+       "W",
+       "Overall width of the carrier tape"
+      ],
+      [
+       "P1",
+       "Pitch between successive cavity centers"
+      ]
+     ]
+    },
+    {
+     "page_no": 32,
+     "bbox": [
+      222.5,
+      333.1,
+      265.9,
+      376.8
+     ],
+     "title": "Sprocket Holes",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "Q1",
+       "Q2"
+      ],
+      [
+       "Q3",
+       "Q4"
+      ]
+     ]
+    },
+    {
+     "page_no": 32,
+     "bbox": [
+      276.2,
+      333.1,
+      322.0,
+      376.8
+     ],
+     "title": "Sprocket Holes",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       "Q1",
+       "Q2"
+      ],
+      [
+       "Q3",
+       "Q4"
+      ]
+     ]
+    },
+    {
+     "page_no": 32,
+     "bbox": [
+      62.8,
+      436.7,
+      547.0,
+      556.9
+     ],
+     "title": "*All dimensions are nominal",
+     "n_rows": 6,
+     "n_cols": 13,
+     "rows": [
+      [
+       "Device",
+       "Package Type",
+       "Package Drawing",
+       "Pins",
+       "SPQ",
+       "Reel Diamet (mm)",
+       "Reel er Width W1 (mm)",
+       "A0 (mm)",
+       "B0 (mm)",
+       "K0 (mm)",
+       "P1 (mm)",
+       "W (mm)",
+       "Pin1 Quadrant"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "330.0",
+       "12.4",
+       "6.55",
+       "7.25",
+       "1.9",
+       "8.0",
+       "12.0",
+       "Q3"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "330.0",
+       "12.4",
+       "7.05",
+       "7.4",
+       "1.9",
+       "8.0",
+       "12.0",
+       "Q3"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "330.0",
+       "12.4",
+       "6.85",
+       "7.3",
+       "1.88",
+       "8.0",
+       "12.0",
+       "Q3"
+      ],
+      [
+       "LM317KTTR",
+       "DDPAK/ TO-263",
+       "KTT",
+       "3",
+       "500",
+       "330.0",
+       "24.4",
+       "10.8",
+       "16.3",
+       "5.11",
+       "16.0",
+       "24.0",
+       "Q2"
+      ],
+      [
+       "LM317KTTR",
+       "DDPAK/ TO-263",
+       "KTT",
+       "3",
+       "500",
+       "330.0",
+       "24.4",
+       "10.75",
+       "14.85",
+       "5.0",
+       "16.0",
+       "24.0",
+       "Q2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 33,
+   "text": "PACKAGE MATERIALS INFORMATION\nwww.ti.com 10-Aug-2026\nTAPE AND REEL BOX DIMENSIONS\nWidth (mm) H\nW L\n*All dimensions are nominal\nPack Materials-Page 2",
+   "tables": [
+    {
+     "page_no": 33,
+     "bbox": [
+      63.2,
+      429.0,
+      543.8,
+      511.5
+     ],
+     "title": "*All dimensions are nominal",
+     "n_rows": 6,
+     "n_cols": 8,
+     "rows": [
+      [
+       "Device",
+       "Package Type",
+       "Package Drawing",
+       "Pins",
+       "SPQ",
+       "Length (mm)",
+       "Width (mm)",
+       "Height (mm)"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "336.0",
+       "336.0",
+       "48.0"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "340.0",
+       "340.0",
+       "38.0"
+      ],
+      [
+       "LM317DCYR",
+       "SOT-223",
+       "DCY",
+       "4",
+       "2500",
+       "367.0",
+       "367.0",
+       "35.0"
+      ],
+      [
+       "LM317KTTR",
+       "DDPAK/TO-263",
+       "KTT",
+       "3",
+       "500",
+       "340.0",
+       "340.0",
+       "38.0"
+      ],
+      [
+       "LM317KTTR",
+       "DDPAK/TO-263",
+       "KTT",
+       "3",
+       "500",
+       "356.0",
+       "356.0",
+       "45.0"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 34,
+   "text": "PACKAGE MATERIALS INFORMATION\nwww.ti.com 10-Aug-2026\nTUBE\nT - Tube\nheight L - Tube length\nW - Tube\nwidth\nB - Alignment groove width\n*All dimensions are nominal\nPack Materials-Page 3",
+   "tables": [
+    {
+     "page_no": 34,
+     "bbox": [
+      62.8,
+      279.7,
+      558.0,
+      443.2
+     ],
+     "title": "*All dimensions are nominal",
+     "n_rows": 12,
+     "n_cols": 9,
+     "rows": [
+      [
+       "Device",
+       "Package Name",
+       "Package Type",
+       "Pins",
+       "SPQ",
+       "L (mm)",
+       "W (mm)",
+       "T (µm)",
+       "B (mm)"
+      ],
+      [
+       "LM317DCY",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "542.9",
+       "8.6",
+       "3606",
+       "2.67"
+      ],
+      [
+       "LM317DCY",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "559",
+       "8.6",
+       "500",
+       "3.6"
+      ],
+      [
+       "LM317DCY.A",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "542.9",
+       "8.6",
+       "3606",
+       "2.67"
+      ],
+      [
+       "LM317DCY.A",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "559",
+       "8.6",
+       "500",
+       "3.6"
+      ],
+      [
+       "LM317DCY.B",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "542.9",
+       "8.6",
+       "3606",
+       "2.67"
+      ],
+      [
+       "LM317DCY.B",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "559",
+       "8.6",
+       "500",
+       "3.6"
+      ],
+      [
+       "LM317DCYG3",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "542.9",
+       "8.6",
+       "3606",
+       "2.67"
+      ],
+      [
+       "LM317DCYG3",
+       "DCY",
+       "SOT-223",
+       "4",
+       "80",
+       "559",
+       "8.6",
+       "500",
+       "3.6"
+      ],
+      [
+       "LM317KCS",
+       "KCS",
+       "TO-220",
+       "3",
+       "50",
+       "532",
+       "34.1",
+       "700",
+       "9.6"
+      ],
+      [
+       "LM317KCS.A",
+       "KCS",
+       "TO-220",
+       "3",
+       "50",
+       "532",
+       "34.1",
+       "700",
+       "9.6"
+      ],
+      [
+       "LM317KCSE3",
+       "KCS",
+       "TO-220",
+       "3",
+       "50",
+       "532",
+       "34.1",
+       "700",
+       "9.6"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 35,
+   "text": "",
+   "tables": []
+  },
+  {
+   "page_no": 36,
+   "text": "",
+   "tables": []
+  },
+  {
+   "page_no": 37,
+   "text": "PACKAGE OUTLINE\nKTT0003B TO-263 - 4.83 mm max height\nSCALE 1.000\nTRANSISTOR OUTLINE\nB 8.64 A\nOPTIONAL\n1\n2X\n10.41\n9.91\n3\n0.97\n3X\n14.35 MAX\n1.27 MAX\n0.76\n0.38\n0.25\n4.64\nGAGE PLANE 4.45 C\n0.25 1.32\n0 -8 2.24 0.00 1.22\n1.24\n5.08 MIN\n0 -8 3\n4 5.08 MIN\n0.25\n2.24 GAGE PLANE\n1.24 1\nOPTIONAL LEAD FORM\nEXPOSED\nTHERMAL PAD\nNOTE 3\nNOTE 3\n4215105/C 08/2024\nNOTES:\n1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing\nper ASME Y14.5M.\n2. This drawing is subject to change without notice.\n3. Features may not exist and shape may vary per different assembly sites.\n4. Reference JEDEC registration TO-263, except minimum lead thickness and minimum exposed pad length.\nwww.ti.com",
+   "tables": [
+    {
+     "page_no": 37,
+     "bbox": [
+      240.3,
+      185.3,
+      315.5,
+      223.6
+     ],
+     "title": "1",
+     "n_rows": 2,
+     "n_cols": 2,
+     "rows": [
+      [
+       ".54",
+       ".54"
+      ],
+      [
+       ".54",
+       ""
+      ]
+     ]
+    },
+    {
+     "page_no": 37,
+     "bbox": [
+      165.9,
+      277.0,
+      240.3,
+      289.5
+     ],
+     "title": "3X",
+     "n_rows": 2,
+     "n_cols": 3,
+     "rows": [
+      [
+       "0.25",
+       "C",
+       "A B"
+      ],
+      [
+       "0.25",
+       "C",
+       "A B"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 38,
+   "text": "EXAMPLE BOARD LAYOUT\nKTT0003B TO-263 - 4.83 mm max height\nTRANSISTOR OUTLINE\n(6.99)\n(1.91)\n3X (2.16)\n3X (1.07)\n1\n(2.54)\nSYMM (10.8)\n4\n(8.33)\n3\n(R0.05) TYP\n(14.17)\nLAND PATTERN EXAMPLE\nEXPOSED METAL SHOWN\nSCALE:5X\n0.07 MAX 0.07 MIN\nALL AROUND ALL AROUND\nEXPOSED\nMETAL\nEXPOSED\nMETAL\nSOLDER MASK METAL SOLDER MASK\nOPENING METAL UNDER OPENING\nSOLDER MASK\nNON SOLDER MASK SOLDER MASK\nDEFINED DEFINED\nSOLDER MASK DETAILS\n4215105/C 08/2024\nNOTES: (continued)\n5. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature numbers\nSLMA002(www.ti.com/lit/slm002) and SLMA004 (www.ti.com/lit/slma004).\n6. Vias are optional depending on application, refer to device data sheet. It is recommended that vias under paste be filled, plugged or tented.\nwww.ti.com",
+   "tables": []
+  },
+  {
+   "page_no": 39,
+   "text": "EXAMPLE STENCIL DESIGN\nKTT0003B TO-263 - 4.83 mm max height\nTRANSISTOR OUTLINE\n(1.29) TYP (0.91)\n32X ( 1.09) (1.29)\n3X (2.16)\n3X (1.07)\n1\n(1.29) TYP\n(4.515)\n(2.54)\nSYMM\n4\nEXPOSED METAL\n3 TYP\n(R0.05) TYP\n14.17\nSOLDER PASTE EXAMPLE\nBASED ON 0.125 mm THICK STENCIL\nEXPOSED PAD\n60% PRINTED SOLDER COVERAGE BY AREA\nSCALE:6X\n4215105/C 08/2024\nNOTES: (continued)\n7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate\ndesign recommendations.\n8. Board assembly site may have different recommendations for stencil design.\nwww.ti.com",
+   "tables": []
+  },
+  {
+   "page_no": 40,
+   "text": "MECHANICAL DATA\nMPDS094A – APRIL 2001 – REVISED JUNE 2002\nDCY (R-PDSO-G4) PLASTIC SMALL-OUTLINE\n6,70 (0.264)\n6,30 (0.248)\n3,1\n2,9\n4\n7,30 (0.287) 3,70 (0.146)\n6,70 (0.264) 3,30 (0.130)\nGauge Plane\n0,84 (0.033) 0°–10° 0,25 (0.010)\n2,30 (0.091)\n0,66 (0.026)\n0,10 (0.004) M\n4,60 (0.181) 0,75 (0.030) MIN\n1,70 (0.067)\n1,80 (0.071) MAX 1,50 (0.059)\n0,35 (0.014)\n0,23 (0.009)\nSeating Plane\n0,10 (0.0040) 0,08 (0.003)\n0,02 (0.0008)\n4202506/B 06/2002\nNOTES: A. All linear dimensions are in millimeters (inches).\nB. This drawing is subject to change without notice.\nC. Body dimensions do not include mold flash or protrusion.\nD. Falls within JEDEC TO-261 Variation AA.\n•\nPOST OFFICE BOX 655303 DALLAS, TEXAS 75265",
+   "tables": [
+    {
+     "page_no": 40,
+     "bbox": [
+      292.5,
+      174.6,
+      355.0,
+      204.7
+     ],
+     "title": "6,30 (0.248)",
+     "n_rows": 3,
+     "n_cols": 1,
+     "rows": [
+      [
+       "(0.122)"
+      ],
+      [
+       "(0.114)"
+      ],
+      [
+       "0,10 (0.004) M"
+      ]
+     ]
+    },
+    {
+     "page_no": 40,
+     "bbox": [
+      175.2,
+      204.7,
+      263.4,
+      318.8
+     ],
+     "title": "4",
+     "n_rows": 2,
+     "n_cols": 1,
+     "rows": [
+      [
+       "2"
+      ],
+      [
+       "2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page_no": 41,
+   "text": "",
+   "tables": []
+  },
+  {
+   "page_no": 42,
+   "text": "PACKAGE OUTLINE\nKCS0003B TO-220 - 19.65 mm max height\nSCALE 0.850\nTO-220\n4.7\n4.4\n10.36 1.32\n2.9 8.55\n9.96 1.22\n2.6 8.15\n6.5\n(6.3)\n6.1\n( 3.84) 12.5\n12.1\n19.65 MAX\n9.25\n9.05\n3X\n3.9 MAX\n13.12\n12.70\n1 3\n0.90 0.47\n3X 0.77 0.34\n2.79\n2X 2.54\n2.59\n1.36\n3X\n1.23\n5.08\n4222214/B 08/2018\nNOTES:\n1. Dimensions are in millimeters. Any dimension in brackets or parenthesis are for reference only. Dimensioning and tolerancing\nper ASME Y14.5M.\n2. This drawing is subject to change without notice.\n3. Reference JEDEC registration TO-220.\nwww.ti.com",
+   "tables": []
+  },
+  {
+   "page_no": 43,
+   "text": "EXAMPLE BOARD LAYOUT\nKCS0003B TO-220 - 19.65 mm max height\nTO-220\n0.07 MAX 2X (1.7)\nALL AROUND 3X (1.2) METAL\n2X SOLDER MASK\nOPENING\n(1.7)\n1 2 3 0.07 MAX\nR (0.05) ALL AROUND\n(2.54)\nSOLDER MASK (5.08)\nOPENING\nLAND PATTERN EXAMPLE\nNON-SOLDER MASK DEFINED\nSCALE:15X\n4222214/B 08/2018\nwww.ti.com",
+   "tables": []
+  },
+  {
+   "page_no": 44,
+   "text": "IMPORTANT NOTICE AND DISCLAIMER\nTI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE\nDESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”\nAND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY\nIMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD\nPARTY INTELLECTUAL PROPERTY RIGHTS.\nThese resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate\nTI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable\nstandards, and any other safety, security, regulatory or other requirements.\nThese resources are subject to change without notice. TI grants you permission to use these resources only for development of an\napplication that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license\nis granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully\nindemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.\nTI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on\nti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable\nwarranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products\nare standard, catalog, general purpose devices.\nTI objects to and rejects any additional or different terms you may propose.\nIMPORTANT NOTICE\nCopyright © 2026, Texas Instruments Incorporated\nLast updated 10/2025",
+   "tables": []
+  }
+ ],
+ "merged_tables": [
+  {
+   "pages": [
+    11,
+    12
+   ],
+   "title": "6.7 Typical Characteristics (continued)",
+   "n_cols": 2,
+   "rows": [
+    [
+     "Figure 6-13. Ripple Rejection vs Output Voltage (New Chip)",
+     "Figure 6-14. Ripple Rejection vs Frequency (New Chip)"
+    ],
+    [
+     "Figure 6-15. Ripple Rejection vs Output Current (New Chip)",
+     "Figure 6-16. Current Limit Threshold (New Chip)"
+    ],
+    [
+     "Figure 6-17. Adjustment Current vs Temperature (New Chip)",
+     "Figure 6-18. Dropout Voltage vs Temperature (New Chip)"
+    ],
+    [
+     "Figure 6-19. Temperature Stability (New Chip)",
+     "Figure 6-20. Minimum Operating Current (New Chip)"
+    ],
+    [
+     "Figure 6-21. Output Impedance vs Frequency (New Chip)",
+     "Figure 6-22. Line Transient Response (New Chip)"
+    ]
+   ],
+   "n_rows": 5
+  }
+ ]
+}

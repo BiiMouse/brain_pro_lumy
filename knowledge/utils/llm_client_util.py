@@ -35,3 +35,35 @@ def get_llm_client(model_name:str=None,
     except Exception as e:
         raise e
 
+
+def get_llm_client_long(model_name: str = None,
+                        temperature: float = 0.0,
+                        response_format: bool = True,
+                        timeout: float = 120.0):
+    """长超时 LLM 客户端（Lumy 链路专用）
+
+    交互查询用 get_llm_client 的 30s 超时足够；批量提取的大 JSON、
+    长清单答案生成、HyDE 长文可能超过 30s，需要更宽的上限。
+    """
+    try:
+        model_name = os.getenv("ITEM_MODEL")
+        api_key = os.getenv("OPENAI_API_KEY")
+        base_url = os.getenv("OPENAI_API_BASE")
+
+        model_kwargs = {}
+        if response_format:
+            model_kwargs['response_format'] = {"type": "json_object"}
+
+        return ChatOpenAI(
+            model=model_name,
+            api_key=api_key,
+            base_url=base_url,
+            temperature=temperature,
+            extra_body={"enable_thinking": False},
+            model_kwargs=model_kwargs,
+            timeout=timeout,
+            request_timeout=timeout
+        )
+    except Exception as e:
+        raise e
+

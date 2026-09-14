@@ -1,0 +1,127 @@
+{
+ "file_name": "lm317.pdf",
+ "page_count": 44,
+ "regions": [
+  {
+   "type": "features",
+   "title": "Features, Applications, Description",
+   "page_start": 1,
+   "page_end": 2,
+   "role": "body"
+  },
+  {
+   "type": "toc",
+   "title": "Table of Contents",
+   "page_start": 3,
+   "page_end": 3,
+   "role": "noise"
+  },
+  {
+   "type": "comparison",
+   "title": "Device Comparison Table",
+   "page_start": 4,
+   "page_end": 4,
+   "role": "model_source"
+  },
+  {
+   "type": "body",
+   "title": "Pin Configuration and Functions",
+   "page_start": 5,
+   "page_end": 5,
+   "role": "body"
+  },
+  {
+   "type": "ec_table",
+   "title": "Specifications: Absolute Maximum Ratings, Thermal Information, Electrical Characteristics, Typical Characteristics",
+   "page_start": 6,
+   "page_end": 12,
+   "role": "param_source"
+  },
+  {
+   "type": "body",
+   "title": "Detailed Description, Application and Implementation, Layout",
+   "page_start": 13,
+   "page_end": 27,
+   "role": "body"
+  },
+  {
+   "type": "nomenclature",
+   "title": "Device and Documentation Support: Device Nomenclature",
+   "page_start": 28,
+   "page_end": 28,
+   "role": "model_source"
+  },
+  {
+   "type": "ordering_info",
+   "title": "[anchor:ordering information]",
+   "page_start": 28,
+   "page_end": 28,
+   "role": "opn_source"
+  },
+  {
+   "type": "body",
+   "title": "Revision History",
+   "page_start": 29,
+   "page_end": 29,
+   "role": "body"
+  },
+  {
+   "type": "package_addendum",
+   "title": "PACKAGE OPTION ADDENDUM / PACKAGING INFORMATION",
+   "page_start": 30,
+   "page_end": 44,
+   "role": "opn_source"
+  }
+ ],
+ "anchors": [
+  {
+   "page": 4,
+   "type": "comparison",
+   "role": "model_source",
+   "keyword": "device comparison table",
+   "strength": "strong"
+  },
+  {
+   "page": 8,
+   "type": "ec_table",
+   "role": "param_source",
+   "keyword": "electrical characteristics",
+   "strength": "weak"
+  },
+  {
+   "page": 28,
+   "type": "nomenclature",
+   "role": "model_source",
+   "keyword": "device nomenclature",
+   "strength": "strong"
+  },
+  {
+   "page": 28,
+   "type": "ordering_info",
+   "role": "opn_source",
+   "keyword": "ordering information",
+   "strength": "weak"
+  },
+  {
+   "page": 30,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "packaging information",
+   "strength": "strong"
+  },
+  {
+   "page": 30,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  },
+  {
+   "page": 31,
+   "type": "package_addendum",
+   "role": "opn_source",
+   "keyword": "package option addendum",
+   "strength": "weak"
+  }
+ ]
+}
