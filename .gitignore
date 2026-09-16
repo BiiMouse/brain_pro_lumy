@@ -34,6 +34,9 @@ requirements.txt.bak
 # Stray shell redirect artifacts
 =0.2.0
 
+# Query runtime logs
+logs/
+
 # Evaluation outputs (keep qa.csv, ignore generated results)
 eval/qa_result.csv
 

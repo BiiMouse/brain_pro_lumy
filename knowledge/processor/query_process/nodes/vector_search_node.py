@@ -6,7 +6,6 @@ from knowledge.utils.bgem3_client_util import get_bgem3_client, generate_hybrid_
 from knowledge.utils.milvus_client_util import get_milvus_client, create_hybrid_search_requests, \
     execute_hybrid_search_query
 
-
 # 向量检索节点
 class VectorSearchNode(BaseNode):
     name = "search_embedding"  # ========== 修正：添加节点名称 ==========
@@ -22,33 +21,29 @@ class VectorSearchNode(BaseNode):
         return self.create_item_name_filter(item_names)
 
     def process(self, state: QueryGraphState) -> QueryGraphState:
-        print(f"\n========== VectorSearchNode 开始 ==========")
-        self.logger.info("向量检索节点开始执行")
+        self.logger.info("========== VectorSearchNode 开始 ==========")
         # 1 参数校验
         item_names, rewritten_query = self.validate_param(state)
         self.logger.info(f"参数校验成功: item_names={item_names}, query={rewritten_query[:50]}...")
 
         # 2 对重写问题向量化，获取嵌入模型对象
-        print(f"获取BGE-M3客户端...")
-        self.logger.info("获取BGE-M3和Milvus客户端")
+        self.logger.info("获取BGE-M3客户端")
         bgem3_client = get_bgem3_client()
-        print(f"BGE-M3客户端获取成功")
+        self.logger.info("BGE-M3客户端获取成功")
 
         # 获取milvus连接对象
-        print(f"获取Milvus客户端...")
+        self.logger.info("获取Milvus客户端")
         milvus_client = get_milvus_client()
-        print(f"Milvus客户端获取成功")
+        self.logger.info("Milvus客户端获取成功")
 
-        print(f"开始生成混合向量...")
         self.logger.info("开始生成混合向量")
         embeddings_result = generate_hybrid_embeddings(
             bgem3_client, embedding_documents=[rewritten_query])
-        print(f"向量生成完成")
         self.logger.info("向量生成完成")
 
         # 非空判断
         if not embeddings_result:
-            print(f"向量生成失败，返回空结果")
+            self.logger.warning("向量生成失败，返回空结果")
             return {"embedding_chunks": []}
 
         # 3 构建item_name标量字段条件，item_name in ["xxx", "yyy"]
@@ -56,7 +51,6 @@ class VectorSearchNode(BaseNode):
         self.logger.info(f"构建过滤条件: {item_name_filter_expr}")
 
         # 4 构建问题向量化之后 向量条件
-        print(f"构建混合搜索请求...")
         self.logger.info("构建混合搜索请求")
         hybrid_requests = create_hybrid_search_requests(
             # 稠密向量
@@ -69,12 +63,11 @@ class VectorSearchNode(BaseNode):
             expr = item_name_filter_expr,
             limit = 5
         )
-        print(f"搜索请求构建完成")
+        self.logger.info("搜索请求构建完成")
 
         # 5 执行混合检索（pymilvus的方法）
         collection_name = self._collection_name()
-        print(f"开始执行Milvus检索...")
-        self.logger.info(f"开始执行Milvus混合检索: collection={collection_name}")
+        self.logger.info(f"开始执行Milvus检索: collection={collection_name}")
         res = execute_hybrid_search_query(
             milvus_client=milvus_client,
             collection_name=collection_name,
@@ -83,17 +76,14 @@ class VectorSearchNode(BaseNode):
             norm_score=True,
             output_fields=self._output_fields()
         )
-        print(f"Milvus检索完成")
         self.logger.info(f"Milvus检索完成，返回{len(res[0]) if res and res[0] else 0}条结果")
-        print("==" * 50)
-        print(res)
-        print("==" * 50)
+        self.logger.debug(f"Milvus原始检索结果: {res}")
 
         if not res or not res[0]:
-            print(f"检索结果为空，返回空state")
+            self.logger.info("检索结果为空，返回空state")
             return {"embedding_chunks": []}
         # 6 更新state返回
-        print(f"========== VectorSearchNode 完成 ==========\n")
+        self.logger.info("========== VectorSearchNode 完成 ==========")
         return {"embedding_chunks": res[0]} # 为啥不是res
 
     # 参数校验
@@ -117,6 +107,9 @@ class VectorSearchNode(BaseNode):
 
 
 if __name__ == "__main__":
+    from knowledge.processor.query_process.base import setup_logging
+    setup_logging()
+
     state = {
         "rewritten_query": "关于H3C LA2608，如何使用？",
         "item_names": ["H3C LA2608 室内无线网关"],

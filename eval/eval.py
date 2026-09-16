@@ -28,6 +28,10 @@ from datasets import Dataset
 from knowledge.processor.query_process.main_graph import query_app
 from knowledge.utils.llm_client_util import get_llm_client
 from knowledge.utils.bgem3_client_util import get_bgem3_client
+from knowledge.processor.query_process.base import setup_logging
+
+# 统一日志配置：控制台 + 项目根 logs/日志.log（幂等，重复调用不叠加 handler）
+setup_logging()
 
 # 加载环境变量
 load_dotenv()

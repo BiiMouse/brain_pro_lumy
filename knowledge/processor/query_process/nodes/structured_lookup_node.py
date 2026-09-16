@@ -42,8 +42,8 @@ class StructuredLookupNode(BaseNode):
         # 向量检索的文件过滤：从命中型号反查所在文件
         files = sorted({d["file"] for d in structured_docs if d.get("file")})
         state["entity_files"] = files
-        print(f"[structured_lookup] 命中 {len(structured_docs)} 条, "
-              f"文件过滤: {files}")
+        self.logger.info(
+            f"结构化检索(PG)命中 {len(structured_docs)} 条 | 文件过滤: {files}")
         return state
 
     # ---------- 对齐与查询 ----------

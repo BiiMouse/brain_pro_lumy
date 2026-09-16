@@ -11,6 +11,9 @@ class RrfSearchNode(BaseNode):
         # 1 从state获取向量检索结果 和 hyde检索结果
         vector_search_chunks = state.get('embedding_chunks' or [])
         hyde_search_chunks = state.get('hyde_embedding_chunks' or [])
+        self.logger.info(
+            f"RRF融合输入 | 向量召回 {len(vector_search_chunks or [])} 条, "
+            f"HyDE召回 {len(hyde_search_chunks or [])} 条")
 
         # 2 使用rrf公式计算分数，根据分数降序
         # 2.1 构建相关数据，获取每路检索chunk文档，设置每路检索权重
@@ -38,6 +41,7 @@ class RrfSearchNode(BaseNode):
         # [{chunk},{chunk}]
         rrf_chunks = [chunk for chunk, score in rrf_merge_result]
         state['rrf_chunks'] = rrf_chunks
+        self.logger.info(f"RRF融合完成 | 输出 {len(rrf_chunks)} 条")
         return state
 
     # 构建查询结果数据

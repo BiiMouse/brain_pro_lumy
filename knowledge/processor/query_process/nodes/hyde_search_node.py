@@ -26,42 +26,42 @@ class HydeSearchNode(BaseNode):
         return self.create_item_name_filter(item_names)
 
     def process(self, state: QueryGraphState) -> QueryGraphState:
-        print(f"\n========== HydeSearchNode 开始 ==========")
+        self.logger.info("========== HydeSearchNode 开始 ==========")
         # 1 参数校验
-        print(f"开始参数校验...")
+        self.logger.info("开始参数校验")
         item_names, rewritten_query = self.validate_param(state)
-        print(f"参数校验完成")
+        self.logger.info("参数校验完成")
 
         # 2 调用llm，根据问题生成假设为答案
-        print(f"开始调用LLM生成HyDE假设文档...")
+        self.logger.info("开始调用LLM生成HyDE假设文档")
         hyde_document = self.generate_call_llm(rewritten_query, item_names)
-        print(f"llm返回结果：{hyde_document}")
-        print("==" * 50)
+        self.logger.info(f"HyDE假设文档生成完成 | 长度: {len(hyde_document)} 字符")
+        self.logger.info(f"LLM返回结果：{hyde_document}")
 
         # 3 用户问题 + llm返回假设为答案拼接在一起
-        print(f"拼接问题和假设文档...")
+        self.logger.info("拼接问题和假设文档")
         embedding_document = f"{rewritten_query}\n{hyde_document}"
 
         # 4 把拼接在一起向量化
-        print(f"开始向量化...")
+        self.logger.info("开始向量化")
         bgem3_client = get_bgem3_client()
         embedding_result = generate_hybrid_embeddings(bgem3_client,
                                                       embedding_documents=[embedding_document])
-        print(f"向量化完成")
+        self.logger.info("向量化完成")
 
         # 5 构建查询条件：向量条件 + 标量条件
         # item_name in ["xxx", "yyy"]
-        print(f"构建查询条件...")
+        self.logger.info("构建查询条件")
         item_name_filter_expr = self._filter_expr(state, item_names)
         hybrid_search_requests = create_hybrid_search_requests(
             dense_vector=embedding_result['dense'][0],
             sparse_vector=embedding_result['sparse'][0],
             expr=item_name_filter_expr
         )
-        print(f"查询条件构建完成")
+        self.logger.info("查询条件构建完成")
 
         # 6 执行混合查询
-        print(f"开始执行混合查询...")
+        self.logger.info("开始执行混合查询")
         milvus_client = get_milvus_client()
         res = execute_hybrid_search_query(
             milvus_client=milvus_client,
@@ -70,15 +70,17 @@ class HydeSearchNode(BaseNode):
             norm_score=True,
             output_fields=self._output_fields()
         )
-        print(f"混合查询完成")
+        self.logger.info("混合查询完成")
+        hyde_hits = len(res[0]) if res and res[0] else 0
+        self.logger.info(f"HyDE召回返回 {hyde_hits} 条")
 
         if not res or not res[0]:
-            print(f"检索结果为空，返回空state")
-            print(f"========== HydeSearchNode 完成 ==========\n")
+            self.logger.info("检索结果为空，返回空state")
+            self.logger.info("========== HydeSearchNode 完成 ==========")
             return {"hyde_embedding_chunks": []}
 
         # 7 更新state返回
-        print(f"========== HydeSearchNode 完成 ==========\n")
+        self.logger.info("========== HydeSearchNode 完成 ==========")
         return {"hyde_embedding_chunks": res[0]}
 
     # 参数校验
@@ -130,6 +132,9 @@ class HydeSearchNode(BaseNode):
 
 
 if __name__ == "__main__":
+    from knowledge.processor.query_process.base import setup_logging
+    setup_logging()
+
     state = {
         "rewritten_query": "关于H3C LA2608，如何使用？",
         "item_names": ["H3C LA2608 室内无线网关"],

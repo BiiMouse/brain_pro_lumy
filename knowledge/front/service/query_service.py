@@ -2,6 +2,8 @@
 
 import uuid
 import logging
+import time
+from datetime import datetime
 from typing import List, Dict, Any
 
 from knowledge.processor.query_process.main_graph import query_app
@@ -29,6 +31,12 @@ class QueryService:
 
     def run_query_graph(self, task_id: str, session_id: str, user_query: str, is_stream: bool):
         """执行 LangGraph 查询流程。"""
+        start_time = time.perf_counter()
+        start_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        logger.info(
+            f"{start_at}: [查询流程开始] task_id={task_id} session_id={session_id} "
+            f"is_stream={is_stream} | 查询: {user_query}"
+        )
         try:
             default_state = {
                 "original_query": user_query,
@@ -37,8 +45,16 @@ class QueryService:
                 "is_stream": is_stream,
             }
             query_app.invoke(default_state)
+            logger.info(
+                f"[查询流程完成] task_id={task_id} | "
+                f"总耗时: {time.perf_counter() - start_time:.3f}s"
+            )
         except Exception as e:
-            logger.error(f"查询流程执行失败: {e}", exc_info=True)
+            logger.error(
+                f"[查询流程失败] task_id={task_id} | "
+                f"已耗时: {time.perf_counter() - start_time:.3f}s | 错误: {e}",
+                exc_info=True,
+            )
         finally:
             update_task_status(task_id, TASK_STATUS_COMPLETED)
             if is_stream:

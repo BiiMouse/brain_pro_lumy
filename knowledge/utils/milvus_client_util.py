@@ -21,7 +21,6 @@ from dotenv import load_dotenv
 from pymilvus import MilvusClient, AnnSearchRequest, WeightedRanker
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
 
 # 连接向量数据库客户端对象
 load_dotenv()

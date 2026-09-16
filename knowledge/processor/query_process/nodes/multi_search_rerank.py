@@ -3,7 +3,8 @@ from typing import List, Dict, Any
 from knowledge.processor.query_process.base import BaseNode
 from knowledge.processor.query_process.state import QueryGraphState
 from knowledge.utils.bge_rerank_util import get_reranker_model
-
+import logging
+logger = logging.getLogger(__name__)
 
 # rerank融合节点
 class RerankSearchNode(BaseNode):
@@ -17,6 +18,7 @@ class RerankSearchNode(BaseNode):
         #2 获取融合数据，合并一起
         # web搜索数据 + rrf融合数据
         merged_multi_doc:List[Dict[str,Any]] = self.merge_multi_data(state)
+        self.logger.info(f"精排候选合并 {len(merged_multi_doc)} 条")
 
         # 空候选保护：两路检索都为空时直接返回，避免 compute_score([]) 崩溃
         if not merged_multi_doc:
@@ -37,9 +39,14 @@ class RerankSearchNode(BaseNode):
         # 和输入问题语义相似度降序排列之后列表
         reranker_doc:List[Dict[str,Any]] = (
             self.rerank_merged_doc(user_query, merged_multi_doc))
+        top_scores = [round(d.get('score') or 0.0, 4) for d in reranker_doc[:5]]
+        self.logger.info(
+            f"精排完成 | 输入 {len(merged_multi_doc)} 条 | Top5分数: {top_scores}")
 
         #5 断崖式检测（把上一步答案分数过低去掉）
         cutoff_doc = self.cliff_cutoff(reranker_doc)
+        self.logger.info(
+            f"断崖截断 {len(reranker_doc)} → {len(cutoff_doc)} 条")
 
         #6 更新state返回
         state['reranked_docs'] = reranker_doc
@@ -103,14 +110,16 @@ class RerankSearchNode(BaseNode):
         query_doc = [(user_query,doc.get('content'))
                      for doc in merged_multi_doc
                      ]
+        print("reranker [(问题，答案)]: ", query_doc)
         # 根据问题计算答案分数[0.333 , 0.666]，normalize=True：sigmoid 归一化为 0~1 概率，
         # 与 RAG_REFUSE_THRESHOLD 量纲一致；开关见 config.rerank_normalize。
         normalize = self.config.rerank_normalize
+        logger.info(f"reranker正在开始计算分数")
         reranker_score = (
             reranker_model.compute_score(
                 sentence_pairs=query_doc,
                 normalize=normalize))
-
+        logger.info(f"reranker 完成计算分数")
         # 单条输入时 compute_score 返回标量，统一成列表便于 zip
         if not isinstance(reranker_score, list):
             reranker_score = [reranker_score]

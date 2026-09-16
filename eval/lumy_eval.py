@@ -23,6 +23,10 @@ os.environ.setdefault("KB_SCENARIO", "lumy")
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from knowledge.processor.query_process.main_graph import query_app  # noqa: E402
+from knowledge.processor.query_process.base import setup_logging  # noqa: E402
+
+# 统一日志配置：控制台 + 项目根 logs/日志.log（幂等，重复调用不叠加 handler）
+setup_logging()
 
 REFUSAL_MARKS = ["未找到", "未提供", "无法回答", "不作答", "未收录", "暂无法"]
 CITE_RE = re.compile(r"\[([^\]第]+?)(?:\s*第\d+页?)?\]|\[型号库\]")

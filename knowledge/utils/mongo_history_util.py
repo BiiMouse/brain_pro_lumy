@@ -7,6 +7,11 @@ from pymongo import MongoClient, ASCENDING
 from bson import ObjectId
 from dotenv import load_dotenv
 
+# 模块级 logger：禁止用 logging.info() 等模块函数——它们会在 root 无 handler 时
+# 隐式触发 basicConfig()（无 level 参数），把 root 级别锁死在 WARNING，
+# 导致后续 setup_logging 的 basicConfig 失效、logs/日志.log 变成空文件
+logger = logging.getLogger(__name__)
+
 load_dotenv()
 
 # MongoDB 历史对话记录读写工具
@@ -24,9 +29,9 @@ class HistoryMongoTool:
             # 创建索引以加速查询
             self.chat_message.create_index([("session_id", 1), ("ts", -1)])
 
-            logging.info(f"Successfully connected to MongoDB: {self.db_name}")
+            logger.info(f"Successfully connected to MongoDB: {self.db_name}")
         except Exception as e:
-            logging.error(f"Failed to connect to MongoDB: {e}")
+            logger.error(f"Failed to connect to MongoDB: {e}")
             raise
 
 
@@ -37,10 +42,10 @@ def clear_history( session_id: str) -> int:
     mongo_tool = get_history_mongo_tool()
     try:
         result = mongo_tool.chat_message.delete_many({"session_id": session_id})
-        logging.info(f"Deleted {result.deleted_count} messages for session {session_id}")
+        logger.info(f"Deleted {result.deleted_count} messages for session {session_id}")
         return result.deleted_count
     except Exception as e:
-        logging.error(f"Error clearing history for session {session_id}: {e}")
+        logger.error(f"Error clearing history for session {session_id}: {e}")
         return 0
 
 def save_chat_message( session_id: str, role: str, text: str, rewritten_query: str = "",
@@ -97,10 +102,10 @@ def update_message_item_names( ids: List[str], item_names: List[str]) -> int:
              },
             {"$set": {"item_names": item_names}}
         )
-        logging.info(f"Updated {result.modified_count} records to item_names: {item_names}")
+        logger.info(f"Updated {result.modified_count} records to item_names: {item_names}")
         return result.modified_count
     except Exception as e:
-        logging.error(f"Error updating history item_names: {e}")
+        logger.error(f"Error updating history item_names: {e}")
         return 0
 
 def get_recent_messages( session_id: str, limit: int = 10) -> List[Dict[str, Any]]:
@@ -123,7 +128,7 @@ def get_recent_messages( session_id: str, limit: int = 10) -> List[Dict[str, Any
 
         return messages
     except Exception as e:
-        logging.error(f"Error getting recent messages: {e}")
+        logger.error(f"Error getting recent messages: {e}")
         return []
 
 
@@ -138,4 +143,4 @@ def get_history_mongo_tool() -> HistoryMongoTool:
 try:
     _history_mongo_tool = HistoryMongoTool()
 except Exception as e:
-    logging.warning(f"Could not initialize HistoryMongoTool on module load: {e}")
+    logger.warning(f"Could not initialize HistoryMongoTool on module load: {e}")

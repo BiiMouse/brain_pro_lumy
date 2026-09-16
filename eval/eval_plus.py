@@ -41,6 +41,10 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from knowledge.processor.query_process.main_graph import query_app  # noqa: E402
 from knowledge.utils.bgem3_client_util import get_bgem3_client  # noqa: E402
+from knowledge.processor.query_process.base import setup_logging  # noqa: E402
+
+# 统一日志配置：控制台 + 项目根 logs/日志.log（幂等，重复调用不叠加 handler）
+setup_logging()
 
 # RAGAS 0.4：自带长超时判分客户端 + 低并发 + NaN 补全（build_ragas_judge / run_ragas_with_retry）
 import warnings  # noqa: E402

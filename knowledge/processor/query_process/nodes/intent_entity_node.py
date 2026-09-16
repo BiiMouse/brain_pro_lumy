@@ -43,8 +43,12 @@ class IntentEntityNode(BaseNode):
         state["file_entities"] = result.get("files", [])
         state["rewritten_query"] = (result.get("rewritten_query")
                                     or query)
-        print(f"[intent_entity] intent={state['intent']} "
-              f"models={state['model_entities']} params={state['param_entities']}")
+        self.logger.info(
+            f"意图与关键字识别结果 | 意图: {state['intent']} | "
+            f"型号实体: {state['model_entities']} | "
+            f"参数实体: {state['param_entities']} | "
+            f"文件实体: {state['file_entities']} | "
+            f"改写query: {state['rewritten_query']}")
         return state
 
     def classify(self, query: str, history_text: str) -> Dict[str, Any]:

@@ -183,5 +183,7 @@ def setup_logging(level: int = logging.INFO):
     logging.basicConfig(
         level=level,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
+        datefmt='%Y-%m-%d %H:%M:%S',
+        force=True,  # import 链中第三方库可能已动过 root，强制接管，防止日志.log 空文件
     )
+    logging.getLogger().setLevel(level)  # 双保险：显式压级别
