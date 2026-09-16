@@ -41,6 +41,12 @@ class QueryConfig:
     rerank_normalize: bool = field(
         default_factory=lambda: os.getenv("RERANK_NORMALIZE", "true").lower() == "true"
     )
+    # 送入 reranker 的序列最大 token 数（query+doc 拼接后截断）。
+    # 交叉编码器算力 ∝ 序列长度²：512→256 在 i5-11320H(8线程) 实测 8条pair 32.7s→16.4s。
+    # 线上 token 分布多数不足 512，256 截断对分数影响极小（示例 logit 3.963→3.862）。
+    rerank_max_length: int = field(
+        default_factory=lambda: int(os.getenv("RERANK_MAX_LENGTH", "256"))
+    )
 
     # ==================== 答案生成 / 拒答配置 ====================
     # reranker 相关性最高分低于该阈值 → 判定资料不足，直接拒答（不调用 LLM）

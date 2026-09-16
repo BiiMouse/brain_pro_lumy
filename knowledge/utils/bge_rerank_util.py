@@ -13,15 +13,10 @@ def get_reranker_model() -> FlagReranker:
     global _reranker_model
     try:
         if _reranker_model is None:
-            model_path = os.getenv("BGE_RERANKER_LARGE")
+            # A/B 开关：BGE_RERANKER_PATH 优先（base 提速评测用），未设置则回落 LARGE
+            model_path = os.getenv("BGE_RERANKER_PATH") or os.getenv("BGE_RERANKER_LARGE")
             device = os.getenv("BGE_RERANKER_DEVICE", "cpu")
             use_fp16 = os.getenv("BGE_RERANKER_FP16", "False").lower() == "true"
-            # cpu并行线程数量
-            os.environ["OMP_NUM_THREADS"] = os.getenv("OMP_NUM_THREADS")
-            os.environ["OMP_NUM_THREADS"] = os.getenv("MKL_NUM_THREADS")
-            os.environ["OPENBLAS_NUM_THREADS"] = "4"
-            os.environ["VECLIB_MAXIMUM_THREADS"] = "4"
-            os.environ["NUMEXPR_NUM_THREADS"] = "4"
 
             logger.info(f"正在初始化 Reranker 模型，路径: {model_path}, 设备: {device}, fp16: {use_fp16}")
 

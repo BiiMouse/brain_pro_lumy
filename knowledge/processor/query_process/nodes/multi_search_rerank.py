@@ -110,7 +110,6 @@ class RerankSearchNode(BaseNode):
         query_doc = [(user_query,doc.get('content'))
                      for doc in merged_multi_doc
                      ]
-        print("reranker [(问题，答案)]: ", query_doc)
         # 根据问题计算答案分数[0.333 , 0.666]，normalize=True：sigmoid 归一化为 0~1 概率，
         # 与 RAG_REFUSE_THRESHOLD 量纲一致；开关见 config.rerank_normalize。
         normalize = self.config.rerank_normalize
@@ -118,7 +117,8 @@ class RerankSearchNode(BaseNode):
         reranker_score = (
             reranker_model.compute_score(
                 sentence_pairs=query_doc,
-                normalize=normalize))
+                normalize=normalize,
+                max_length=self.config.rerank_max_length))
         logger.info(f"reranker 完成计算分数")
         # 单条输入时 compute_score 返回标量，统一成列表便于 zip
         if not isinstance(reranker_score, list):
